@@ -1,0 +1,26 @@
+version: '3'
+services:
+  node1:
+    image: mysql:latest
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=12345678
+      - MYSQL_USER=user
+    ports:
+      - "3000:3306"
+  node2:
+    image: mysql:latest
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=12345678
+      - MYSQL_USER=user
+    ports:
+      - "3001:3306"
+  node3:
+    image: mysql:latest
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=12345678
+      - MYSQL_USER=user
+    ports:
+      - "3002:3306"
