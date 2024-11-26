@@ -1,6 +1,6 @@
 version: '3'
 services:
-  node1:
+  central:
     image: mysql:latest
     restart: always
     environment:
