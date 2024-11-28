@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "source": "src/main.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "run_build": "node dist/main.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql": "github:mysqljs/mysql",
+    "net-ping": "^1.2.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.12.0",
+    "nodemon": "^3.1.7",
+    "parcel": "^2.13.2",
+    "prettier": "^3.4.1"
+  }
+}
