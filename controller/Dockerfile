@@ -1,6 +1,4 @@
-FROM node:20-alpine
-WORKDIR /app
-COPY --chown=node:node src/ ./
-COPY --chown=node:node .env ./
+FROM node:alpine
+COPY --chown=node:node ./ ./
 RUN npm ci
-CMD [ "node", "index.js" ]
+CMD [ "npm", "run", "build" ]
