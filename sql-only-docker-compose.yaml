@@ -12,19 +12,6 @@ services:
     volumes:
       - ./sql-data/${MY_SQL_HOST}:/var/lib/mysql
 
-  controller:
-    build: 
-      context: ./controller
-      dockerfile: Dockerfile
-    ports:
-      - "${CONTROLLER_PORT}:3000"
-    environment:
-      - MY_SQL_HOST=${MY_SQL_HOST}
-      - PEER_CONTROLLER_HOSTS=${PEER_CONTROLLER_HOSTS}
-    depends_on:
-      - sql-server
-    networks:
-      - app-network
 networks:
   app-network:
     driver: bridge
