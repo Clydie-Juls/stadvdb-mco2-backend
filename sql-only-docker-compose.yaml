@@ -9,6 +9,9 @@ services:
       - "${MY_SQL_PORT}:3306"
     networks:
       - app-network
+    # if you want to init a schema, uncomment the line below:
+    # volumes:
+    #   - ./sql/${MY_SQL_HOST}:/docker-entrypoint-initdb.d
     volumes:
       - ./sql-data/${MY_SQL_HOST}:/var/lib/mysql
 
