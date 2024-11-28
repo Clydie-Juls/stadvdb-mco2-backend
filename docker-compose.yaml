@@ -9,6 +9,9 @@ services:
       - "${MY_SQL_PORT}:3306"
     networks:
       - app-network
+    volumes:
+      - ./sql-data/${MY_SQL_HOST}:/var/lib/mysql
+
   controller:
     build: 
       context: ./controller
