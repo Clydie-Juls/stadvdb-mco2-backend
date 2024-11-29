@@ -1,23 +1,53 @@
-import express from 'express';
 import { WebSocketServer } from 'ws';
 
-const app = express();
-const port = 3000;
+const MESSAGE_MAP = {
+  acknowledge_log,
+  receive_log,
+  simulate_on,
+  simulate_off,
+};
 
-app.get('/', (req, res) => {
-  res.send('hello');
-});
+const wss = new WebSocketServer({ port: 8080 });
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+wss.on('connection', function connection(ws) {
+  ws.on('error', console.error);
 
-const wss = new WebSocketServer({ port: 3001 });
+  ws.on('message', function message(data) {
+    const { name, ...args } = data;
+    console.log('Received WS message: %s %s', name, JSON.stringify(args));
 
-wss.on('connection', ws => {
-  ws.on('message', message => {
-    ws.send(`Echo: ${message}`);
+    const callback = MESSAGE_MAP[name];
+    callback(args);
   });
-
-  ws.send('Welcome to the WebSocket server!');
 });
+
+// Message Handlers
+
+function acknowledge_log({ sender }) {
+  // tell polled sender
+}
+
+function receive_log({ sender, recentLines }) {
+  // resolve log
+}
+
+function simulate_on() {}
+
+function simulate_off() {}
+
+// Trigger Handlers
+
+function handleDeleteTrigger(time, gameId) {
+  // log
+  // send log
+}
+
+function handleInsertTrigger(time, gameId, values) {
+  // log
+  // send log
+}
+
+function handleUpdateTrigger(time, gameId, values) {
+  // log
+  // send log
+}
