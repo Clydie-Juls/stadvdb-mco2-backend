@@ -9,7 +9,8 @@
       "request": "launch",
       "name": "Debug",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\src\\main.js"
+      "program": "${workspaceFolder}\\src\\main.js",
+      "envFile": "${workspaceFolder}\\debug.env"
     },
     {
       "type": "node",
@@ -20,7 +21,8 @@
       "restart": true,
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
-      "skipFiles": ["<node_internals>/**"]
+      "skipFiles": ["<node_internals>/**"],
+      "envFile": "${workspaceFolder}\\debug.env"
     }
   ]
 }
