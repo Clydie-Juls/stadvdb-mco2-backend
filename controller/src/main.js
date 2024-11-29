@@ -7,7 +7,12 @@ const MESSAGE_MAP = {
   simulate_off,
 };
 
-const wss = new WebSocketServer({ port: 8080 });
+// eslint-disable-next-line no-undef
+const PORT = process.env.CONTROLLER_PORT || 8080;
+
+console.log('Listening on port %d', PORT);
+
+const wss = new WebSocketServer({ port: PORT });
 
 wss.on('connection', function connection(ws) {
   ws.on('error', console.error);
