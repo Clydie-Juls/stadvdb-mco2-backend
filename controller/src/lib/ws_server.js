@@ -1,5 +1,5 @@
-import { getEnv } from '../util';
-import { handleMessage } from './message_handler';
+import { getEnv } from '../util.js';
+import { handleMessage } from './message_handler.js';
 import { WebSocketServer } from 'ws';
 
 let wss;
