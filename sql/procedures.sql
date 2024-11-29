@@ -1,3 +1,4 @@
+USE `gamesdb`;
 DROP PROCEDURE IF EXISTS fetch_games;
 DROP PROCEDURE IF EXISTS fetch_games_lt_year;
 DROP PROCEDURE IF EXISTS fetch_games_gte_year;

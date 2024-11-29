@@ -2,6 +2,7 @@
 -- Query: SELECT * FROM gamesdb.games WHERE YEAR(release_date) < 2010
 -- Date: 2024-11-28 21:30
 */
+USE `gamesdb`;
 INSERT INTO `games` (`id`,`name`,`release_date`,`price`,`positive_reviews`,`negative_reviews`) VALUES (10,'Counter-Strike','2000-11-01',9.99,198387,5135);
 INSERT INTO `games` (`id`,`name`,`release_date`,`price`,`positive_reviews`,`negative_reviews`) VALUES (20,'Team Fortress Classic','1999-04-01',4.99,5677,923);
 INSERT INTO `games` (`id`,`name`,`release_date`,`price`,`positive_reviews`,`negative_reviews`) VALUES (30,'Day of Defeat','2003-05-01',4.99,5179,566);
