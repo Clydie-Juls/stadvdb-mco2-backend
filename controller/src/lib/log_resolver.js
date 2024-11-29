@@ -1,6 +1,6 @@
-import { getEnv } from '../util';
-import { deleteEntry, insertEntry, updateEntry } from './db_connection';
-import { log, writeLog as writeWholeLog } from './log';
+import { getEnv } from '../util.js';
+import { deleteEntry, insertEntry, updateEntry } from './db_connection.js';
+import { log, writeLog as writeWholeLog } from './log.js';
 
 export function resolveOtherLog(otherLog) {
   const lastEntry = log[log.length - 1];
@@ -18,9 +18,9 @@ export function resolveOtherLog(otherLog) {
 
 function isEntryRelevant(entry) {
   return (
-    getEnv('MY_SQL_HOST') === 'central' ||
-    (getEnv('MY_SQL_HOST') === 'old' && entry.values.year < 2010) ||
-    (getEnv('MY_SQL_HOST') === 'new' && entry.values.year >= 2010)
+    getEnv('NAME') === 'central' ||
+    (getEnv('NAME') === 'old' && entry.values.year < 2010) ||
+    (getEnv('NAME') === 'new' && entry.values.year >= 2010)
   );
 }
 
