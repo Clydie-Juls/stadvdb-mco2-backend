@@ -9,10 +9,11 @@ services:
     networks:
       - app-network
     volumes:
-      # - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
+      - ./sql/privelege.sql:/docker-entrypoint-initdb.d/000_privelege.sql
+      - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
       # - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
       # - ./sql/${MY_SQL_HOST}.sql:/docker-entrypoint-initdb.d/${MY_SQL_HOST}.sql
-      - ./sql-data/${MY_SQL_HOST}:/var/lib/mysql
+      - ./sql-data/${NAME}:/var/lib/mysql
 
   controller:
     build: 
@@ -24,7 +25,7 @@ services:
       - NAME=${NAME}
       - CONTROLLER_PORT=${CONTROLLER_PORT}
       - MY_SQL_HOST=${MY_SQL_HOST}
-      - MY_SQL_PORT=${MY_SQL_PORT}
+      - MY_SQL_PORT=3306
       - PEER_CONTROLLER_HOSTS=${PEER_CONTROLLER_HOSTS}
     depends_on:
       - sql-server
