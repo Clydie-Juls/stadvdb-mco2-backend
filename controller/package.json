@@ -8,7 +8,6 @@
     "run_build": "node dist/main.js"
   },
   "dependencies": {
-    "express": "^4.21.1",
     "mysql": "github:mysqljs/mysql",
     "ws": "^8.18.0"
   },
