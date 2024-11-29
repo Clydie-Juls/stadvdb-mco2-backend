@@ -1,61 +1,23 @@
-import { WebSocketServer } from 'ws';
+import { initDBConnection } from './lib/db_connection';
+import { initLog } from './lib/log';
+import { initWSServer } from './lib/ws_server';
 import { getEnv } from './util';
 
-const MESSAGE_MAP = {
-  acknowledge_log,
-  receive_log,
-  simulate_on,
-  simulate_off,
-};
+const MYSQL_HOST = getEnv('MY_SQL_HOST');
+const MYSQL_PORT = getEnv('MY_SQL_PORT');
+const WS_PORT = getEnv('CONTROLLER_PORT');
 
-const PORT = getEnv('CONTROLLER_PORT') || 8080;
-console.log('processes:')
-console.log(process.env);
-console.log('Listening on port iii %s', PORT);
-
-
-
-const wss = new WebSocketServer({ port: PORT });
-
-wss.on('connection', function connection(ws) {
-  ws.on('error', console.error);
-
-  ws.on('message', function message(data) {
-    const { name, ...args } = data;
-    console.log('Received WS message: %s %s', name, JSON.stringify(args));
-
-    const callback = MESSAGE_MAP[name];
-    callback(args);
-  });
-});
-
-// Message Handlers
-
-function acknowledge_log({ sender }) {
-  // tell polled sender
+if (!MYSQL_HOST || !MYSQL_PORT || !WS_PORT) {
+  throw new Error('Missing environment variables!');
 }
 
-function receive_log({ sender, recentLines }) {
-  // resolve log
-}
+initLog();
 
-function simulate_on() {}
-
-function simulate_off() {}
-
-// Trigger Handlers
-
-function handleDeleteTrigger(time, gameId) {
-  // log
-  // send log
-}
-
-function handleInsertTrigger(time, gameId, values) {
-  // log
-  // send log
-}
-
-function handleUpdateTrigger(time, gameId, values) {
-  // log
-  // send log
-}
+initDBConnection(
+  getEnv('MY_SQL_HOST'),
+  getEnv('MY_SQL_PORT'),
+  'root',
+  '12345678', // https://www.youtube.com/watch?v=KLVzYtTeNS8
+  'gamesdb',
+);
+initWSServer(WS_PORT);
