@@ -5,7 +5,7 @@ services:
       - MYSQL_ROOT_PASSWORD=12345678
       - MYSQL_USER=user
     ports:
-      - "${MY_SQL_PORT}:3306"
+      - "${MY_SQL_PORT}:${MY_SQL_PORT}"
     networks:
       - app-network
     volumes:
@@ -16,9 +16,10 @@ services:
       context: ./controller
       dockerfile: Dockerfile
     ports:
-      - "${CONTROLLER_PORT}:3000"
+      - "${CONTROLLER_PORT}:${CONTROLLER_PORT}"
     environment:
       - MY_SQL_HOST=${MY_SQL_HOST}
+      - MY_SQL_PORT=${MY_SQL_PORT}
       - PEER_CONTROLLER_HOSTS=${PEER_CONTROLLER_HOSTS}
     depends_on:
       - sql-server
