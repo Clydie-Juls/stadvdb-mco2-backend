@@ -1,7 +1,7 @@
-import { writeToLog } from './log';
-import { resolveOtherLog } from './log_resolver';
-import { sendLogToOthers } from './log_sender';
-import { sendWSMessage } from './ws_server';
+import { writeToLog } from './log.js';
+import { resolveOtherLog } from './log_resolver.js';
+import { sendLogToOthers } from './log_sender.js';
+import { sendWSMessage } from './ws_server.js';
 
 const MESSAGE_MAP = {
   // Database Trigger Commands

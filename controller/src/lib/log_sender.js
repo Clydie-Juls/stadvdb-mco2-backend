@@ -1,4 +1,4 @@
-import { getPeersWS } from './ws_server';
+import { getPeersWS } from './ws_server.js';
 
 export function sendLogToOthers(logData, wsURL) {
   const peers = getPeersWS();
