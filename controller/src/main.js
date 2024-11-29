@@ -1,4 +1,5 @@
 import { WebSocketServer } from 'ws';
+import { getEnv } from './util';
 
 const MESSAGE_MAP = {
   acknowledge_log,
@@ -7,10 +8,12 @@ const MESSAGE_MAP = {
   simulate_off,
 };
 
-// eslint-disable-next-line no-undef
-const PORT = process.env.CONTROLLER_PORT || 8080;
+const PORT = getEnv('CONTROLLER_PORT') || 8080;
+console.log('processes:')
+console.log(process.env);
+console.log('Listening on port iii %s', PORT);
 
-console.log('Listening on port %d', PORT);
+
 
 const wss = new WebSocketServer({ port: PORT });
 
