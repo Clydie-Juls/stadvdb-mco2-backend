@@ -9,6 +9,9 @@ services:
     networks:
       - app-network
     volumes:
+      - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
+      - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
+      - ./sql/${MY_SQL_HOST}.sql:/docker-entrypoint-initdb.d/${MY_SQL_HOST}.sql
       - ./sql-data/${MY_SQL_HOST}:/var/lib/mysql
 
   controller:

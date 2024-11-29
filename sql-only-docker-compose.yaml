@@ -9,10 +9,11 @@ services:
     networks:
       - app-network
     # if you want to init a schema, uncomment the line below:
-    # volumes:
-    #   - ./sql/${MY_SQL_HOST}:/docker-entrypoint-initdb.d
     volumes:
-      - ./sql-data/${MY_SQL_HOST}:/var/lib/mysql
+      - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
+      - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
+      - ./sql/${MY_SQL_HOST}.sql:/docker-entrypoint-initdb.d/${MY_SQL_HOST}.sql
+      # - ./sql-data/${MY_SQL_HOST}:/var/lib/mysql
 
 networks:
   app-network:
