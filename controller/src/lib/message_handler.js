@@ -17,7 +17,7 @@ const MESSAGE_MAP = {
   simulate_off,
 };
 
-export function handleMessage({ name, args }) {
+export function handleMessage(name, args) {
   const callback = MESSAGE_MAP[name];
   callback(args);
 }

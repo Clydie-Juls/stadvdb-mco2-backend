@@ -14,8 +14,9 @@ export function initWSServer(port) {
   wss.on('connection', function connection(ws) {
     ws.on('error', console.error);
 
-    ws.on('message', function message(data) {
-      const { name, ...args } = data;
+    ws.on('message', function message(data, isBinary) {
+      const message = isBinary ? data : data.toString();
+      const { name, ...args } = JSON.parse(message);
       console.log('Received WS message: %s %s', name, JSON.stringify(args));
 
       handleMessage(name, args);
