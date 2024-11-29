@@ -21,6 +21,7 @@ services:
     ports:
       - "${CONTROLLER_PORT}:${CONTROLLER_PORT}"
     environment:
+      - NAME=${NAME}
       - CONTROLLER_PORT=${CONTROLLER_PORT}
       - MY_SQL_HOST=${MY_SQL_HOST}
       - MY_SQL_PORT=${MY_SQL_PORT}
