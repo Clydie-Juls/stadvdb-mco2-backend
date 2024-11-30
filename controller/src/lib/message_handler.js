@@ -22,31 +22,31 @@ export function handleMessage(name, args) {
   callback(args);
 }
 
-function notify_delete({ gameId, year }) {
+function notify_delete({ id, year }) {
   const time = Date.now();
 
-  writeToLog('delete', time, gameId, { year });
+  writeToLog('delete', time, { id, year });
   sendLogToOthers();
 
-  console.log('Received table delete notification: %s %s', time, gameId);
+  console.log('Received table delete notification: %s %s', time, id);
 }
 
-function notify_insert({ gameId, values }) {
+function notify_insert({ values }) {
   const time = Date.now();
 
-  writeToLog('insert', time, gameId, values);
+  writeToLog('insert', time, values);
   sendLogToOthers();
 
-  console.log('Received table insert notification: %s %s', time, gameId);
+  console.log('Received table insert notification: %s %s', time, values.id);
 }
 
-function notify_update({ gameId, values }) {
+function notify_update({ values }) {
   const time = Date.now();
 
-  writeToLog('update', time, gameId, values);
+  writeToLog('update', time, values);
   sendLogToOthers();
 
-  console.log('Received table update notification: %s %s', time, gameId);
+  console.log('Received table update notification: %s %s', time, values.id);
 }
 
 function receive_log({ sender, log }) {
