@@ -1,0 +1,43 @@
+services:
+  sql-server:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=12345678
+      - MYSQL_USER=user
+    ports:
+      - "${MY_SQL_PORT}:3306"
+    networks:
+      - app-network
+    volumes:
+      # - ./sql/privelege.sql:/docker-entrypoint-initdb.d/000_privelege.sql
+      # - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
+      # - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
+      # - ./sql/${NAME}.sql:/docker-entrypoint-initdb.d/${NAME}.sql
+      - ./sql-data/${NAME}:/var/lib/mysql
+
+  controller:
+    build: 
+      context: ./controller
+      dockerfile: Dockerfile
+    ports:
+      - "${CONTROLLER_PORT}:${CONTROLLER_PORT}"
+    image: 
+      ${ACR_NAME}.azurecr.io/controller:latest
+    environment:
+      - NAME=${NAME}
+      - CONTROLLER_PORT=${CONTROLLER_PORT}
+      - MY_SQL_HOST=${MY_SQL_HOST}
+      - MY_SQL_PORT=3306
+      - PEER_CONTROLLER_HOSTS=${PEER_CONTROLLER_HOSTS}
+    depends_on:
+      - sql-server
+    networks:
+      - app-network
+      - shared-network
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge
+  shared-network:
+    external: true
