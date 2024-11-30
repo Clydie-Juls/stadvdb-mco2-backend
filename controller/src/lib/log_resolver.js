@@ -103,7 +103,7 @@ function resolveNewEntries(newEntries) {
 
       case 'insert':
         log.push(entry);
-        insertEntry(entry.gameId, entry.values);
+        insertEntry(entry.values);
         break;
 
       case 'update':
