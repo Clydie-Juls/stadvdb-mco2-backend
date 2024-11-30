@@ -123,15 +123,17 @@ async function resolveNewEntries(newEntries) {
       case 'update':
         {
           log.push(entry);
-          updateEntry(entry.gameId, entry.values);
 
           if (getEnv('NAME') === 'central') {
+            updateEntry(entry.gameId, entry.values);
             break;
           }
 
           //
           if (!(await getGameYear(entry.gameId))) {
             insertEntry(entry.values);
+          } else {
+            updateEntry(entry.gameId, entry.values);
           }
         }
 
