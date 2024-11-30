@@ -109,12 +109,29 @@ function resolveNewEntries(newEntries) {
         break;
 
       case 'update':
-        log.push(entry);
-        updateEntry(entry.gameId, entry.values);
+        {
+          log.push(entry);
+          updateEntry(entry.gameId, entry.values);
 
-        // if err due to missing pk:
-        // Assume that the entry was edited in a way that changed its partition
-        // insertEntry(entry.values);
+          if (!entry.needsPartitionChange) {
+            break;
+          }
+
+          const year = Number(entry.values.release_date.split('-')[0]);
+
+          if (
+            (getEnv('NAME') === 'new' && year < 2010) ||
+            (getEnv('NAME') === 'old' && year >= 2010)
+          ) {
+            deleteEntry(entry.gameId);
+          } else if (
+            (getEnv('NAME') === 'new' && year >= 2010) ||
+            (getEnv('NAME') === 'old' && year < 2010)
+          ) {
+            insertEntry(entry.values);
+          }
+        }
+
         break;
     }
   }

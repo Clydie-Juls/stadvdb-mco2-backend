@@ -45,7 +45,7 @@ BEGIN
 END //
 
 CREATE PROCEDURE insert_game(
-  IN id VARCHAR(36),
+  IN id VARCHAR(64),
   IN name VARCHAR(255), 
   IN release_date DATE, 
   IN price DECIMAL(10, 2),
@@ -62,7 +62,7 @@ BEGIN
 END //
 
 CREATE PROCEDURE edit_game(
-  IN id INT, 
+  IN id VARCHAR(64), 
   IN name VARCHAR(255), 
   IN release_date DATE, 
   IN price DECIMAL(10, 2),

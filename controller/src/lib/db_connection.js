@@ -15,6 +15,17 @@ export function initDBConnection(host, port, user, password, database) {
   db.connect();
 }
 
+export async function getGameYear(gameId) {
+  return new Promise(resolve => {
+    const query = 'SELECT YEAR(release_date) as year FROM games WHERE id = ?';
+
+    db.query(query, [gameId], (err, results) => {
+      if (err) throw err;
+      resolve(results[0].year);
+    });
+  });
+}
+
 export function deleteEntry(gameId) {
   const query = 'CALL delete_game(?)';
 

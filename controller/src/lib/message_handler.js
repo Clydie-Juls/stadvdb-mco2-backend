@@ -1,5 +1,5 @@
 import { getEnv } from '../util.js';
-import { deleteEntry } from './db_connection.js';
+import { deleteEntry, getGameYear } from './db_connection.js';
 import { log, writeToLog } from './log.js';
 import { resolveOtherLog } from './log_resolver.js';
 import { sendLogToNode, sendLogToOthers } from './log_sender.js';
@@ -48,23 +48,27 @@ function notify_insert({ values }) {
   console.log('Received table insert notification: %s %s', time, values.id);
 }
 
-function notify_update({ values }) {
-  const time = Date.now();
+async function notify_update({ values }) {
+  const prevYear = await getGameYear(values.id);
+  const nextYear = Number(values.release_date.split('-')[0]);
 
-  writeToLog('update', time, values);
-  sendLogToOthers(log);
+  const needsPartitionChange =
+    (prevYear < 2010 && nextYear >= 2010) ||
+    (prevYear >= 2010 && nextYear < 2010);
 
-  console.log('Received table update notification: %s %s', time, values.id);
+  if (getEnv('NAME') === 'central' || !needsPartitionChange) {
+    const time = Date.now();
 
-  if (getEnv('NAME') === 'central') {
+    writeToLog('update', time, { ...values, needsPartitionChange });
+    sendLogToOthers(log);
+
+    console.log('Received table update notification: %s %s', time, values.id);
     return;
   }
 
-  const year = Number(values.release_date.split('-')[0]);
-
   if (
-    (getEnv('NAME') === 'new' && year < 2010) ||
-    (getEnv('NAME') === 'old' && year >= 2010)
+    (getEnv('NAME') === 'new' && nextYear < 2010) ||
+    (getEnv('NAME') === 'old' && nextYear >= 2010)
   ) {
     deleteEntry(values.id);
     console.log('Partition change for entry with id %s', values.id);
