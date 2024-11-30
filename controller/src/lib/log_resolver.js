@@ -7,10 +7,12 @@ export function resolveOtherLog(otherLog) {
     const lastEntry = log[log.length - 1];
     const otherLastCommonEntry = otherLog[log.length - 1];
 
-    if (lastEntry.gameId === otherLastCommonEntry.gameId) {
-      resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry);
-    } else if (isEntryRelevant(otherLastCommonEntry)) {
-      resolveNewEntries([otherLastCommonEntry]);
+    if (lastEntry.uuid !== otherLastCommonEntry.uuid) {
+      if (lastEntry.gameId === otherLastCommonEntry.gameId) {
+        resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry);
+      } else if (isEntryRelevant(otherLastCommonEntry)) {
+        resolveNewEntries([otherLastCommonEntry]);
+      }
     }
   }
 
