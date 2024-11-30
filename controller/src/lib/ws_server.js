@@ -26,7 +26,7 @@ export function initWSServer(port) {
 
 export function getPeersWS() {
   const peers = [];
-  const peersURL = getEnv('PEER_URLS').split(',');
+  const peersURL = getEnv('PEER_CONTROLLER_HOSTS').split(',');
 
   for (const peerURL of peersURL) {
     const ws = new WebSocket(peerURL);
