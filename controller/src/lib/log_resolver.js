@@ -19,7 +19,7 @@ export function resolveOtherLog(otherLog) {
 }
 
 function isEntryRelevant(entry) {
-  const year = entry.values.release_date.split('-')[0];
+  const year = Number(entry.values.release_date.split('-')[0]);
 
   return (
     getEnv('NAME') === 'central' ||
