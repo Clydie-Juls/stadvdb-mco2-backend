@@ -1,11 +1,14 @@
+import { getEnv } from '../util.js';
 import { getPeersWS } from './ws_server.js';
 
-export function sendLogToOthers(logData, wsURL) {
-  const peers = getPeersWS();
+export async function sendLogToOthers(logData) {
+  const selfName = getEnv('NAME');
+  const peerSockets = await getPeersWS();
 
-  for (const peer of peers) {
-    pollSend(peer, wsURL, {
-      sender: wsURL,
+  for (const ws of peerSockets) {
+    pollSend(ws, {
+      name: 'receive_log',
+      sender: selfName,
       log: logData,
     });
   }
@@ -13,22 +16,13 @@ export function sendLogToOthers(logData, wsURL) {
   console.log('Sent log to all other nodes.');
 }
 
-function pollSend(
-  peer,
-  wsURL,
-  logData,
-  maxRetries = 30,
-  pollingInterval = 2000,
-) {
+function pollSend(ws, message, maxRetries = 30, pollingInterval = 2000) {
   let retryCount = 1;
 
   // Send the initial message immediately
-  peer.send({
-    sender: wsURL,
-    log: logData,
-  });
+  ws.send(JSON.stringify(message));
 
-  peer.on('error', error => {
+  ws.on('error', error => {
     console.warn('WebSocket error:', error);
 
     if (retryCount < maxRetries) {
@@ -36,10 +30,7 @@ function pollSend(
       console.warn(`Retrying (${retryCount}/${maxRetries})`);
 
       const delayedSend = () => {
-        peer.send({
-          sender: wsURL,
-          log: logData,
-        });
+        ws.send(JSON.stringify(message));
         setTimeout(delayedSend, pollingInterval);
       };
 
