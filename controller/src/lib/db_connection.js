@@ -21,7 +21,7 @@ export async function getGameYear(gameId) {
 
     db.query(query, [gameId], (err, results) => {
       if (err) throw err;
-      resolve(results[0].year);
+      resolve(results[0]?.year);
     });
   });
 }

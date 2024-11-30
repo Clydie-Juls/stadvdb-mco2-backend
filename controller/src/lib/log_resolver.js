@@ -99,6 +99,13 @@ async function resolveNewEntries(newEntries) {
     if (!isEntryRelevant(entry)) {
       log.push(entry);
       log.sort((a, b) => a.time - b.time);
+
+      //
+      if (entry.type === 'update' && (await getGameYear(entry.gameId))) {
+        deleteEntry(entry.gameId);
+      }
+
+      writeWholeLog();
       continue;
     }
 
@@ -122,11 +129,8 @@ async function resolveNewEntries(newEntries) {
             break;
           }
 
-          const prevYear = await getGameYear(entry.gameId);
-
-          if (prevYear) {
-            deleteEntry(entry.gameId);
-          } else {
+          //
+          if (!(await getGameYear(entry.gameId))) {
             insertEntry(entry.values);
           }
         }
