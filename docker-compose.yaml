@@ -14,11 +14,6 @@ services:
       # - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
       # - ./sql/${NAME}.sql:/docker-entrypoint-initdb.d/${NAME}.sql
       - ./sql-data/${NAME}:/var/lib/mysql
-    healthcheck:
-      test: ["CMD", "mysqladmin", "ping"]
-      interval: 3s
-      timeout: 3s
-      retries: 5
 
   controller:
     build: 
@@ -37,6 +32,8 @@ services:
     networks:
       - app-network
       - shared-network
+    restart: unless-stopped
+
 networks:
   app-network:
     driver: bridge
