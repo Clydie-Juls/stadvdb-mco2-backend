@@ -1,5 +1,5 @@
-import { getEnv } from '../util';
-import { attemptSend } from './ws_server';
+import { getEnv } from '../util.js';
+import { attemptSend } from './ws_server.js';
 
 export async function pullLogFromPeer() {
   const selfName = getEnv('NAME');

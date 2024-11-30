@@ -1,3 +1,5 @@
+import { getEnv } from '../util.js';
+import { deleteEntry } from './db_connection.js';
 import { log, writeToLog } from './log.js';
 import { resolveOtherLog } from './log_resolver.js';
 import { sendLogToNode, sendLogToOthers } from './log_sender.js';
@@ -53,6 +55,20 @@ function notify_update({ values }) {
   sendLogToOthers(log);
 
   console.log('Received table update notification: %s %s', time, values.id);
+
+  if (getEnv('NAME') === 'central') {
+    return;
+  }
+
+  const year = Number(values.release_date.split('-')[0]);
+
+  if (
+    (getEnv('NAME') === 'new' && year < 2010) ||
+    (getEnv('NAME') === 'old' && year >= 2010)
+  ) {
+    deleteEntry(values.id);
+    console.log('Partition change for entry with id %s', values.id);
+  }
 }
 
 function fetch_log({ sender, senderUrl, log }) {

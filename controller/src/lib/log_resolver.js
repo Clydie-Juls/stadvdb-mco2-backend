@@ -111,6 +111,10 @@ function resolveNewEntries(newEntries) {
       case 'update':
         log.push(entry);
         updateEntry(entry.gameId, entry.values);
+
+        // if err due to missing pk:
+        // Assume that the entry was edited in a way that changed its partition
+        // insertEntry(entry.values);
         break;
     }
   }
