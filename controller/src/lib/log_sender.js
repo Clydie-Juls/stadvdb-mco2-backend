@@ -1,42 +1,59 @@
 import { getEnv } from '../util.js';
-import { getPeersWS } from './ws_server.js';
+import { WebSocket } from 'ws';
 
 export async function sendLogToOthers(logData) {
   const selfName = getEnv('NAME');
-  const peerSockets = await getPeersWS();
+  const peerURLs = getEnv('PEER_CONTROLLER_HOSTS').split(',');
 
-  for (const ws of peerSockets) {
-    pollSend(ws, {
-      name: 'receive_log',
-      sender: selfName,
-      log: logData,
-    });
-  }
+  await Promise.allSettled(
+    peerURLs.map(url =>
+      pollSend(url, {
+        name: 'receive_log',
+        sender: selfName,
+        log: logData,
+      }),
+    ),
+  );
 
-  console.log('Sent log to all other nodes.');
+  console.log('Successfully sent log to all other nodes.');
 }
 
-function pollSend(ws, message, maxRetries = 30, pollingInterval = 2000) {
+function pollSend(wsUrl, message, maxRetries = 30, pollingInterval = 2000) {
   let retryCount = 1;
 
-  // Send the initial message immediately
-  ws.send(JSON.stringify(message));
+  return new Promise(resolve => {
+    function attemptSend() {
+      const ws = new WebSocket(wsUrl);
 
-  ws.on('error', error => {
-    console.warn('WebSocket error:', error);
-
-    if (retryCount < maxRetries) {
-      retryCount++;
-      console.warn(`Retrying (${retryCount}/${maxRetries})`);
-
-      const delayedSend = () => {
+      ws.once('open', () => {
         ws.send(JSON.stringify(message));
-        setTimeout(delayedSend, pollingInterval);
-      };
+        ws.ping(); // Extra step to ensure the message is sent
+      });
 
-      setTimeout(delayedSend, pollingInterval);
-    } else {
-      console.error('Max retries reached. Giving up.');
+      ws.once('pong', () => {
+        resolve(true);
+        ws.close();
+      });
+
+      ws.on('error', e => {
+        if (e.code !== 'ECONNREFUSED') {
+          throw e;
+        }
+
+        if (retryCount >= maxRetries) {
+          console.error(`Max retries reached for ${wsUrl}. Giving up.`);
+          resolve(false);
+        }
+
+        console.warn(
+          `Connection refused for ${wsUrl}. Retrying... (${retryCount}/${maxRetries})`,
+        );
+
+        retryCount++;
+        setTimeout(attemptSend, pollingInterval);
+      });
     }
+
+    attemptSend();
   });
 }
