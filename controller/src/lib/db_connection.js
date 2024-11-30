@@ -15,10 +15,8 @@ export function initDBConnection(host, port, user, password, database) {
   db.connect();
 }
 
-// TODO: Perhaps use the stored procedures made
-
 export function deleteEntry(gameId) {
-  const query = 'DELETE FROM games WHERE gameId = ?';
+  const query = 'CALL delete_game(?)';
 
   db.query(query, [gameId], err => {
     if (err) throw err;
@@ -26,20 +24,41 @@ export function deleteEntry(gameId) {
   });
 }
 
-export function insertEntry(gameId, values) {
-  const query = 'INSERT INTO games (gameId, values) VALUES (?, ?)';
+export function insertEntry(values) {
+  const query = 'CALL edit_game(?, ?, ?, ?, ?);';
 
-  db.query(query, [gameId, JSON.stringify(values)], err => {
-    if (err) throw err;
-    console.log(`Inserted entry with gameId: ${gameId}`);
-  });
+  db.query(
+    query,
+    [
+      values.name,
+      values.release_date,
+      values.price,
+      values.positive_reviews,
+      values.negative_reviews,
+    ],
+    err => {
+      if (err) throw err;
+      console.log(`Inserted entry with name: ${values.name}`);
+    },
+  );
 }
 
 export function updateEntry(gameId, values) {
-  const query = 'UPDATE games SET values = ? WHERE gameId = ?';
+  const query = 'CALL edit_game(?, ?, ?, ?, ?, ?);';
 
-  db.query(query, [JSON.stringify(values), gameId], err => {
-    if (err) throw err;
-    console.log(`Updated entry with gameId: ${gameId}`);
-  });
+  db.query(
+    query,
+    [
+      gameId,
+      values.name,
+      values.release_date,
+      values.price,
+      values.positive_reviews,
+      values.negative_reviews,
+    ],
+    err => {
+      if (err) throw err;
+      console.log(`Updated entry with gameId: ${gameId}`);
+    },
+  );
 }

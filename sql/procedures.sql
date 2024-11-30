@@ -1,7 +1,9 @@
 USE `gamesdb`;
+
 DROP PROCEDURE IF EXISTS fetch_games;
 DROP PROCEDURE IF EXISTS fetch_games_lt_year;
 DROP PROCEDURE IF EXISTS fetch_games_gte_year;
+DROP PROCEDURE IF EXISTS insert_game;
 DROP PROCEDURE IF EXISTS edit_game;
 DROP PROCEDURE IF EXISTS delete_game;
 DROP PROCEDURE IF EXISTS count_games;
@@ -42,22 +44,35 @@ BEGIN
   LIMIT start_row, row_count;
 END //
 
+CREATE PROCEDURE insert_game(
+  IN name VARCHAR(255), 
+  IN release_date DATE, 
+  IN price DECIMAL(10, 2),
+  IN positive_reviews int,
+  IN negative_reviews int 
+)
+BEGIN
+  INSERT INTO games (id, name, release_date, price, positive_reviews, negative_reviews)
+  VALUES (0, name, release_date, price, positive_reviews, negative_reviews);
+END //
+
 CREATE PROCEDURE edit_game(
   IN id INT, 
-  IN title VARCHAR(255), 
-  IN genre VARCHAR(255), 
+  IN name VARCHAR(255), 
   IN release_date DATE, 
-  IN price DECIMAL(10, 2)
+  IN price DECIMAL(10, 2),
+  IN positive_reviews int,
+  IN negative_reviews int
 )
 BEGIN
   UPDATE games
-  SET title = title, genre = genre, release_date = release_date, price = price
-  WHERE game_id = id;
+  SET name = name, release_date = release_date, price = price, positive_reviews = positive_reviews, negative_reviews = negative_reviews
+  WHERE games.id = id;
 END //
 
 CREATE PROCEDURE delete_game(IN id INT)
 BEGIN
-  DELETE FROM games WHERE game_id = id;
+  DELETE FROM games WHERE games.id = id;
 END //
 
 CREATE PROCEDURE count_games()
