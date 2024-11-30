@@ -11,8 +11,8 @@ services:
     # if you want to init a schema, uncomment the line below:
     volumes:
       - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
-      # - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
-      # - ./sql/${NAME}.sql:/docker-entrypoint-initdb.d/${NAME}.sql
+      - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
+      - ./sql/${NAME}.sql:/docker-entrypoint-initdb.d/${NAME}.sql
       - ./sql-data/${NAME}:/var/lib/mysql
 
 networks:
