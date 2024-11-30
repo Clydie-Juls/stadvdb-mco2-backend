@@ -63,7 +63,7 @@ export function polledSend(
 
   return new Promise(resolve => {
     async function wrappedAttemptSend() {
-      const success = attemptSend(wsUrl, message);
+      const success = await attemptSend(wsUrl, message);
 
       if (success) {
         resolve(true);
