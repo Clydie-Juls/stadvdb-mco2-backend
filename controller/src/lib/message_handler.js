@@ -21,7 +21,7 @@ export function handleMessage(name, args) {
   callback(args);
 }
 
-function notify_delete({ id, release_date }) {
+function notify_delete({ values: { id, release_date } }) {
   const time = Date.now();
 
   writeToLog('delete', time, { id, release_date });
