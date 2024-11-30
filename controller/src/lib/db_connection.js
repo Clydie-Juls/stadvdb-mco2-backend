@@ -36,7 +36,7 @@ export function deleteEntry(gameId) {
 }
 
 export function insertEntry(values) {
-  const query = 'CALL insert_game(?, ?, ?, ?, ?);';
+  const query = 'CALL insert_game(?, ?, ?, ?, ?, ?);';
 
   db.query(
     query,
