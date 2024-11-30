@@ -75,7 +75,7 @@ BEGIN
   WHERE games.id = id;
 END //
 
-CREATE PROCEDURE delete_game(IN id INT)
+CREATE PROCEDURE delete_game(IN id VARCHAR(64))
 BEGIN
   DELETE FROM games WHERE games.id = id;
 END //
