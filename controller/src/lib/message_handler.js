@@ -1,5 +1,5 @@
 import { getEnv } from '../util.js';
-import { deleteEntry, getGameYear } from './db_connection.js';
+import { deleteEntry } from './db_connection.js';
 import { log, writeToLog } from './log.js';
 import { resolveOtherLog } from './log_resolver.js';
 import { sendLogToNode, sendLogToOthers } from './log_sender.js';
@@ -49,22 +49,14 @@ function notify_insert({ values }) {
 }
 
 async function notify_update({ values }) {
-  const prevYear = await getGameYear(values.id);
+  const time = Date.now();
+
+  writeToLog('update', time, values);
+  sendLogToOthers(log);
+
+  console.log('Received table update notification: %s %s', time, values.id);
+
   const nextYear = Number(values.release_date.split('-')[0]);
-
-  const needsPartitionChange =
-    (prevYear < 2010 && nextYear >= 2010) ||
-    (prevYear >= 2010 && nextYear < 2010);
-
-  if (getEnv('NAME') === 'central' || !needsPartitionChange) {
-    const time = Date.now();
-
-    writeToLog('update', time, { ...values, needsPartitionChange });
-    sendLogToOthers(log);
-
-    console.log('Received table update notification: %s %s', time, values.id);
-    return;
-  }
 
   if (
     (getEnv('NAME') === 'new' && nextYear < 2010) ||

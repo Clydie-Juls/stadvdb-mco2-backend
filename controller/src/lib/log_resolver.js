@@ -1,5 +1,10 @@
 import { getEnv } from '../util.js';
-import { deleteEntry, insertEntry, updateEntry } from './db_connection.js';
+import {
+  getGameYear,
+  deleteEntry,
+  insertEntry,
+  updateEntry,
+} from './db_connection.js';
 import { log, writeLog as writeWholeLog } from './log.js';
 
 export function resolveOtherLog(otherLog) {
@@ -89,7 +94,7 @@ function resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry) {
   writeWholeLog();
 }
 
-function resolveNewEntries(newEntries) {
+async function resolveNewEntries(newEntries) {
   for (const entry of newEntries) {
     if (!isEntryRelevant(entry)) {
       log.push(entry);
@@ -113,21 +118,19 @@ function resolveNewEntries(newEntries) {
           log.push(entry);
           updateEntry(entry.gameId, entry.values);
 
+          if (getEnv('NAME') === 'central') {
+            break;
+          }
+
           if (!entry.needsPartitionChange) {
             break;
           }
 
-          const year = Number(entry.values.release_date.split('-')[0]);
+          const prevYear = await getGameYear(entry.gameId);
 
-          if (
-            (getEnv('NAME') === 'new' && year < 2010) ||
-            (getEnv('NAME') === 'old' && year >= 2010)
-          ) {
+          if (prevYear) {
             deleteEntry(entry.gameId);
-          } else if (
-            (getEnv('NAME') === 'new' && year >= 2010) ||
-            (getEnv('NAME') === 'old' && year < 2010)
-          ) {
+          } else {
             insertEntry(entry.values);
           }
         }
