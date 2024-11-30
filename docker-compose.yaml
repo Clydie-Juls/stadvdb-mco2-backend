@@ -11,8 +11,8 @@ services:
     volumes:
       - ./sql/privelege.sql:/docker-entrypoint-initdb.d/000_privelege.sql
       - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
-      # - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
-      # - ./sql/${MY_SQL_HOST}.sql:/docker-entrypoint-initdb.d/${MY_SQL_HOST}.sql
+      - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
+      - ./sql/${NAME}.sql:/docker-entrypoint-initdb.d/${NAME}.sql
       - ./sql-data/${NAME}:/var/lib/mysql
 
   controller:
@@ -31,6 +31,9 @@ services:
       - sql-server
     networks:
       - app-network
+      - shared-network
 networks:
   app-network:
     driver: bridge
+  shared-network:
+    external: true
