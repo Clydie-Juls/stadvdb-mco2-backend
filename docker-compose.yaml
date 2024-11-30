@@ -9,10 +9,10 @@ services:
     networks:
       - app-network
     volumes:
-      - ./sql/privelege.sql:/docker-entrypoint-initdb.d/000_privelege.sql
-      - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
-      - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
-      - ./sql/${NAME}.sql:/docker-entrypoint-initdb.d/${NAME}.sql
+      # - ./sql/privelege.sql:/docker-entrypoint-initdb.d/000_privelege.sql
+      # - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
+      # - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
+      # - ./sql/${NAME}.sql:/docker-entrypoint-initdb.d/${NAME}.sql
       - ./sql-data/${NAME}:/var/lib/mysql
 
   controller:
@@ -32,6 +32,8 @@ services:
     networks:
       - app-network
       - shared-network
+    restart: unless-stopped
+
 networks:
   app-network:
     driver: bridge

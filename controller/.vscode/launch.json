@@ -22,7 +22,8 @@
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
       "skipFiles": ["<node_internals>/**"],
-      "envFile": "${workspaceFolder}\\debug.env"
+      "envFile": "${workspaceFolder}\\debug.env",
+      "runtimeArgs": ["--ignore", "log.json"]
     }
   ]
 }
