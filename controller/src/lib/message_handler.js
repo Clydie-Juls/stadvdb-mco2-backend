@@ -1,7 +1,6 @@
-import { writeToLog } from './log.js';
+import { log, writeToLog } from './log.js';
 import { resolveOtherLog } from './log_resolver.js';
 import { sendLogToOthers } from './log_sender.js';
-import { sendWSMessage } from './ws_server.js';
 
 const MESSAGE_MAP = {
   // Database Trigger Commands
@@ -22,36 +21,35 @@ export function handleMessage(name, args) {
   callback(args);
 }
 
-function notify_delete({ gameId, year }) {
+function notify_delete({ id, year }) {
   const time = Date.now();
 
-  writeToLog('delete', time, gameId, { year });
+  writeToLog('delete', time, { id, year });
   sendLogToOthers();
 
-  console.log('Received table delete notification: %s %s', time, gameId);
+  console.log('Received table delete notification: %s %s', time, id);
 }
 
-function notify_insert({ gameId, values }) {
+function notify_insert({ values }) {
   const time = Date.now();
 
-  writeToLog('insert', time, gameId, values);
-  sendLogToOthers();
+  writeToLog('insert', time, values);
+  sendLogToOthers(log);
 
-  console.log('Received table insert notification: %s %s', time, gameId);
+  console.log('Received table insert notification: %s %s', time, values.id);
 }
 
-function notify_update({ gameId, values }) {
+function notify_update({ values }) {
   const time = Date.now();
 
-  writeToLog('update', time, gameId, values);
+  writeToLog('update', time, values);
   sendLogToOthers();
 
-  console.log('Received table update notification: %s %s', time, gameId);
+  console.log('Received table update notification: %s %s', time, values.id);
 }
 
 function receive_log({ sender, log }) {
   resolveOtherLog(log);
-  sendWSMessage(sender, 'acknowledge_log');
 
   console.log('Received and resolved log from %s', sender);
 }
