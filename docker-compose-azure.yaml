@@ -2,8 +2,10 @@ services:
   sql-server:
     image: mysql:latest
     environment:
+      - NODE_ENV=production
       - MYSQL_ROOT_PASSWORD=12345678
       - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
     ports:
       - "${MY_SQL_PORT}:3306"
     networks:

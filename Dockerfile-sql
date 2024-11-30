@@ -1,0 +1,14 @@
+# Use the official MySQL image as a base
+FROM mysql:latest
+
+# Set environment variables for the MySQL root password
+ENV MYSQL_ROOT_PASSWORD=12345678
+ENV MYSQL_USER=user
+ENV MYSQL_PASSWORD=12345678
+ENV MYSQL_DATABASE=gamesdb
+
+# Copy any SQL initialization scripts into the container
+# These will be automatically run when the container starts
+
+# Expose the default MySQL port
+EXPOSE 3306

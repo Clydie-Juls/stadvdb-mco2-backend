@@ -33,7 +33,6 @@ services:
       - app-network
       - shared-network
     restart: unless-stopped
-
 networks:
   app-network:
     driver: bridge
