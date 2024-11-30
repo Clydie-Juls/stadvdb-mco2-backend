@@ -25,7 +25,7 @@ function notify_delete({ id, year }) {
   const time = Date.now();
 
   writeToLog('delete', time, { id, year });
-  sendLogToOthers();
+  sendLogToOthers(log);
 
   console.log('Received table delete notification: %s %s', time, id);
 }
@@ -43,7 +43,7 @@ function notify_update({ values }) {
   const time = Date.now();
 
   writeToLog('update', time, values);
-  sendLogToOthers();
+  sendLogToOthers(log);
 
   console.log('Received table update notification: %s %s', time, values.id);
 }

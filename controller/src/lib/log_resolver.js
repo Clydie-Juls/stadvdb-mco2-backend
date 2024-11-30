@@ -3,13 +3,15 @@ import { deleteEntry, insertEntry, updateEntry } from './db_connection.js';
 import { log, writeLog as writeWholeLog } from './log.js';
 
 export function resolveOtherLog(otherLog) {
-  const lastEntry = log[log.length - 1];
-  const otherLastCommonEntry = otherLog[log.length - 1];
+  if (log.length > 0) {
+    const lastEntry = log[log.length - 1];
+    const otherLastCommonEntry = otherLog[log.length - 1];
 
-  if (lastEntry.gameId === otherLastCommonEntry.gameId) {
-    resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry);
-  } else if (isEntryRelevant(otherLastCommonEntry)) {
-    resolveNewEntries([otherLastCommonEntry]);
+    if (lastEntry.gameId === otherLastCommonEntry.gameId) {
+      resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry);
+    } else if (isEntryRelevant(otherLastCommonEntry)) {
+      resolveNewEntries([otherLastCommonEntry]);
+    }
   }
 
   const newEntries = otherLog.slice(log.length);
@@ -17,10 +19,12 @@ export function resolveOtherLog(otherLog) {
 }
 
 function isEntryRelevant(entry) {
+  const year = entry.values.release_date.split('-')[0];
+
   return (
     getEnv('NAME') === 'central' ||
-    (getEnv('NAME') === 'old' && entry.values.year < 2010) ||
-    (getEnv('NAME') === 'new' && entry.values.year >= 2010)
+    (getEnv('NAME') === 'old' && year < 2010) ||
+    (getEnv('NAME') === 'new' && year >= 2010)
   );
 }
 
@@ -86,6 +90,8 @@ function resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry) {
 function resolveNewEntries(newEntries) {
   for (const entry of newEntries) {
     if (!isEntryRelevant(entry)) {
+      log.push(entry);
+      log.sort((a, b) => a.time - b.time);
       continue;
     }
 
@@ -97,7 +103,7 @@ function resolveNewEntries(newEntries) {
 
       case 'insert':
         log.push(entry);
-        insertEntry(entry.gameId, entry.values);
+        insertEntry(entry.values);
         break;
 
       case 'update':

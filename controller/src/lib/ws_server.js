@@ -12,6 +12,8 @@ export function initWSServer(port) {
   });
 
   wss.on('connection', function connection(ws) {
+    console.log('New ws connection from %s', ws._socket.remoteAddress);
+
     ws.on('error', console.error);
 
     ws.on('message', function message(data, isBinary) {
@@ -20,6 +22,10 @@ export function initWSServer(port) {
       console.log('Received WS message: %s %s', name, JSON.stringify(args));
 
       handleMessage(name, args);
+    });
+
+    ws.on('close', function close() {
+      console.log('Closed ws connection from %s', ws._socket.remoteAddress);
     });
   });
 }
