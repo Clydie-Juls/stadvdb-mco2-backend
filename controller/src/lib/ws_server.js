@@ -1,4 +1,3 @@
-import { getEnv } from '../util.js';
 import { handleMessage } from './message_handler.js';
 import { WebSocketServer, WebSocket } from 'ws';
 
@@ -30,26 +29,60 @@ export function initWSServer(port) {
   });
 }
 
-export function getPeersWS() {
-  const peers = [];
-  const peersURL = getEnv('PEER_CONTROLLER_HOSTS').split(',');
+export function attemptSend(wsUrl, message) {
+  return new Promise(resolve => {
+    const ws = new WebSocket(wsUrl);
 
-  for (const peerURL of peersURL) {
-    peers.push(
-      new Promise((resolve, reject) => {
-        const ws = new WebSocket(peerURL);
+    ws.once('open', () => {
+      ws.send(JSON.stringify(message));
+      ws.ping(); // Extra step to ensure the message is sent
+    });
 
-        ws.on('open', () => {
-          resolve(ws);
-        });
+    ws.once('pong', () => {
+      resolve(true);
+      ws.close();
+    });
 
-        ws.on('error', error => {
-          console.error('WebSocket error:', error);
-          reject(error);
-        });
-      }),
-    );
-  }
+    ws.on('error', e => {
+      if (e.code !== 'ECONNREFUSED') {
+        throw e;
+      }
 
-  return Promise.all(peers);
+      resolve(false);
+    });
+  });
+}
+
+export function polledSend(
+  wsUrl,
+  message,
+  maxRetries = 30,
+  pollingInterval = 2000,
+) {
+  let retryCount = 1;
+
+  return new Promise(resolve => {
+    async function wrappedAttemptSend() {
+      const success = attemptSend(wsUrl, message);
+
+      if (success) {
+        resolve(true);
+        return;
+      }
+
+      if (retryCount >= maxRetries) {
+        console.error(`Max retries reached for ${wsUrl}. Giving up.`);
+        resolve(false);
+      }
+
+      console.warn(
+        `Connection refused for ${wsUrl}. Retrying... (${retryCount}/${maxRetries})`,
+      );
+
+      retryCount++;
+      setTimeout(wrappedAttemptSend, pollingInterval);
+    }
+
+    wrappedAttemptSend();
+  });
 }

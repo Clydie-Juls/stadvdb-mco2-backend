@@ -1,6 +1,6 @@
 import { log, writeToLog } from './log.js';
 import { resolveOtherLog } from './log_resolver.js';
-import { sendLogToOthers } from './log_sender.js';
+import { sendLogToNode, sendLogToOthers } from './log_sender.js';
 
 const MESSAGE_MAP = {
   // Database Trigger Commands
@@ -9,6 +9,7 @@ const MESSAGE_MAP = {
   notify_update,
 
   // Log commands
+  fetch_log,
   receive_log,
 
   // Simulation Commands
@@ -18,6 +19,12 @@ const MESSAGE_MAP = {
 
 export function handleMessage(name, args) {
   const callback = MESSAGE_MAP[name];
+
+  if (!callback) {
+    console.warn('Received unknown message: %s', name);
+    return;
+  }
+
   callback(args);
 }
 
@@ -46,6 +53,12 @@ function notify_update({ values }) {
   sendLogToOthers(log);
 
   console.log('Received table update notification: %s %s', time, values.id);
+}
+
+function fetch_log({ sender, senderUrl, log }) {
+  sendLogToNode(senderUrl, log);
+
+  console.log('Received log fetch request from %s', sender);
 }
 
 function receive_log({ sender, log }) {
