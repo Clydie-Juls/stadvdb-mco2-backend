@@ -47,16 +47,3 @@ export function getPeersWS() {
 
   return Promise.all(peers);
 }
-
-export function sendWSMessage(sender, name, values = {}) {
-  const ws = new WebSocket(sender);
-
-  ws.send(
-    JSON.stringify({
-      name,
-      sender: `${getEnv('CONTROLLER_URL')}/${getEnv('CONTROLLER_PORT')}`,
-      ...values,
-    }),
-  );
-  ws.close();
-}
