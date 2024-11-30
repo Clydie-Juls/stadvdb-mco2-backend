@@ -1,3 +1,5 @@
+import uuid
+
 import mysql.connector
 import pandas as pd 
 from unidecode import unidecode
@@ -202,7 +204,7 @@ mycursor = mydb.cursor()
 
 # Insert data into the games table
 games_data = [
-  (row['index'], row['name'], row['release_date'], row['price'], row['positive'], row['negative'])
+  (str(uuid.uuid4()), row['name'], row['release_date'], row['price'], row['positive'], row['negative'])
   for index, row in jdf.iterrows()
 ]
 
