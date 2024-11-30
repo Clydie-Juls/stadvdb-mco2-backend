@@ -1,6 +1,6 @@
 import { getEnv } from '../util.js';
 import { handleMessage } from './message_handler.js';
-import { WebSocketServer } from 'ws';
+import { WebSocketServer, WebSocket } from 'ws';
 
 let wss;
 
@@ -29,11 +29,23 @@ export function getPeersWS() {
   const peersURL = getEnv('PEER_CONTROLLER_HOSTS').split(',');
 
   for (const peerURL of peersURL) {
-    const ws = new WebSocket(peerURL);
-    peers.push(ws);
+    peers.push(
+      new Promise((resolve, reject) => {
+        const ws = new WebSocket(peerURL);
+
+        ws.on('open', () => {
+          resolve(ws);
+        });
+
+        ws.on('error', error => {
+          console.error('WebSocket error:', error);
+          reject(error);
+        });
+      }),
+    );
   }
 
-  return peers;
+  return Promise.all(peers);
 }
 
 export function sendWSMessage(sender, name, values = {}) {

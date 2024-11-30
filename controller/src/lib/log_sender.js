@@ -1,7 +1,7 @@
 import { getPeersWS } from './ws_server.js';
 
-export function sendLogToOthers(logData, wsURL) {
-  const peers = getPeersWS();
+export async function sendLogToOthers(logData, wsURL) {
+  const peers = await getPeersWS();
 
   for (const peer of peers) {
     pollSend(peer, wsURL, {
