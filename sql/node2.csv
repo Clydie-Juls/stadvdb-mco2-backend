@@ -1,855 +1,855 @@
 id,name,release_date,price,positive_reviews,negative_reviews
-10,Counter-Strike,2000-11-01,9.99,198387,5135
-20,"Team Fortress Classic",1999-04-01,4.99,5677,923
-30,"Day of Defeat",2003-05-01,4.99,5179,566
-40,"Deathmatch Classic",2001-06-01,4.99,1929,428
-50,"Half-Life: Opposing Force",1999-11-01,4.99,14333,718
-60,Ricochet,2000-11-01,4.99,3804,848
-70,Half-Life,1998-11-08,9.99,73346,2619
-80,"Counter-Strike: Condition Zero",2004-03-01,9.99,19314,1871
-100,"Counter-Strike: Condition Zero",2004-03-01,9.99,13442,1535
-130,"Half-Life: Blue Shift",2001-06-01,4.99,10256,965
-220,"Half-Life 2",2004-11-16,9.99,142368,3687
-240,"Counter-Strike: Source",2004-11-01,9.99,135151,5348
-280,"Half-Life: Source",2004-06-01,9.99,8232,3130
-320,"Half-Life 2: Deathmatch",2004-11-01,4.99,9737,1051
-340,"Half-Life 2: Lost Coast",2005-10-27,0.00,9306,1261
-360,"Half-Life Deathmatch: Source",2006-05-01,9.99,2444,815
-380,"Half-Life 2: Episode One",2006-06-01,7.99,20536,926
-400,Portal,2007-10-10,9.99,108353,1715
-420,"Half-Life 2: Episode Two",2007-10-10,7.99,28981,914
-440,"Team Fortress 2",2007-10-10,0.00,823693,56683
-500,"Left 4 Dead",2008-11-17,9.99,40244,1610
-550,"Left 4 Dead 2",2009-11-16,9.99,619457,16204
-1002,"Rag Doll Kung Fu",2005-10-12,0.99,55,23
-1200,"Red Orchestra: Ostfront 41-45",2006-03-14,4.99,1946,294
-1250,"Killing Floor",2009-05-14,19.99,60436,3201
-1300,"SiN Episodes: Emergence",2006-05-10,9.99,769,93
-1500,Darwinia,2005-07-14,9.99,726,198
-1510,Uplink,2006-08-23,9.99,1956,188
-1520,DEFCON,2006-09-29,9.99,3032,461
-1530,Multiwinia,2008-09-19,9.99,427,94
-1600,"Dangerous Waters",2006-02-07,2.99,242,72
-1610,"Space Empires IV Deluxe",2006-02-07,9.99,183,35
-1620,"Jagged Alliance 2 Gold",2006-07-06,19.99,0,0
-1630,"Disciples II: Rise of the Elves",2006-07-06,6.99,884,149
-1640,"Disciples II: Gallean's Return",2006-07-06,1.39,926,217
-1670,"Iron Warriors: T - 72 Tank Command",2006-07-26,0.99,168,105
-1690,"Space Empires V",2006-10-16,14.99,275,116
-1700,"Arx Fatalis",2007-04-03,4.99,1315,190
-1900,"Earth 2160",2006-04-01,1.49,851,361
-1930,"Two Worlds Epic Edition",2009-04-30,2.49,3777,1236
-2100,"Dark Messiah of Might & Magic",2006-10-25,9.99,7630,685
-2130,"Dark Messiah of Might & Magic",2006-10-25,9.99,4769,355
-2200,"Quake III Arena",2007-08-03,14.99,2736,127
-2270,"Wolfenstein 3D",2007-08-03,4.99,2740,170
-2280,"Ultimate Doom",2007-08-03,4.99,11912,437
-2290,"Final DOOM",2007-08-03,4.99,1005,177
-2300,"DOOM II",2007-08-03,4.99,5978,319
-2310,QUAKE,2007-08-03,9.99,10055,428
-2320,"QUAKE II",2007-08-03,4.99,3071,275
-2330,"QUAKE II Mission Pack: The Reckoning",2007-08-03,2.99,148,34
-2340,"QUAKE II Mission Pack: Ground Zero",2007-08-03,2.99,125,85
-2350,"QUAKE III: Team Arena",2007-08-03,14.99,207,50
-2360,"HeXen: Beyond Heretic",2007-08-03,4.99,461,57
-2370,"HeXen: Deathkings of the Dark Citadel",2007-08-03,4.99,110,31
-2390,"Heretic: Shadow of the Serpent Riders",2007-08-03,4.99,766,45
-2400,"The Ship: Murder Party",2006-07-11,9.99,5052,840
-2420,"The Ship: Single Player",2006-11-20,0.00,634,268
-2500,Shadowgrounds,2006-05-08,6.99,1161,282
-2520,"Gumboy - Crazy Adventures™",2006-12-19,4.99,61,58
-2525,"Gumboy - Crazy Adventures™",2006-12-19,4.99,54,49
-2540,"RIP - Trilogy™",2007-06-01,4.99,215,149
-2545,"RIP - Trilogy™",2007-06-01,4.99,204,136
-2550,"RIP - Trilogy™",2007-06-01,4.99,204,136
-2570,"Vigil: Blood Bitterness™",2007-06-29,0.00,29,115
-2590,"Alpha Prime",2007-11-07,4.99,732,615
-2600,"Vampire: The Masquerade - Bloodlines",2007-03-22,19.99,10590,568
-2610,GUN™,2006-10-13,19.99,1265,129
-2620,"Call of Duty®",2006-10-13,19.99,3842,216
-2630,"Call of Duty® 2",2006-10-13,19.99,6350,449
-2640,"Call of Duty: United Offensive",2006-10-13,19.99,1142,170
-2700,"RollerCoaster Tycoon® 3: Platinum",2008-03-12,0.00,4463,431
-2710,"Act of War: Direct Action",2008-03-12,2.99,395,50
-2720,"ThreadSpace: Hyperbol",2007-07-12,4.99,35,11
-2780,"ARMA: Combat Operations",2008-03-12,7.99,169,76
-2800,"X2: The Threat",2006-07-21,4.99,326,66
-2810,"X3: Reunion",2006-07-21,9.99,406,161
-2820,"X3: Terran Conflict",2008-10-16,15.99,2154,374
-2900,"688(I) Hunter/Killer",2006-10-26,1.99,116,37
-2910,"Fleet Command",2006-10-26,5.99,280,49
-2920,"Sub Command",2006-10-26,5.99,71,24
-2990,"FlatOut 2™",2006-12-21,7.99,11989,522
-3010,"Xpand Rally",2006-08-24,4.99,293,73
-3020,"Call of Juarez",2007-11-08,9.99,1914,445
-3050,"Xpand Rally Xtreme",2008-10-08,4.99,195,66
-3130,"Men of War: Red Tide",2009-11-01,4.99,541,97
-3170,"King's Bounty: Armored Princess",2009-11-19,2.49,881,82
-3230,"Genesis Rising",2007-08-06,4.99,40,104
-3260,"Safecracker: The Ultimate Puzzle Adventure",2007-08-29,4.99,315,224
-3270,"Painkiller Overdose",2007-10-30,4.99,664,226
-3300,"Bejeweled 2 Deluxe",2006-08-30,4.99,385,20
-3310,"Chuzzle Deluxe",2006-08-30,4.99,644,46
-3320,"Insaniquarium Deluxe",2006-08-30,4.99,3590,124
-3330,"Zuma Deluxe",2006-08-30,4.99,2330,129
-3340,"AstroPop Deluxe",2006-08-30,4.99,58,17
-3350,"Bejeweled Deluxe",2006-08-30,4.99,131,18
-3360,"Big Money! Deluxe",2006-08-30,4.99,80,8
-3380,"Dynomite Deluxe",2006-08-30,4.99,174,10
-3390,"Feeding Frenzy 2 Deluxe",2006-08-30,4.99,1238,39
-3400,"Hammer Heads Deluxe",2006-08-30,0.00,49,6
-3410,"Heavy Weapon Deluxe",2006-08-30,4.99,189,45
-3420,"Iggle Pop Deluxe",2006-08-30,4.99,34,6
-3430,"Pizza Frenzy Deluxe",2006-08-30,4.99,125,5
-3450,"Typer Shark! Deluxe",2006-08-30,4.99,213,44
-3460,"Talismania Deluxe",2006-08-30,4.99,48,3
-3480,"Peggle Deluxe",2007-03-06,4.99,4381,143
-3483,"Peggle Extreme",2007-09-11,0.00,1282,90
-3490,"Venice Deluxe",2007-06-25,0.00,18,3
-3500,"Mystery P.I.™ - The Lottery Ticket",2007-10-16,4.99,30,7
-3510,"Amazing Adventures The Lost Tomb™",2007-12-13,4.99,46,12
-3520,"Mystery P.I.™ - The Vegas Heist",2008-06-05,4.99,26,8
-3530,"Amazing Adventures Around the World",2009-04-15,4.99,50,11
-3540,"Peggle™ Nights",2008-10-15,4.99,1187,61
-3560,"Bejeweled Twist",2008-11-18,4.99,292,62
-3570,"Mystery P.I.™ - The New York Fortune",2009-01-28,4.99,23,5
-3580,"The Wizard's Pen™",2009-02-18,4.99,28,4
-3590,"Plants vs. Zombies GOTY Edition",2009-05-05,4.99,81362,2372
-3600,"Escape Rosecliff Island",2009-04-15,4.99,148,73
-3610,"Mystery P.I. - Lost in Los Angeles",2009-07-27,4.99,25,7
-3620,"Zuma's Revenge!",2009-09-15,4.99,1392,78
-3700,"Sniper Elite",2009-07-16,7.99,2114,636
-3710,"Judge Dredd: Dredd vs. Death",2009-03-26,7.99,810,117
-3720,"Evil Genius",2009-06-22,9.99,3105,194
-3800,"Advent Rising",2006-09-14,9.99,357,98
-3810,"BloodRayne (Legacy)",2006-09-14,0.00,467,126
-3820,"BloodRayne 2 (Legacy)",2006-09-14,0.00,316,122
-3830,Psychonauts,2006-10-11,9.99,13923,701
-3900,"Sid Meier's Civilization® IV",2006-10-25,19.99,2492,195
-3910,"Sid Meier's Civilization® III Complete",2006-10-25,4.99,5061,619
-3920,"Sid Meier's Pirates!",2005-07-11,9.99,5009,305
-3960,"Shattered Union",2006-10-25,4.99,68,65
-3980,"CivCity: Rome",2007-04-06,9.99,430,160
-3990,"Civilization IV®: Warlords",2007-04-06,4.99,316,31
-4000,"Garry's Mod",2006-11-29,9.99,822326,29004
-4100,"Poker Superstars II",2006-10-05,9.99,6,7
-4230,"RACE - The WTCC Game",2006-11-24,39.99,136,51
-4240,"RACE - The WTCC Game",2006-11-24,39.99,121,42
-4290,"RACE: Caterham Expansion",2007-06-22,4.99,6,6
-4300,RoboBlitz,2006-11-07,9.99,55,19
-4420,Silverfall,2007-03-20,4.99,74,50
-4460,"City Life 2008",2008-09-29,2.49,130,44
-4470,"Silverfall: Earth Awakening",2008-07-18,3.39,50,22
-4500,"S.T.A.L.K.E.R.: Shadow of Chernobyl",2007-03-20,19.99,29072,1691
-4520,"Full Spectrum Warrior",2007-07-17,9.99,161,77
-4530,"Full Spectrum Warrior: Ten Hammers",2007-07-17,9.99,124,50
-4560,"Company of Heroes - Legacy Edition",2007-07-17,19.99,5857,401
-4570,"Warhammer® 40,000: Dawn of War® - Game of the Year Edition",2007-08-07,12.99,7417,385
-4580,"Warhammer® 40,000: Dawn of War® - Dark Crusade",2007-08-07,12.99,6402,227
-4700,"Total War: MEDIEVAL II – Definitive Edition",2006-11-15,24.99,24395,1057
-4760,"Rome: Total War™ - Collection",2007-08-28,0.00,13620,799
-4770,"Rome: Total War™ - Alexander",2007-08-28,0.00,550,187
-4780,"Medieval II: Total War™ Kingdoms",2007-08-28,24.99,600,34
-4800,"Heroes of Annihilated Empires",2006-11-22,7.99,474,81
-4900,"Zen of Sudoku",2006-12-14,0.00,210,28
-6000,"STAR WARS™ Republic Commando™",2009-07-08,9.99,12401,569
-6010,"Indiana Jones® and the Fate of Atlantis™",2009-07-08,5.99,1017,60
-6020,"STAR WARS™ Jedi Knight - Jedi Academy™",2009-09-16,9.99,11119,454
-6030,"STAR WARS™ Jedi Knight II - Jedi Outcast™",2009-09-16,9.99,3583,349
-6040,"The Dig®",2009-07-08,5.99,867,79
-6060,"Star Wars: Battlefront 2 (Classic, 2005)",2009-07-08,9.99,45065,2771
-6080,"Thrillville®: Off the Rails™",2009-07-08,9.99,598,49
-6090,"Armed and Dangerous®",2009-07-08,5.99,217,20
-6200,"Ghost Master®",2006-12-21,4.99,1429,177
-6210,"Vegas: Make It Big™",2006-12-21,4.99,107,37
-6220,FlatOut,2007-02-02,7.49,3552,290
-6250,"Making History: The Calm & the Storm",2007-03-13,4.99,477,119
-6270,"Ducati World Championship",2007-09-21,4.99,85,106
-6300,"Dreamfall: The Longest Journey",2007-01-12,7.99,818,152
-6310,"The Longest Journey",2007-05-01,3.99,1578,159
-6400,"Joint Task Force",2007-03-27,7.99,207,28
-6420,"Nexus - The Jupiter Incident",2007-07-03,9.99,712,126
-6510,"Lost Planet™: Extreme Condition",2007-06-26,14.99,1120,270
-6550,"Devil May Cry® 3 Special Edition",2007-06-12,19.99,2001,1337
-6600,"Bullet Candy",2007-02-14,3.99,42,38
-6800,"Commandos: Behind Enemy Lines",2007-03-15,4.99,2687,323
-6810,"Commandos: Beyond the Call of Duty",2007-03-15,4.99,714,97
-6830,"Commandos 2: Men of Courage",2007-03-15,4.99,1979,340
-6840,"Commandos 3: Destination Berlin",2007-03-15,4.99,605,351
-6850,"Hitman 2: Silent Assassin",2007-03-15,8.99,2484,460
-6860,"Hitman: Blood Money",2007-03-15,9.99,9785,601
-6870,"Battlestations: Midway",2007-03-15,6.99,598,178
-6880,"Just Cause",2007-03-15,6.99,2789,1391
-6900,"Hitman: Codename 47",2007-03-15,7.99,2046,779
-6910,"Deus Ex: Game of the Year Edition",2007-03-29,6.99,11145,601
-6920,"Deus Ex: Invisible War",2007-03-29,6.99,1046,782
-6980,"Thief: Deadly Shadows",2007-03-29,8.99,1692,371
-7000,"Tomb Raider: Legend",2007-03-29,6.99,3526,470
-7010,"Project: Snowblind",2007-03-29,5.99,385,127
-7020,"Rogue Trooper",2007-03-29,9.99,355,24
-7110,"Jade Empire™: Special Edition",2007-02-27,14.99,1200,402
-7200,"Trackmania United Forever",2008-04-16,29.99,1871,107
-7210,"Runaway, A Road Adventure",2007-03-14,4.99,411,134
-7220,"Runaway, The Dream of The Turtle",2007-03-14,4.99,145,125
-7260,Loki,2007-11-05,9.99,114,73
-7510,X-Blades,2009-04-30,9.99,1860,1149
-7600,"Sid Meier's Railroads!",2007-05-04,9.99,1825,781
-7610,"Railroad Tycoon 3",2007-05-04,9.99,699,217
-7620,"Railroad Tycoon II Platinum",2007-05-04,4.99,899,120
-7650,"X-COM: Terror From the Deep",2007-05-04,4.99,626,59
-7660,"X-COM: Apocalypse",2008-09-04,4.99,644,81
-7670,BioShock™,2007-08-21,0.00,26231,1546
-7730,"X-COM: Interceptor",2008-09-04,4.99,81,76
-7760,"X-COM: UFO Defense",2008-09-04,4.99,3035,170
-7770,"X-COM: Enforcer",2008-09-04,4.99,191,164
-7830,"Men of War™",2009-05-06,4.99,2555,309
-7840,"Death Track®: Resurrection",2009-05-06,2.99,74,53
-7860,NecroVision,2009-05-20,4.99,865,406
-7940,"Call of Duty® 4: Modern Warfare®",2007-11-12,9.99,16788,1211
-8000,"Tomb Raider: Anniversary",2007-06-05,8.99,4173,908
-8080,"Kane and Lynch: Dead Men™",2007-12-13,0.00,1954,1122
-8100,"Conflict: Denied Ops",2008-02-08,5.99,177,162
-8140,"Tomb Raider: Underworld",2008-11-21,8.99,3702,1162
-8170,"Battlestations Pacific",2009-05-12,0.00,1685,704
-8200,"Sam & Max 101: Culture Shock",2007-06-15,0.00,440,51
-8220,"Sam & Max 103: The Mole, the Mob and the Meatball",2007-06-15,0.00,89,13
-8230,"Sam & Max 104: Abe Lincoln Must Die!",2007-06-15,0.00,399,68
-8240,"Sam & Max 105: Reality 2.0",2007-06-15,0.00,84,7
-8250,"Sam & Max 106: Bright Side of the Moon",2007-06-15,0.00,79,8
-8260,"Sam & Max 201: Ice Station Santa",2008-05-16,0.00,160,20
-8270,"Sam & Max 202: Moai Better Blues",2008-05-16,0.00,66,15
-8280,"Sam & Max 203: Night of the Raving Dead",2008-05-16,0.00,68,9
-8300,"Sam & Max 205: What's New Beelzebub?",2008-05-16,0.00,61,9
-8310,"Bone: Out From Boneville",2008-06-17,0.00,93,84
-8320,"Bone: The Great Cow Race",2008-06-17,0.00,61,39
-8330,"Telltale Texas Hold ‘Em",2008-06-17,0.99,113,99
-8340,"Strong Bad's Cool Game for Attractive People: Season 1",2008-12-18,14.99,336,31
-8400,"Geometry Wars: Retro Evolved",2007-06-18,3.99,777,86
-8600,"RACE 07",2007-10-15,3.99,2078,373
-8640,"RACE On",2009-10-16,7.99,0,0
-8780,"RACE On",2009-10-16,7.99,0,0
-8800,"Civilization IV: Beyond the Sword",2007-07-24,9.99,3245,124
-8880,"Freedom Force",2009-05-29,4.99,256,210
-8890,"Freedom Force vs. the Third Reich",2009-05-29,4.99,200,36
-9000,"Spear of Destiny",2007-08-03,2.99,399,69
-9010,"Return to Castle Wolfenstein",2007-08-03,4.99,6043,452
-9030,"QUAKE Mission Pack 2: Dissolution of Eternity",2007-08-03,0.00,304,27
-9040,"QUAKE Mission Pack 1: Scourge of Armagon",2007-08-03,0.00,406,24
-9050,"DOOM 3",2007-08-03,4.99,5555,683
-9060,"HeXen II",2007-08-03,4.99,321,66
-9160,"Master Levels for Doom II",2007-08-03,14.99,527,161
-9180,"Commander Keen",2007-08-03,4.99,1204,84
-9310,"Warhammer® 40,000: Dawn of War® – Winter Assault",2007-08-07,12.99,1401,161
-9340,"Company of Heroes: Opposing Fronts",2007-09-24,19.99,856,77
-9450,"Warhammer® 40,000: Dawn of War® - Soulstorm",2008-03-05,12.99,12358,588
-9460,"Frontlines™: Fuel of War™",2008-02-29,19.99,537,279
-9480,"Saints Row 2",2009-01-07,9.99,13154,3883
-9500,Gish,2007-07-20,9.99,245,172
-9710,"Desperados 2: Cooper's Revenge",2008-03-12,9.99,95,111
-9730,"Tycoon City: New York",2008-03-12,1.99,0,0
-9760,"Act of War: High Treason",2008-03-12,2.99,319,75
-9800,"Death to Spies",2008-03-12,4.99,587,199
-9850,"Codename: Panzers - Cold War",2009-05-06,14.99,142,76
-10090,"Call of Duty: World at War",2008-11-18,19.99,38439,3363
-10100,"King's Quest™ Collection",2009-07-23,19.99,236,44
-10110,"Space Quest™ Collection",2009-07-23,19.99,256,51
-10120,"Aces of the Galaxy™",2009-07-23,9.99,18,21
-10130,TimeShift™,2009-07-23,19.99,872,230
-10140,"3D Ultra™ Minigolf Adventures",2009-07-23,9.99,68,38
-10150,Prototype™,2009-06-10,19.99,6973,1701
-10180,"Call of Duty®: Modern Warfare® 2 (2009)",2009-11-11,19.99,44225,3285
-10190,"Call of Duty®: Modern Warfare® 2 (2009)",2009-11-11,19.99,31945,2927
-10460,"The Club™",2008-02-20,14.99,82,64
-10500,"Total War: EMPIRE – Definitive Edition",2009-03-04,24.99,25868,2598
-10520,"Beijing 2008™ - The Official Video Game of the Olympic Games",2008-08-14,0.00,0,0
-11020,"TrackMania Nations Forever",2008-04-16,0.00,17250,2117
-11040,"Sherlock Holmes - Nemesis",2008-08-07,1.99,314,116
-11050,"Dracula: Origin",2008-08-07,9.99,152,73
-11130,"Sherlock Holmes: The Mystery of the Mummy",2009-08-06,0.00,106,253
-11140,"Sherlock Holmes: The Awakened - Remastered Edition",2009-08-06,9.99,388,147
-11150,"Sherlock Holmes: The Silver Earring",2009-08-06,9.99,268,174
-11190,"Sherlock Holmes versus Jack the Ripper",2009-12-23,9.99,677,179
-11200,"Shadowgrounds Survivor",2007-11-14,9.99,416,283
-11230,"Gumboy Tournament",2008-05-19,2.99,331,139
-11240,"Space Trader: Merchant Marine",2008-10-23,4.99,313,320
-11250,"Pacific Storm",2008-06-24,7.99,27,15
-11260,"Pacific Storm Allies",2008-08-18,7.99,113,78
-11280,"Penguins Arena: Sedna's World",2008-12-18,5.99,1116,132
-11330,Obulis,2009-03-19,0.00,635,143
-11340,"Larva Mortus",2009-03-19,2.99,556,177
-11360,Chains,2009-07-01,2.99,447,151
-11370,"Nikopol: Secrets of the Immortals",2009-07-30,4.99,190,156
-11390,"Crash Time 2",2009-08-27,1.24,0,0
-11450,Overlord™,2007-10-26,4.99,5087,364
-11560,"Maelstrom: The Battle for Earth Begins",2009-02-13,4.99,90,56
-11590,"Hospital Tycoon",2009-02-13,4.99,225,332
-11920,"LUMINES™ Advance Pack",2008-04-18,0.00,20,3
-12100,"Grand Theft Auto III",2008-01-04,0.00,11878,1856
-12110,"Grand Theft Auto: Vice City",2008-01-04,0.00,25698,2047
-12120,"Grand Theft Auto: San Andreas",2008-01-04,0.00,73138,6484
-12130,Manhunt,2008-01-04,3.49,2052,928
-12150,"Max Payne 2: The Fall of Max Payne",2008-01-04,4.49,6398,375
-12160,"Midnight Club 2",2008-01-04,0.00,789,116
-12170,"Grand Theft Auto",2008-01-04,0.00,285,54
-12180,"Grand Theft Auto 2",2008-01-04,0.00,312,26
-12200,"Bully: Scholarship Edition",2008-10-21,5.24,19274,3597
-12310,"Culpa Innata",2008-01-18,9.99,69,22
-12320,"Sacred Gold",2008-07-09,9.99,2777,515
-12330,"Darkstar One",2008-02-13,9.99,405,87
-12340,"Jack Keane",2008-06-27,9.99,60,37
-12360,"FlatOut: Ultimate Carnage",2008-08-26,7.99,3430,547
-12370,"Jagged Alliance 2 Gold",2006-07-06,19.99,0,0
-12380,"Jagged Alliance 2 Gold",2006-07-06,19.99,0,0
-12390,"Exodus from the Earth",2008-10-24,14.99,72,67
-12420,"Perimeter 2: New Earth",2009-02-10,14.99,14,53
-12430,"SlamIt Pinball Big Score",2009-02-23,4.99,39,80
-12440,"Ankh 2: Heart of Osiris",2009-06-16,0.99,37,19
-12450,"Ankh 3: Battle of the Gods",2009-06-16,1.49,23,11
-12460,"BC Kings",2009-06-16,4.99,113,75
-12470,"Port Royale 2",2009-06-16,4.99,349,144
-12480,"9th Company: Roots Of Terror",2009-12-03,0.99,111,82
-12500,"PuzzleQuest: Challenge of the Warlords",2008-01-29,9.99,783,116
-12510,"Prison Tycoon 3™: Lockdown",2008-01-29,9.99,22,95
-12520,"18 Wheels of Steel: American Long Haul",2008-01-29,9.99,318,125
-12530,"Hunting Unlimited™ 2008",2008-01-29,9.99,44,10
-12540,"Mahjongg Investigations: Under Suspicion",2008-07-29,9.99,23,7
-12560,"Ride! Carnival Tycoon",2008-07-29,9.99,18,27
-12570,"Hot Dish",2008-07-29,9.99,14,15
-12580,"Dr. Daisy Pet Vet",2008-07-29,9.99,12,13
-12590,"Sprint Cars Road to Knoxville",2008-07-29,9.99,31,28
-12600,"Midnight Outlaw: 6 Hours to SunUp",2008-07-29,9.99,15,32
-12640,Drakensang,2009-03-09,9.99,440,112
-12650,"Fetch It Again",2009-07-17,6.99,2,2
-12660,"Miss Popularity",2009-07-17,6.99,5,1
-12670,"Mission Runway",2009-07-17,9.99,13,8
-12690,"Hunting Unlimited 2010",2009-07-07,9.99,211,46
-12710,"Overlord™: Raising Hell",2008-02-28,9.99,1624,113
-12770,"Rise of the Argonauts",2009-01-07,9.99,492,205
-12790,Damnation,2009-05-22,9.99,187,224
-12810,"Overlord II",2009-06-23,9.99,3441,440
-12830,"Operation Flashpoint: Dragon Rising",2009-10-06,9.99,1448,701
-12900,AudioSurf,2008-02-15,9.99,10056,441
-13000,"Ninja Reflex: Steamworks Edition",2008-03-21,4.99,52,6
-13140,"America's Army 3",2009-06-17,0.00,1655,723
-13200,"Unreal 2: The Awakening",2008-03-17,14.99,361,158
-13210,"Unreal Tournament 3 Black",2009-03-05,19.99,3166,354
-13230,"Unreal Tournament 2004: Editor's Choice Edition",2004-03-17,14.99,3359,84
-13240,"Unreal Tournament: Game of the Year Edition",2008-03-17,9.99,3380,102
-13250,"Unreal Gold",2008-03-17,9.99,1824,216
-13500,"Prince of Persia: Warrior Within™",2008-11-21,9.99,1807,307
-13520,"Far Cry®",2008-04-01,9.99,5672,1217
-13530,"Prince of Persia: The Two Thrones™",2008-11-21,9.99,1047,282
-13540,"Tom Clancy's Rainbow Six® Vegas",2008-04-09,9.99,744,196
-13560,"Tom Clancy's Splinter Cell®",2008-04-01,9.99,1929,280
-13570,"Tom Clancy's Splinter Cell Chaos Theory®",2009-08-27,9.99,3359,233
-13580,"Tom Clancy's Splinter Cell Double Agent®",2009-02-13,9.99,510,773
-13600,"Prince of Persia®: The Sands of Time",2008-11-21,9.99,2223,349
-13620,"Tom Clancy's Ghost Recon® Desert Siege™",2008-07-15,4.99,82,5
-13630,"Tom Clancy's Ghost Recon® Island Thunder™",2008-07-15,4.99,81,12
-15000,"Tom Clancy's Rainbow Six Lockdown™",2008-05-13,9.99,185,134
-15080,"Rayman Raving Rabbids™",2008-06-13,9.99,735,149
-15100,"Assassin's Creed™: Director's Cut Edition",2008-04-09,19.99,11496,2260
-15120,"Tom Clancy's Rainbow Six® Vegas 2",2008-04-16,9.99,3891,689
-15130,"Beyond Good and Evil™",2008-05-13,9.99,2521,377
-15160,"Petz® Horsez® 2",2008-06-13,9.99,110,44
-15170,"Heroes of Might & Magic V",2008-05-13,9.99,2582,355
-15190,"Brothers in Arms: Road to Hill 30™",2008-05-13,9.99,1153,159
-15200,"Silent Hunter®: Wolves of the Pacific",2008-06-13,9.99,537,249
-15210,"Silent Hunter® III",2008-06-13,2.49,1607,229
-15240,"Silent Hunter®: Wolves of the Pacific U-Boat Missions",2008-06-13,9.99,189,49
-15270,"Cold Fear™",2008-05-13,9.99,648,126
-15280,"IL-2 Sturmovik: 1946",2008-06-13,9.99,1355,198
-15300,"Tom Clancy's Ghost Recon®",2008-07-15,9.99,992,76
-15320,"IL-2 Sturmovik: 1946",2008-06-13,9.99,2148,274
-15350,"Brain Spa",2008-10-10,9.99,4,5
-15370,"Heroes of Might & Magic V: Tribes of the East",2008-10-10,9.99,2021,151
-15380,"Heroes of Might & Magic V: Hammers of Fate",2008-10-10,9.99,204,34
-15390,"Brothers in Arms: Hell's Highway™",2008-10-08,9.99,1433,153
-15400,"Harvest: Massive Encounter",2009-01-23,7.99,109,30
-15500,"The Wonderful End of the World",2008-07-17,4.99,465,143
-15520,"AaAaAA!!! - A Reckless Disregard for Gravity",2009-09-03,4.99,593,115
-15620,"Warhammer 40,000: Dawn of War II",2009-02-18,19.99,9013,1090
-15700,"Oddworld: Abe's Oddysee®",2008-08-28,2.99,3407,575
-15710,"Oddworld: Abe's Exoddus®",2008-08-28,2.99,1267,69
-15800,"Planet Busters",2008-06-30,9.99,1,2
-15900,"7 Wonders II",2008-06-10,9.99,131,38
-15910,"Luxor Amun Rising",2008-06-10,9.99,13,7
-15920,"Luxor 2",2008-06-10,9.99,11,21
-15930,"Luxor 3",2008-06-10,9.99,127,16
-15960,"Little Farm",2008-06-10,9.99,77,37
-15970,Luxor,2008-06-10,9.99,56,27
-16000,"Discovery! A Seek and Find Adventure",2008-07-29,9.99,26,35
-16020,"Samantha Swift and the Hidden Roses of Athena",2008-10-31,9.99,43,32
-16030,"7 Wonders: Treasures of Seven",2008-11-14,9.99,89,34
-16040,"Luxor: Quest for the Afterlife",2008-12-15,9.99,67,19
-16060,"Samantha Swift and the Golden Touch",2009-04-29,9.99,33,45
-16100,"Virtual Villagers: A New Home",2008-05-12,9.99,63,14
-16110,"Virtual Villagers: The Lost Children",2008-05-12,9.99,44,5
-16120,"Plant Tycoon",2008-05-12,9.99,118,8
-16130,"Fish Tycoon",2008-05-12,9.99,58,12
-16180,"Virtual Villagers - The Secret City",2008-05-28,9.99,86,8
-16200,"Virtual Families",2009-05-06,9.99,41,9
-16300,"Everyday Shooter",2008-05-08,9.99,95,7
-16450,"F.E.A.R. 2: Project Origin",2009-02-12,14.99,5318,844
-16500,"Chaos Theory",2008-05-22,2.99,10,2
-16600,"Trials 2: Second Edition",2008-05-28,9.99,200,37
-16620,"Monster Trucks Nitro",2009-01-29,19.99,29,16
-16710,"Insecticide Part 1",2008-07-01,2.99,325,115
-16720,"Velvet Assassin",2009-05-01,4.99,1435,908
-16730,Legendary,2008-12-01,4.99,1291,1093
-16810,"Sid Meier's Civilization IV: Colonization",2008-09-23,19.99,825,143
-17100,"Children of the Nile: Enhanced Edition",2008-07-08,7.99,305,61
-17120,"Children of the Nile: Alexandria",2008-09-22,2.49,111,23
-17140,Hinterland,2008-09-30,9.99,166,48
-17180,"Mosby's Confederacy",2008-11-19,9.99,24,12
-17300,Crysis,2008-09-17,29.99,10238,2623
-17330,"Crysis Warhead®",2008-09-17,19.99,2750,492
-17340,"Crysis Warhead®",2008-09-17,19.99,1783,324
-17390,SPORE™,2008-12-19,19.99,41718,3650
-17410,"Mirror's Edge™",2009-01-14,19.99,28497,4053
-17430,"Need for Speed Undercover",2008-12-19,0.00,5757,1934
-17440,"SPORE™ Creepy & Cute Parts Pack",2008-12-19,19.99,1317,169
-17450,"Dragon Age: Origins",2009-11-06,0.00,9579,860
-17460,"Mass Effect (2007)",2008-12-19,19.99,14834,992
-17470,"Dead Space",2009-01-09,19.99,20216,1946
-17480,"Command & Conquer: Red Alert 3",2009-01-08,19.99,9390,1635
-17500,"Zombie Panic! Source",2008-10-03,0.00,6149,1102
-17580,Dystopia,2009-02-06,0.00,841,155
-17740,"Empires Mod",2008-07-28,0.00,820,138
-18000,"Precipice of Darkness, Episode One",2008-05-21,7.99,427,54
-18020,"Precipice of Darkness, Episode Two",2008-11-07,7.99,143,29
-18110,"Shattered Horizon",2009-11-04,0.00,398,72
-18300,Spectraball,2008-10-20,4.99,358,113
-18400,"Crazy Machines 2",2008-06-20,9.99,107,126
-18420,"Crazy Machines",2008-12-12,9.99,130,31
-18430,"Crazy Machines 1.5",2008-12-12,9.99,2,1
-18450,"Crazy Machines 1.5",2008-12-12,9.99,1,1
-18460,"Crazy Machines 1.5",2008-12-12,9.99,1,1
-18470,Helldorado,2009-04-30,9.99,93,37
-18480,"Mata Hari",2009-07-29,9.99,69,49
-18500,"Defense Grid: The Awakening",2008-12-08,9.99,4350,157
-18600,"Mayhem Intergalactic",2009-01-22,9.99,13,12
-18700,"And Yet It Moves",2009-04-02,9.99,812,367
-19000,"Silent Hill Homecoming",2008-11-06,39.99,953,996
-19200,"Tank Universal",2008-08-21,4.99,247,185
-19500,"Eternity's Child",2008-07-31,4.99,16,57
-19800,"Brothers in Arms: Earned in Blood™",2008-10-10,9.99,593,85
-19810,"The Sum of All Fears",2008-10-10,9.99,24,6
-19830,"Tom Clancy's Rainbow Six® 3 Gold",2008-09-25,9.99,1353,118
-19900,"Far Cry® 2",2008-10-22,9.99,9730,2807
-19980,"Prince of Persia®",2008-12-10,9.99,1849,486
-20200,"Galactic Bowling",2008-10-21,19.99,6,11
-20500,"Red Faction Guerrilla Steam Edition",2009-09-15,0.00,6700,715
-20510,"S.T.A.L.K.E.R.: Clear Sky",2008-09-15,9.99,13293,2177
-20530,"Red Faction",2009-08-05,9.99,1933,279
-20540,"Company of Heroes: Tales of Valor",2009-04-08,19.99,1878,143
-20550,"Red Faction II",2009-08-06,9.99,510,452
-20700,Starscape,2008-11-03,7.99,66,17
-20710,"Mr. Robot",2008-11-03,7.99,65,13
-20900,"The Witcher: Enhanced Edition Director's Cut",2008-09-19,9.99,60877,7951
-21000,"LEGO® Batman™: The Videogame",2008-09-29,19.99,5826,770
-21010,"Watchmen: The End is Nigh",2009-03-04,4.99,318,146
-21030,"Watchmen: The End is Nigh Part 2",2009-07-29,4.99,128,67
-21300,"Gravitron 2",2008-09-30,4.99,23,5
-21400,"Project Aftermath",2008-10-03,0.00,11,9
-21500,Pyroblazer®,2008-11-13,4.99,4,3
-21600,"Age of Booty™",2009-03-09,0.00,76,121
-21640,Flock!,2009-04-07,2.49,169,41
-21660,"Street Fighter® IV",2009-07-07,0.00,340,150
-21670,"Bionic Commando",2009-07-28,9.99,980,361
-21680,"Bionic Commando: Rearmed",2009-07-28,9.99,566,361
-21690,"Resident Evil 5",2009-09-15,19.99,25603,3771
-21780,"Driver® Parallel Lines",2009-02-13,9.99,742,80
-21800,"Tom Clancy's EndWar™",2009-02-25,9.99,539,143
-21980,"Call of Juarez: Bound in Blood",2009-07-02,9.99,2541,426
-22000,"World of Goo",2008-10-13,14.99,4755,278
-22100,"Mount & Blade",2008-11-03,9.99,5117,411
-22120,"Penumbra: Black Plague Gold Edition",2009-01-23,9.99,2062,130
-22130,"Hearts of Iron 2 Complete",2009-01-23,14.99,420,73
-22180,"Penumbra Overture",2009-03-06,9.99,2634,279
-22200,"Zeno Clash",2009-04-21,9.99,2350,400
-22300,"Fallout 3",2008-10-28,9.99,13806,3644
-22310,"Rogue Warrior",2009-12-01,4.99,782,388
-22320,"The Elder Scrolls III: Morrowind® Game of the Year Edition",2009-06-16,14.99,19141,936
-22330,"The Elder Scrolls IV: Oblivion® Game of the Year Edition",2009-06-16,14.99,35336,1642
-22340,"Call of Cthulhu®: Dark Corners of the Earth",2009-06-16,4.99,1844,850
-22370,"Fallout 3: Game of the Year Edition",2009-12-17,19.99,29320,7771
-22500,Spectromancer,2009-02-11,6.99,207,35
-23300,Yosumin!™,2009-05-26,5.99,119,78
-23310,"The Last Remnant™",2009-04-09,0.00,3159,729
-23380,Gyromancer,2009-11-18,5.99,159,139
-23400,"Imperium Romanum Gold Edition",2008-11-25,9.99,316,62
-23420,"Europa Universalis: Rome - Gold Edition",2008-12-18,9.99,147,74
-23450,"Grand Ages: Rome",2009-03-20,9.99,488,177
-23455,"Grand Ages: Rome - Reign of Augustus",0001-01-01,6.99,0,0
-23460,Ceville,2009-02-27,0.51,127,28
-23490,"Tropico 3",2009-10-20,9.99,1517,198
-23500,"Puzzle Quest: Galactrix",2009-02-24,9.99,139,162
-23700,"Puzzle Kingdoms",2009-04-27,14.99,166,121
-24400,"King Arthur - The Role-playing Wargame",2009-11-24,2.49,373,160
-24410,"Crusaders: Thy Kingdom Come",2009-10-08,9.99,22,14
-24420,Aquaria,2008-12-15,9.99,1203,158
-24720,"SPORE™ Galactic Adventures",2009-06-23,19.99,4802,669
-24740,"Burnout Paradise: The Ultimate Box",2009-03-12,0.00,11514,1699
-24790,"Command & Conquer 3: Tiberium Wars",2009-11-13,14.99,5252,559
-24800,"Command & Conquer: Red Alert 3 - Uprising",2009-10-06,19.99,3242,633
-24810,"Command & Conquer 3: Kane's Wrath",2009-11-13,14.99,2975,135
-24840,"Medal of Honor: Airborne",2009-10-06,0.00,3822,903
-24870,"Need for Speed: Shift",2009-10-06,0.00,2037,615
-25500,"Cricket Revolution",2009-10-28,2.99,69,53
-25600,"Eschalon: Book I",2009-02-10,0.00,257,41
-25700,"Madballs in Babo:Invasion",2009-09-17,4.99,228,44
-25800,"Europa Universalis III Complete",2009-02-04,14.99,1525,296
-25830,"Knights of Honor",2009-02-04,9.99,1876,149
-25850,"Elven Legacy",2009-04-07,0.99,110,39
-25890,"Hearts of Iron III",2009-08-07,9.99,4160,1233
-25900,"King's Bounty: The Legend",2009-05-01,6.99,2380,257
-25910,"Supreme Ruler 2020 Gold",2009-07-09,9.99,177,48
-25930,"East India Company",2009-07-31,9.99,80,68
-25980,"Majesty 2",2009-09-17,9.99,611,270
-25990,"Majesty Gold HD",2009-09-04,9.99,442,28
-26000,"The Maw",2009-03-09,9.99,212,41
-26300,"Drug Wars",2009-03-17,4.99,14,30
-26500,Cogs,2009-04-14,5.99,755,96
-26800,Braid,2009-04-10,14.99,8106,520
-26900,"Crayon Physics Deluxe",2009-05-06,19.99,849,134
-27000,"The Path",2009-03-18,9.99,606,193
-27020,"The Graveyard",2009-03-09,4.99,350,230
-27050,Fatale,2009-11-04,6.99,66,52
-27200,"Summer Athletics",2009-04-02,19.99,22,17
-27400,"Dangerous High School Girls in Trouble!™",2009-02-23,19.99,121,76
-27600,"Mevo and The Grooveriders",2009-03-19,0.00,24,2
-27800,"Space Giraffe",2009-03-19,9.99,49,21
-27900,"Twin Sector",2009-09-16,4.99,97,169
-29120,"Yumsters 2: Around the World",2009-11-12,4.99,53,29
-29130,"Musaic Box",2009-03-19,4.99,220,17
-29160,"Blueberry Garden",0001-01-01,4.99,110,34
-29180,Osmos,2009-08-18,9.99,1040,150
-29540,"Guild Wars® Game of the Year Edition",2009-04-22,19.99,8,1
-29560,"Guild Wars Factions®",2009-04-22,19.99,0,0
-29570,"Guild Wars® Trilogy",2009-04-22,29.99,34,2
-29580,"Guild Wars Nightfall®",2009-04-22,19.99,0,0
-29800,Caster,2009-03-19,1.99,3212,845
-29900,"Dark Sector",2009-03-24,9.99,500,127
-31100,"Wallace & Gromit’s Grand Adventures",2009-03-23,14.99,127,20
-31109,"Wallace & Gromit’s Grand Adventures",2009-03-23,14.99,0,0
-31160,"Wallace & Gromit’s Grand Adventures",2009-03-23,14.99,0,0
-31170,"Tales of Monkey Island: Complete Season",2009-07-07,14.99,520,65
-31180,"Tales of Monkey Island Complete Pack: Chapter 2 - The Siege of Spinner Cay",2009-08-20,14.99,88,9
-31190,"Tales of Monkey Island Complete Pack: Chapter 3 - Lair of the Leviathan",2009-09-29,14.99,77,7
-31200,"Tales of Monkey Island Complete Pack: Chapter 4 - The Trial and Execution of Guybrush Threepwood",2009-10-30,14.99,79,18
-31210,"Tales of Monkey Island Complete Pack: Chapter 5 - Rise of the Pirate God",0001-01-01,14.99,91,11
-31270,"Puzzle Agent",0001-01-01,4.99,2081,277
-31300,"Tunnel Rats",2009-05-15,19.99,12,24
-31700,"Iron Grip: Warlord",2008-12-05,0.00,350,58
-31800,"Nancy Drew®: Danger by Design",2009-10-10,6.99,79,21
-31810,"Nancy Drew®: Last Train to Blue Moon Canyon",2009-10-10,6.99,218,9
-31820,"Nancy Drew®: The Haunted Carousel",2009-10-10,6.99,122,9
-31830,"Nancy Drew®: Curse of Blackmoor Manor",2009-10-10,6.99,224,29
-31840,"Nancy Drew®: Danger on Deception Island",2009-10-10,6.99,146,9
-31850,"Nancy Drew®: Ghost Dogs of Moon Lake",2009-10-10,6.99,142,13
-31860,"Nancy Drew®: Legend of the Crystal Skull",2009-07-17,6.99,120,12
-31870,"Nancy Drew® Dossier: Lights, Camera, Curses!",2009-07-17,6.99,35,20
-31880,"Nancy Drew®: Secret of the Old Clock",2009-10-10,6.99,137,14
-31890,"Nancy Drew®: Secret of the Scarlet Hand",2009-10-10,6.99,107,13
-31900,"Nancy Drew®: The Creature of Kapu Cave",2009-07-17,6.99,66,29
-31910,"Nancy Drew®: The Haunting of Castle Malloy",2009-07-17,6.99,98,23
-31920,"Nancy Drew®: The Phantom of Venice",2009-07-17,6.99,102,15
-31930,"Nancy Drew®: The White Wolf of Icicle Creek",2009-07-17,6.99,106,38
-31980,"Nancy Drew®: Ransom of the Seven Ships",2009-07-21,0.00,41,19
-32000,Raycatcher,2009-04-17,4.99,0,14
-32110,"LUXOR: Mah Jong",2009-07-13,9.99,70,29
-32120,"Chainz 2: Relinked",2009-07-13,9.99,34,29
-32140,"Midnight Mysteries",2009-09-28,9.99,104,47
-32150,"Everyday Genius: SquareLogic",2009-10-21,4.99,370,7
-32160,"Zombie Bowl-o-Rama",2009-10-15,9.99,324,51
-32200,"Metal Drift",2009-10-22,9.99,83,47
-32310,"Indiana Jones® and the Last Crusade™",2009-07-08,5.99,198,56
-32330,"LEGO® Indiana Jones™: The Original Adventures",2009-07-08,19.99,1914,276
-32340,LOOM™,2009-07-08,5.99,443,60
-32350,"STAR WARS™ Starfighter™",2009-07-08,5.99,294,279
-32360,"The Secret of Monkey Island: Special Edition",2009-07-15,9.99,4127,195
-32370,"STAR WARS™ - Knights of the Old Republic™",2009-09-05,9.99,24139,2339
-32380,"STAR WARS™ Jedi Knight: Dark Forces II",2009-09-16,5.99,1313,384
-32390,"STAR WARS™ Jedi Knight - Mysteries of the Sith™",2009-09-16,2.99,536,277
-32400,"STAR WARS™ - Dark Forces",2009-09-16,5.99,2209,271
-32410,Lucidity™,2009-10-07,5.99,41,18
-32420,"STAR WARS™: The Clone Wars - Republic Heroes™",2009-10-06,19.99,325,374
-32430,"STAR WARS™ - The Force Unleashed™ Ultimate Sith Edition",2009-12-15,19.99,5845,2207
-32440,"LEGO® Star Wars™ - The Complete Saga",2009-11-12,19.99,18253,628
-32610,"Delta Force Xtreme 2",2009-06-18,19.99,101,61
-32620,"Delta Force",2009-06-18,4.99,415,46
-32630,"Delta Force 2",2009-06-18,4.99,301,48
-32640,"Delta Force Land Warrior",2009-06-18,9.99,240,19
-32650,"Delta Force: Task Force Dagger",2009-06-18,9.99,105,26
-32660,"Delta Force: Xtreme",2009-06-18,19.99,101,24
-32670,"Delta Force: Black Hawk Down",2009-06-18,14.99,565,47
-32680,"Delta Force — Black Hawk Down: Team Sabre",2009-06-18,9.99,374,36
-32710,"Armored Fist 3",2009-06-18,9.99,50,16
-32720,"F-16 Multirole Fighter",2009-06-18,9.99,74,19
-32730,"F-22 Lightning 3",2009-06-18,9.99,93,51
-32740,"MiG-29 Fulcrum",0001-01-01,9.99,62,10
-32750,"Comanche 4",2009-06-18,9.99,201,22
-32760,"Tachyon: The Fringe",2009-06-18,9.99,164,19
-32770,"Joint Operations: Combined Arms Gold",2009-09-29,19.99,202,26
-32900,"Restaurant Empire II",2009-05-27,19.99,229,77
-33100,"Alien Shooter",2009-05-27,4.99,2475,142
-33110,"Alien Shooter: Revisited",2009-05-27,4.99,355,173
-33120,"Alien Shooter 2: Reloaded",2009-05-27,4.99,2007,168
-33130,"Zombie Shooter",2009-05-27,4.99,727,146
-33180,"Zombie Shooter 2",2009-11-18,9.99,488,134
-33520,"Tropico Reloaded",2009-07-26,6.99,632,82
-33530,"Tropico Reloaded",2009-07-26,6.99,445,61
-33550,"Time of Shadows",2009-09-11,9.99,7,11
-33600,"Broken Sword 2 - the Smoking Mirror: Remastered",2009-12-02,5.99,812,97
-33610,"Broken Sword 3 - the Sleeping Dragon",2009-12-02,5.99,333,257
-33620,"Crash Time 3",2009-11-25,5.99,421,90
-33700,"Paws and Claws: Pampered Pets",2009-07-17,6.99,2,2
-33710,"Paws and Claws: Pet School",2009-07-17,6.99,9,1
-33720,"Paws and Claws: Pet Vet",2009-07-17,6.99,15,1
-33730,"18 Wheels of Steel: Extreme Trucker",2009-09-23,9.99,0,0
-34410,"Death to Spies: Moment of Truth",2009-08-07,6.99,358,63
-34420,"XIII Century – Gold Edition",2009-08-28,4.99,79,66
-34440,"Sid Meier's Civilization® IV",2006-10-25,19.99,1473,145
-34450,"Civilization IV®: Warlords",2007-04-06,4.99,131,23
-34460,"Civilization IV: Beyond the Sword",2007-07-24,9.99,1516,75
-34470,"Sid Meier's Civilization IV: Colonization",2008-09-23,19.99,358,104
-34500,"Light of Altair",2009-06-04,14.99,36,9
-34600,"Order of War™",2009-09-17,7.99,395,151
-34630,"Massive Assault",2009-11-04,9.99,22,2
-34640,"Massive Assault: Phantom Renaissance",2009-11-04,9.99,25,4
-34800,"Chronicles of Mystery: The Scorpio Ritual",2009-06-18,4.99,84,42
-34810,"Project Freedom",2009-10-14,2.99,134,30
-34820,"Combat Wings: Battle of Britain",2009-10-14,4.99,505,137
-34900,"Bad Rats: the Rats' Revenge",2009-07-20,0.99,11542,3099
-35000,"Mini Ninjas",2009-09-08,9.99,3322,418
-35070,"Flora's Fruit Farm",2009-10-01,3.99,83,63
-35300,Warfare,2009-07-20,12.99,139,31
-35310,Clutch,2009-07-20,9.99,135,60
-35600,"Big Brain Wolf",2009-11-05,4.99,46,44
-35700,"Trine Enchanted Edition",2009-07-02,3.74,12978,559
-35800,"BRAINPIPE: A Plunge to Unhumanity",2009-07-06,0.00,146,26
-36000,"Foreign Legion: Buckets of Blood",2009-08-04,3.99,189,118
-36180,"Cake Mania Collection",2009-07-17,0.00,60,20
-36240,Kuros,2009-09-21,0.00,11,1
-36900,"Angle of Attack",2009-08-17,9.99,0,3
-36910,"All Aspect Warfare",2009-08-17,9.99,3,10
-37000,"The Void",2009-12-15,9.99,773,171
-37010,"Ninja Blade",2009-11-19,0.00,192,129
-37100,Aztaka,2009-05-07,0.00,105,47
-37210,"Chocolatier®: Decadence by Design™",2009-08-12,9.99,125,59
-37220,"Cooking Dash®",2009-08-12,9.99,62,25
-37230,"Diaper Dash®",2009-08-12,9.99,15,5
-37240,"Diner Dash:® Hometown Hero™",2009-08-12,9.99,59,131
-37260,"Emerald City Confidential™",2009-08-12,9.99,72,4
-37270,"Wandering Willows™",2009-08-12,0.00,25,1
-37280,"Wedding Dash® 2: Rings Around the World",2009-08-12,9.99,29,7
-37290,Zenerchi®,2009-08-12,9.99,11,1
-37300,"DinerTown Tycoon",2009-09-30,9.99,9,9
-37400,"Time Gentlemen, Please! and Ben There, Dan That! Special Edition  Double Pack",2009-08-25,4.99,543,131
-37420,"Time Gentlemen, Please! and Ben There, Dan That! Special Edition  Double Pack",2009-08-25,4.99,500,121
-37500,Magnetis,2009-11-05,1.99,33,8
-37600,Windosill,2009-09-25,2.99,968,91
-37700,"Darkest of Days",0001-01-01,0.00,235,74
-37800,Quantz,2009-09-03,9.99,29,14
-37960,"Jewel Quest Pack",2009-08-24,19.99,34,4
-37970,"Jewel Quest Pack",2009-08-24,19.99,19,3
-37980,"Jewel Quest Pack",2009-08-24,19.99,19,3
-37990,"Jewel Quest Pack",2009-08-24,19.99,19,3
-38000,"Mahjong Quest Collection",2009-08-24,9.99,34,3
-38010,"Mahjong Quest Collection",2009-08-24,9.99,20,2
-38020,"Mahjong Quest Collection",2009-08-24,9.99,20,2
-38070,"Coconut Queen",2009-12-17,9.99,13,1
-38080,Build-A-Lot,2009-12-17,9.99,36,2
-38090,"Build-A-Lot 2: Town of the Year",2009-12-17,9.99,10,0
-38100,"Build-A-Lot 3: Passport to Europe",2009-12-17,9.99,11,1
-38110,"Build-A-Lot 4: Power Source",2009-12-17,9.99,12,5
-38210,Roogoo,2009-12-17,0.59,268,65
-38410,"Fallout 2: A Post Nuclear Role Playing Game",2009-08-19,9.99,10013,616
-38420,"Fallout Tactics: Brotherhood of Steel",2009-08-19,9.99,1503,391
-38430,"Kingpin — Life of Crime",2009-08-19,9.99,260,70
-38440,Sacrifice,2009-08-19,9.99,478,43
-38450,MDK,2009-09-17,9.99,215,63
-38460,"MDK 2",2009-09-17,9.99,135,33
-38490,"Earthworm Jim 2",2009-11-04,19.99,64,29
-39200,"Dungeon Siege II",2005-08-16,6.99,1505,555
-39360,"Freeze Tag Fun Pack #1",2009-09-23,19.99,0,0
-39391,"Freeze Tag Fun Pack #1",2009-09-23,19.99,0,0
-39392,"Freeze Tag Fun Pack #2",2009-09-23,19.99,0,0
-39500,"Gothic® 3",2009-12-02,9.99,6858,1460
-39510,"Gothic II: Gold Edition",2005-11-29,9.99,9334,753
-39530,"Painkiller: Black Edition",2007-01-24,9.99,1270,149
-39540,"SpellForce - Platinum Edition",2009-11-03,9.99,1664,261
-39550,"SpellForce 2 - Anniversary Edition",2009-10-29,14.99,698,237
-39560,"Painkiller: Resurrection",2009-10-27,9.99,127,321
-39800,"Nation Red",2009-09-03,2.99,2320,311
-40200,ItzaBitza,0001-01-01,9.99,7,3
-40210,ItzaZoo,2009-12-09,9.99,12,1
-40300,Risen,2009-10-02,9.99,6495,828
-40320,"Rush for Berlin Gold",2009-10-29,4.99,132,19
-40330,"Secret Files: Tunguska",2009-10-29,9.99,292,50
-40340,"Secret Files 2: Puritas Cordis",2009-10-29,9.99,119,23
-40400,"AI War: Fleet Command",2009-10-21,9.99,1251,258
-40500,Sacraboar,2009-11-06,2.99,15,48
-40700,Machinarium,2009-10-16,14.99,10331,482
-40720,"Samorost 2",2009-12-10,4.99,1346,228
-40990,Mafia,2002-08-28,14.99,6124,701
-41000,"Serious Sam HD: The First Encounter",2009-11-24,14.99,6208,417
-41100,Hammerfight,2009-10-28,0.00,1283,543
-41300,Altitude,2009-12-04,0.00,1689,143
-41400,"Doom Rails",2009-11-04,2.99,8,23
-41500,Torchlight,2009-10-27,14.99,5424,495
-41600,"Earthworm Jim 3D",2009-11-04,19.99,51,52
-41800,"Gratuitous Space Battles",2009-11-16,14.99,585,198
-41900,"The Bard's Tale",2009-12-11,19.99,862,272
-42200,"Nancy Drew® Dossier: Resorting to Danger!",2009-11-19,6.99,64,13
-42810,"For The Glory: A Europa Universalis Game",2009-11-11,9.99,87,37
-42930,"Elven Legacy: Magic",2009-12-03,0.51,13,5
-42940,"Elven Legacy: Siege",2009-11-17,1.99,13,4
-42950,"Elven Legacy: Ranger",2009-10-20,1.99,16,2
-43100,"World of Zoo",2009-10-30,14.99,165,36
-45700,"Devil May Cry 4",2009-12-22,19.99,1831,174
-48110,"Silent Hunter 5®: Battle of the Atlantic",0001-01-01,9.99,981,1261
-50970,"Mystery Case Files: Madame Fate®",2007-12-14,6.99,35,10
-52003,Portal,2007-10-10,9.99,56620,1154
-55000,Flotilla,0001-01-01,9.99,178,35
-58400,Turba,0001-01-01,4.99,48,90
-61500,"Age of Wonders",0001-01-01,5.99,575,161
-61510,"Age of Wonders II: The Wizard's Throne",0001-01-01,9.99,211,47
-61520,"Age of Wonders Shadow Magic",0001-01-01,9.99,426,53
-65540,"Gothic 1",2001-03-15,9.99,9119,807
-73230,"Majesty Gold HD",2009-09-04,9.99,0,0
-200960,"Geneforge 1",2001-12-01,19.99,335,25
-200980,"Geneforge 2",2003-07-01,19.99,62,5
-200990,"Geneforge 3",2005-04-01,19.99,42,4
-201000,"Geneforge 4: Rebellion",2006-11-01,19.99,35,3
-201010,"Geneforge 5: Overthrow",2008-11-01,19.99,95,7
-203290,"America's Army: Proving Grounds",0001-01-01,0.00,8224,2213
-223330,"Sea Dogs: To Each His Own - Pirate Open World RPG",0001-01-01,14.99,1495,491
-224920,"Legacy of Kain: Soul Reaver",1999-09-08,0.00,1252,452
-228200,"Company of Heroes",2006-09-11,19.99,11836,714
-232770,POSTAL,1997-11-14,0.00,4806,724
-233510,"Lunnye Devitsy",2009-07-01,4.99,106,57
-241620,Inquisitor,0001-01-01,9.99,415,197
-256576,"CSX ES44AC Add-on Livery",2009-01-01,4.99,0,0
-256611,"CSX SD70MAC Add-on Livery",2009-01-01,4.99,0,0
-259340,"Chicken Shoot Gold",2003-11-01,6.99,535,262
-262920,"Super Chain Crusher Horizon",0001-01-01,14.99,18,14
-263700,"Muffin Knight",0001-01-01,4.99,322,94
-268420,"Aura Kingdom",0001-01-01,0.00,6814,1861
-282010,"Carmageddon Max Pack",1997-06-30,9.99,606,80
-290320,"Project Temporality",0001-01-01,14.99,84,17
-292990,"NOBUNAGA'S AMBITION: Souzou",0001-01-01,24.99,835,132
-298110,"Far Cry® 4",0001-01-01,29.99,35175,7255
-301610,"openCanvas 6",0001-01-01,49.99,503,73
-307580,Technobabylon,0001-01-01,14.99,1234,66
-329280,"Avalon Lords: Dawn Rises",0001-01-01,0.00,75,68
-330390,"GRANDIA II HD Remaster",0001-01-01,19.99,1721,231
-333930,"Dirty Bomb®",0001-01-01,0.00,47153,10891
-350700,"Red Stone Online",0001-01-01,0.00,175,112
-351630,"Fire With Fire Tower Attack and Defense",0001-01-01,0.00,106,123
-352720,"The Universim",0001-01-01,29.99,5677,1210
-365150,"Go Home - Rage incoming",0001-01-01,1.99,18,20
-366530,"Esenthel Engine",0001-01-01,0.00,24,18
-369120,"Invisible Apartment Zero",0001-01-01,2.99,10,8
-384490,"NECROPOLIS: BRUTAL EDITION",0001-01-01,29.99,2947,1577
-389670,Pacer,0001-01-01,39.99,534,198
-412470,"Metal War Online: Retribution",0001-01-01,0.00,548,420
-417990,Major\Minor,0001-01-01,0.00,340,83
-420530,OneShot,0001-01-01,9.99,29225,535
-428280,"Mystery of Unicorn Castle: The Beastmaster",0001-01-01,6.99,63,12
-431960,"Wallpaper Engine",0001-01-01,3.99,522889,10368
-512830,"Zombie Trigger",0001-01-01,2.99,3,5
-516950,"STARS Simulation",0001-01-01,0.99,5,7
-521330,"Skull Ball Heroes",0001-01-01,0.00,44,15
-523220,"Virtual Race Car Engineer 2016",0001-01-01,9.99,2,1
-554820,"VideoPad Video Editor",0001-01-01,99.99,38,8
-575050,"Little Triangle",0001-01-01,9.99,474,40
-577230,"Three Kingdoms The Last Warlord",0001-01-01,3.99,2332,902
-595360,"NIGHTSTAR: Rogue Wings",0001-01-01,0.00,20,12
-607760,CyberDrifter,0001-01-01,11.99,12,2
-623040,"Crystal Vibes feat. Ott.",0001-01-01,0.49,7,2
-630400,Explottens,0001-01-01,4.99,14,1
-635320,"Last Day of June",0001-01-01,19.99,3177,477
-652750,"Polygon Hero",0001-01-01,0.00,34,10
-669410,"Exatron Quest L'Epée de Sang",0001-01-01,5.99,9,0
-675560,NAVYFIELD,0001-01-01,0.00,487,237
-688750,"MineDrill Redux",0001-01-01,2.99,0,2
-712410,"Cirque du Soleil",0001-01-01,0.00,24,23
-719630,Malkyrs,0001-01-01,0.00,4,4
-725780,"Play With Me: Escape Room",0001-01-01,2.99,206,103
-745950,Apparition,0001-01-01,9.99,63,14
-754320,"Pixel Noir",0001-01-01,9.99,13,2
-754350,忍者村大战2,0001-01-01,0.00,139,146
-759030,WaywaY,0001-01-01,0.00,3,1
-780280,"Summer Funland",0001-01-01,19.99,255,39
-780970,"Food Dream Factory 梦想的美食世界：研发美食开心制作糖果模拟经营养成",0001-01-01,3.99,2,4
-791240,"Lumote: The Mastermote Chronicles",0001-01-01,19.99,67,1
-791770,"Try To Fall Asleep",0001-01-01,14.99,128,12
-796950,"The Haunting of Billy",0001-01-01,7.99,20,23
-835620,Sneiroball,0001-01-01,24.99,0,0
-839680,"The Front of Greed",0001-01-01,0.00,10,14
-851110,"Idle Racing GO: Clicker Tycoon",0001-01-01,0.00,277,248
-855060,"Huawei VR 2",0001-01-01,0.00,0,0
-857890,RuneTech,0001-01-01,4.99,4,3
-872400,"Capsella The Lights of Lucern",0001-01-01,9.99,7,9
-877280,"SAO Utils 2: Progressive",0001-01-01,0.00,0,0
-881920,"Depression The Game",0001-01-01,1.99,166,74
-886630,GlitchPets,0001-01-01,4.99,46,3
-900883,"The Elder Scrolls IV: Oblivion® Game of the Year Edition Deluxe",2009-06-16,19.99,35307,1639
-901147,"Earthworm Jim",2009-11-04,19.99,53,65
-901735,"The Stronghold Collection",2009-10-27,24.99,3839,507
-916440,"Anno 1800",0001-01-01,0.00,3638,739
-950670,"Gothic Playable Teaser",0001-01-01,0.00,9947,3765
-986370,"Try To Reach 10",0001-01-01,4.99,14,4
-1005930,"Timeflow – Life Sim",0001-01-01,9.99,1240,77
-1044130,"不惑英雄传(puzzled heroes)",0001-01-01,16.99,55,23
-1048790,Phantasmata,0001-01-01,19.99,13,1
-1069480,"Worldwide Sports Fishing",0001-01-01,9.99,40,6
-1095710,"Björk Vulnicura Virtual Reality Album",0001-01-01,19.99,14,4
-1106880,"Tribes of Midgard - Open Beta",0001-01-01,0.00,434,58
-1118840,"My name is You and it's the only unusual thing in my life",0001-01-01,2.99,587,103
-1124010,"Realms of Regalia: Royal Rumble",0001-01-01,0.00,0,1
-1133570,"Shining City",0001-01-01,0.00,16,8
-1157350,Imaginator,0001-01-01,0.00,5,4
-1175460,Revita,0001-01-01,16.99,1116,235
-1175540,"Cyberless III: Online",0001-01-01,14.99,7,0
-1197520,Familia,0001-01-01,4.99,34,0
-1201640,"Island Explorer VR",0001-01-01,0.00,28,13
-1232510,"Teleporter: World of Gamers (Alpha)",0001-01-01,0.00,44,9
-1248990,"Mýrdalssandur, Iceland",0001-01-01,0.00,1361,128
-1285310,"OLD SKOOL RACER",0001-01-01,19.99,1,4
-1290820,"Project Océara",0001-01-01,0.00,4,1
-1293160,"The Medium",0001-01-01,49.99,5732,736
-1302840,"Kooring VR Coding Adventure",0001-01-01,8.49,8,0
-1307890,"Kingdoms Reborn",0001-01-01,19.99,3937,404
-1344430,"Kosta Projekt",0001-01-01,3.99,10,0
-1345610,"Sakura TTS",0001-01-01,4.99,10,3
-1355020,"Human Or Virus",0001-01-01,6.99,6,12
-1360760,"DARK MAZE",0001-01-01,0.99,0,0
-1378820,"Escaping Hell",0001-01-01,7.99,2,0
-1423370,NOeSIS02_羽化,0001-01-01,0.00,306,2
-1470870,"Because its hot! Prologue",0001-01-01,0.00,3,0
-1481810,"Ostrich Runner",0001-01-01,6.99,24,4
-1489820,Zombrio,0001-01-01,0.00,1,6
-1523130,神启神落,0001-01-01,1.99,0,5
-1543630,"Mind Lock",0001-01-01,4.99,2,0
-1552250,"Three of Cards",0001-01-01,0.00,258,16
-1625260,中国象棋-残局大师,0001-01-01,5.99,15,8
-1633110,"ШХД: ЛЕТО / IT'S SUMMER",0001-01-01,9.99,17,9
-1643530,"The Pirate King Ultimate",0001-01-01,6.99,4,3
-1670240,"Echo of Ayllu",0001-01-01,0.00,0,0
-1703040,"Decision in the Desert",0001-01-01,6.99,1,2
-1703060,"Conflict in Vietnam",0001-01-01,6.99,2,1
-1704620,"Harrier Jump Jet",0001-01-01,6.99,1,0
-1725560,"Broken Betrayal",0001-01-01,10.99,5,5
-1810290,"HUAWEI VR Glass 6DoF Driver",0001-01-01,0.00,0,0
-1850280,GwenBlade,0001-01-01,2.39,12,2
-1867640,"占星VR / Horoscope",0001-01-01,6.99,5,0
-1883370,PEPPERED,0001-01-01,0.00,0,0
-1896750,Cursed,0001-01-01,0.00,0,0
-1936250,DownTheDead,0001-01-01,1.99,7,3
-1959960,Burg,0001-01-01,0.00,0,0
-1960630,"Cursed 2",0001-01-01,0.00,0,0
-1999120,"Heroes of Time 2 - Aizack's Return",0001-01-01,4.99,0,0
-2131220,Neisis,0001-01-01,0.00,0,0
+00f04c35-72aa-491a-b9c9-1d23b806b3a4,"Virtual Villagers: A New Home",2008-05-12,9.99,63,14
+0230f657-8d4a-4b26-9294-d5f4b9f9af5b,"Crayon Physics Deluxe",2009-05-06,19.99,849,134
+02776616-8a5c-4862-9238-699de5fd9537,"Mr. Robot",2008-11-03,7.99,65,13
+02df7a99-50a4-43e0-a353-a54050388b75,"Sam & Max 202: Moai Better Blues",2008-05-16,0.00,66,15
+02edb590-0d04-4496-bc39-20a00ec9a4d6,"Kingpin — Life of Crime",2009-08-19,9.99,260,70
+033aa8ab-570a-4d4f-9cbd-d19257f6a54a,"Bad Rats: the Rats' Revenge",2009-07-20,0.99,11542,3099
+037044ae-51ba-47e8-b7bf-b863cf4aa09f,"ThreadSpace: Hyperbol",2007-07-12,4.99,35,11
+0385bf94-7dff-48c2-97fb-ed32ab75bcd1,"Try To Reach 10",0001-01-01,4.99,14,4
+03c04d42-7ec3-49cd-b497-2da6217c1530,"Iron Grip: Warlord",2008-12-05,0.00,350,58
+03d1d488-a2da-4090-9e4b-4989549ebe0f,"Tomb Raider: Anniversary",2007-06-05,8.99,4173,908
+0451f07c-1e4d-4f8f-94b5-69ae42d26de7,"Shattered Union",2006-10-25,4.99,68,65
+0453e913-8c21-4625-b9ca-d21043974bd1,"Majesty Gold HD",2009-09-04,9.99,442,28
+04985ff5-c3f8-4e20-9bde-f5a6db5252ca,"Overlord II",2009-06-23,9.99,3441,440
+049a0948-39ec-4c74-a8fd-5b353e15493c,"Project Freedom",2009-10-14,2.99,134,30
+04b03489-2454-40fa-a95e-170c34e64579,"QUAKE II Mission Pack: The Reckoning",2007-08-03,2.99,148,34
+04d6e5d1-4d45-476d-ad67-01e1dc04068f,"AI War: Fleet Command",2009-10-21,9.99,1251,258
+05093e6e-a27e-4996-a793-290fb22cfa7e,"Geneforge 5: Overthrow",2008-11-01,19.99,95,7
+054314be-8ccd-4323-a3d9-bc08909d79f5,"Battlestations Pacific",2009-05-12,0.00,1685,704
+05744690-6dd2-4a62-b837-dc10f450afb3,"Red Orchestra: Ostfront 41-45",2006-03-14,4.99,1946,294
+058ab478-1fc7-4f4b-8618-03b3eca644e4,Gish,2007-07-20,9.99,245,172
+05e9d9da-599b-4027-ac38-88b9ddc0bfbb,"Men of War: Red Tide",2009-11-01,4.99,541,97
+06165750-5f38-44a7-aa41-a7689d13840a,"King's Bounty: Armored Princess",2009-11-19,2.49,881,82
+0625a1bc-6b12-4c86-8b6e-d1821e5d24bb,"Metal Drift",2009-10-22,9.99,83,47
+06299d28-e5c2-4350-afb3-f575517a2fde,"Fallout Tactics: Brotherhood of Steel",2009-08-19,9.99,1503,391
+06eaa43f-869c-455b-af9c-0636a86169f2,"HUAWEI VR Glass 6DoF Driver",0001-01-01,0.00,0,0
+070ab788-f382-4e87-bd51-5955a61d9f1a,"Nancy Drew®: The White Wolf of Icicle Creek",2009-07-17,6.99,106,38
+076137d0-6132-4105-80ae-9d9aad42221b,"Geneforge 2",2003-07-01,19.99,62,5
+0766f72d-2f89-4950-ba66-8ff1eaaa5fd7,"Mystery Case Files: Madame Fate®",2007-12-14,6.99,35,10
+07bb5b64-4dea-4fd7-a190-c74e4eab813c,"Gothic 1",2001-03-15,9.99,9119,807
+0811c9e9-2ed4-4390-8d53-99b668d21b50,"Penumbra Overture",2009-03-06,9.99,2634,279
+087aebbe-6934-4da9-9187-884edb95d511,QUAKE,2007-08-03,9.99,10055,428
+087eed6f-71b1-4ce4-9ff1-71e482653577,"Freedom Force vs. the Third Reich",2009-05-29,4.99,200,36
+08938529-18db-46e5-84d3-d135ad1edc0f,"Silent Hunter 5®: Battle of the Atlantic",0001-01-01,9.99,981,1261
+08a0da4a-90ea-446e-8b8b-5cc5b6d36fd9,"Hitman: Blood Money",2007-03-15,9.99,9785,601
+099d92f8-c278-47f8-a2e9-9d1dfe9fe761,"Garry's Mod",2006-11-29,9.99,822326,29004
+09b98497-3940-46b0-854e-d2fb48f99165,"Mystery P.I.™ - The Lottery Ticket",2007-10-16,4.99,30,7
+09c05089-cdb5-4894-b990-a2d5a3040832,"Massive Assault: Phantom Renaissance",2009-11-04,9.99,25,4
+0a0bd82d-5e13-402f-9ab1-ebfaae6f4efa,Multiwinia,2008-09-19,9.99,427,94
+0a2e949d-ae61-42db-b410-c61cf5977f65,"Sam & Max 103: The Mole, the Mob and the Meatball",2007-06-15,0.00,89,13
+0a6a2771-1c75-434a-8aad-563b32880b66,"RACE - The WTCC Game",2006-11-24,39.99,121,42
+0ab08bdf-9c9e-4103-83f1-1bb37b42540a,"Delta Force 2",2009-06-18,4.99,301,48
+0b0695b9-471b-46ed-be7c-3e06706503a4,"Thief: Deadly Shadows",2007-03-29,8.99,1692,371
+0b3e0fe9-35d7-4137-91aa-599dc546fbd0,"Samorost 2",2009-12-10,4.99,1346,228
+0b790e81-23b5-48fc-93e3-3ab05a0bb149,"Fleet Command",2006-10-26,5.99,280,49
+0c18ea36-3d35-4dbf-88b0-087c323b404d,"Tom Clancy's Rainbow Six® 3 Gold",2008-09-25,9.99,1353,118
+0c3e6fb0-69c5-431d-831c-6c58d24b3171,NAVYFIELD,0001-01-01,0.00,487,237
+0c4cce7d-a0ab-4644-8bcb-fe25b28b1107,"Iggle Pop Deluxe",2006-08-30,4.99,34,6
+0c5da470-d63e-4e09-925a-f4bfc47922d9,"Tycoon City: New York",2008-03-12,1.99,0,0
+0c728ca5-339b-45c5-8a02-746955b9703f,"Capsella The Lights of Lucern",0001-01-01,9.99,7,9
+0c8f1a7b-7e55-49d1-ac55-0ec678f5c187,"Crazy Machines 1.5",2008-12-12,9.99,2,1
+0cc18c42-3df3-4cf5-9504-bcd4ffc1d248,"Alien Shooter: Revisited",2009-05-27,4.99,355,173
+0d62c0eb-0cf9-41e6-be31-1f3cf606552b,"Samantha Swift and the Golden Touch",2009-04-29,9.99,33,45
+0d98ffd3-1ab2-4fa8-b4e2-d616e64823d2,Warfare,2009-07-20,12.99,139,31
+0d9dc0be-0b00-477f-beb1-de6652357a6b,"Gumboy Tournament",2008-05-19,2.99,331,139
+0db39cd8-f31c-44ed-b489-76325af1ee26,"Sid Meier's Pirates!",2005-07-11,9.99,5009,305
+0dd11bc3-f843-4afc-9418-ca737f011a29,"Majesty Gold HD",2009-09-04,9.99,0,0
+0dd9ccac-ad23-4d24-8e6c-1f1e1b9abd29,"Rayman Raving Rabbids™",2008-06-13,9.99,735,149
+0e51b36d-3ed9-49d1-819e-c87ac6886d93,"Hammer Heads Deluxe",2006-08-30,0.00,49,6
+0e99206f-5932-41c8-b683-aefac4873461,"Bionic Commando",2009-07-28,9.99,980,361
+0ea76e4e-0b37-4a38-890c-8e5f4ff8f64b,Pyroblazer®,2008-11-13,4.99,4,3
+0ebb2fdb-0482-4902-9cbf-5c41d98d8b41,"Desperados 2: Cooper's Revenge",2008-03-12,9.99,95,111
+0edcaa0b-3bc0-4535-9218-d7eb9c38c280,"Age of Wonders",0001-01-01,5.99,575,161
+0f5fc683-ca4d-4a4c-a1bb-57fdc96cbb73,"The Club™",2008-02-20,14.99,82,64
+0f74fb3e-436b-4e8d-9fe6-6a0047a9582b,MDK,2009-09-17,9.99,215,63
+0fa0aa5e-8e93-4c84-bb3d-e1d3a5220344,Darwinia,2005-07-14,9.99,726,198
+10849be6-0cb1-4235-bb49-4dc8ff76d130,"Rise of the Argonauts",2009-01-07,9.99,492,205
+10959e02-da91-496f-ae93-dfda1dfbf9eb,"Commandos: Behind Enemy Lines",2007-03-15,4.99,2687,323
+10d1cc99-fd73-48b4-a6d6-66dfac3cf71a,Flock!,2009-04-07,2.49,169,41
+124713b4-63ff-43d8-80ed-dea0d4b3ca6c,"Alien Shooter",2009-05-27,4.99,2475,142
+1275c24e-58f3-4760-9ae0-c939c33f819b,"Tom Clancy's Rainbow Six® Vegas 2",2008-04-16,9.99,3891,689
+128a5d91-a0fc-4cb7-8bbd-e056c08ca8a6,TimeShift™,2009-07-23,19.99,872,230
+128f8206-2cd1-483a-9baa-baecb1ed7eac,Raycatcher,2009-04-17,4.99,0,14
+1371faca-bf3c-4593-b8f7-aa19f5f2da03,"Sam & Max 205: What's New Beelzebub?",2008-05-16,0.00,61,9
+138c4c52-85ba-4b32-8c42-c6ba20421176,"Puzzle Kingdoms",2009-04-27,14.99,166,121
+139926e1-33dc-4b51-a253-096d6ae770e2,"Call of Duty: World at War",2008-11-18,19.99,38439,3363
+13a3e9d4-e538-4c72-92e1-2c44506068db,"Bionic Commando: Rearmed",2009-07-28,9.99,566,361
+14072e33-285d-47ad-831e-eddcad323651,"Virtual Villagers: The Lost Children",2008-05-12,9.99,44,5
+1412d361-7640-4765-acbc-e37c6107fd84,"Painkiller: Black Edition",2007-01-24,9.99,1270,149
+14448387-de52-4361-87cd-33bd49386e7e,"Gothic Playable Teaser",0001-01-01,0.00,9947,3765
+14844974-c60f-4c36-9aa3-64e85105b243,"Build-A-Lot 4: Power Source",2009-12-17,9.99,12,5
+148fe789-c16f-40f0-8a0e-45272c99fcea,"Delta Force",2009-06-18,4.99,415,46
+14d378bf-992d-40e0-aec7-b4c74fa57f04,"STAR WARS™ Jedi Knight: Dark Forces II",2009-09-16,5.99,1313,384
+14dcf926-60bf-4b77-a6e2-5bea6d767b95,"Grand Theft Auto: Vice City",2008-01-04,0.00,25698,2047
+152d3736-da59-495b-aef7-e6ab010f7a7d,"Chainz 2: Relinked",2009-07-13,9.99,34,29
+15f45357-d305-40e7-b0b0-aafeddc5894a,"Time Gentlemen, Please! and Ben There, Dan That! Special Edition  Double Pack",2009-08-25,4.99,543,131
+1675f675-c340-4bd4-aea6-d61a9012ceeb,"Geneforge 3",2005-04-01,19.99,42,4
+16c56f66-ea6d-4d63-9b7b-ddf08f402a59,"Geometry Wars: Retro Evolved",2007-06-18,3.99,777,86
+16fefc5c-c438-42e0-a817-b6e2573df1f6,"Hitman: Codename 47",2007-03-15,7.99,2046,779
+170435b8-5cf0-4f36-aceb-ca8fe7012209,"Amazing Adventures Around the World",2009-04-15,4.99,50,11
+173fad72-7a23-4729-8af0-8f75a57ba230,"HeXen: Beyond Heretic",2007-08-03,4.99,461,57
+17cd9e69-e412-4fec-bbb2-d3437450911e,"F-16 Multirole Fighter",2009-06-18,9.99,74,19
+17cf7b0c-cae1-492f-b756-955d846f4c37,"Unreal Gold",2008-03-17,9.99,1824,216
+17dc3de8-140c-4d6c-a01d-8a877aaeb2d9,"Luxor: Quest for the Afterlife",2008-12-15,9.99,67,19
+17f39ee0-7c8d-40bb-bac7-747f43b7da1e,"Order of War™",2009-09-17,7.99,395,151
+18229777-2459-4d04-af82-49a877593715,"Timeflow – Life Sim",0001-01-01,9.99,1240,77
+182d973c-8f0b-4c9a-88ba-577e09d8a8df,"Sherlock Holmes: The Silver Earring",2009-08-06,9.99,268,174
+18446189-89cb-469f-924d-8776e13efd67,"LUMINES™ Advance Pack",2008-04-18,0.00,20,3
+188292b7-b9fe-4ca5-9728-fda824182038,"The Wizard's Pen™",2009-02-18,4.99,28,4
+18888a81-a351-43b1-811a-c6b585f188b5,"Cooking Dash®",2009-08-12,9.99,62,25
+18d011fb-1f4a-4c3c-b4a2-ba37bde229eb,"Jewel Quest Pack",2009-08-24,19.99,34,4
+18edf759-3168-4c61-80b6-39963c892671,Hammerfight,2009-10-28,0.00,1283,543
+191ca2b6-ec6c-47a3-a71e-24e136dbec4a,"Oddworld: Abe's Oddysee®",2008-08-28,2.99,3407,575
+19394ece-2922-4234-85dc-894996e7440f,"Mind Lock",0001-01-01,4.99,2,0
+19ccdc34-9012-4a4c-bb6c-774bbb09d63d,"Nancy Drew®: The Phantom of Venice",2009-07-17,6.99,102,15
+19ee98a8-8c92-4bb0-a1ad-90434c576a7c,"Unreal Tournament 2004: Editor's Choice Edition",2004-03-17,14.99,3359,84
+1a7904d8-a12e-4ffc-b85d-366d36aab093,"BC Kings",2009-06-16,4.99,113,75
+1ac9992d-d0b9-46c4-94eb-6e9c0e51cd39,"Skull Ball Heroes",0001-01-01,0.00,44,15
+1b1ceb4b-d12e-46ab-89c7-cb1b9f638fb9,"Half-Life: Blue Shift",2001-06-01,4.99,10256,965
+1b503579-54b6-4e24-81dc-9a39ab2788bf,"Unreal Tournament: Game of the Year Edition",2008-03-17,9.99,3380,102
+1b537411-12d9-4e94-91f3-35e05ff2435c,Gyromancer,2009-11-18,5.99,159,139
+1bb9bb62-dbdb-44f8-8b42-edb6f6c527ad,"Commander Keen",2007-08-03,4.99,1204,84
+1bbe60cf-30f0-4fde-ac0d-b6e2cfffc61a,"NIGHTSTAR: Rogue Wings",0001-01-01,0.00,20,12
+1c15c15c-bca1-42ef-a795-23169a3e924a,"Peggle Extreme",2007-09-11,0.00,1282,90
+1c1a4364-04c2-44e5-8523-1d1f1d8b05b5,"X2: The Threat",2006-07-21,4.99,326,66
+1c32530d-9bf2-43ce-a7cb-472975819331,"Nancy Drew® Dossier: Lights, Camera, Curses!",2009-07-17,6.99,35,20
+1c7aaac7-6ba1-4ef1-8388-f9390b068ef8,"Delta Force: Task Force Dagger",2009-06-18,9.99,105,26
+1cc7dc43-ca69-42f4-9e3a-c418e4040ed2,"Time Gentlemen, Please! and Ben There, Dan That! Special Edition  Double Pack",2009-08-25,4.99,500,121
+1e4f90ae-7b22-4a94-9bc5-44025bcdcb71,"Doom Rails",2009-11-04,2.99,8,23
+1e5e121e-ca94-4d3d-af6a-abaa9358dc22,"S.T.A.L.K.E.R.: Clear Sky",2008-09-15,9.99,13293,2177
+1e8b9775-1306-4913-9631-f88832b1f8cb,BioShock™,2007-08-21,0.00,26231,1546
+1fb4ee10-72ea-4c9f-8d47-80abe32a94ce,"Gothic® 3",2009-12-02,9.99,6858,1460
+1fd8f13b-2d07-48ff-89de-d89c855388b8,"Space Empires V",2006-10-16,14.99,275,116
+201bc8a8-e5ba-4714-a5b6-aa95aef3a5a6,"QUAKE II",2007-08-03,4.99,3071,275
+20a54839-f1c7-448f-94dd-07a4817ca6cc,"Hot Dish",2008-07-29,9.99,14,15
+2100a476-5e34-49f2-83b4-2fc5e621c0fe,"Joint Task Force",2007-03-27,7.99,207,28
+2130e715-fe87-4534-b953-1a9df5fa17af,"Mahjongg Investigations: Under Suspicion",2008-07-29,9.99,23,7
+2155ef28-ab24-4c78-b4fe-5d1933787cec,"Unreal 2: The Awakening",2008-03-17,14.99,361,158
+2169d2d4-e0e5-4dad-90e1-f6f7f59731b9,"Civilization IV®: Warlords",2007-04-06,4.99,131,23
+21e8328b-0e77-44e9-b6c6-1309729a99ed,"Mahjong Quest Collection",2009-08-24,9.99,20,2
+22080890-30df-4736-ac67-6b2597c802ef,"Warhammer 40,000: Dawn of War II",2009-02-18,19.99,9013,1090
+222217c5-db9b-46d4-8b28-42869bfedff7,"Little Farm",2008-06-10,9.99,77,37
+2239d742-09e3-4fbb-abd6-9eeef8f878ca,"Space Trader: Merchant Marine",2008-10-23,4.99,313,320
+230e57d9-c806-4470-95ae-1228bd607726,"18 Wheels of Steel: Extreme Trucker",2009-09-23,9.99,0,0
+239e4fd7-fdb2-45c8-8ceb-30f60a92a6d6,"Midnight Club 2",2008-01-04,0.00,789,116
+23d1a874-50c0-4cdb-b907-cf3b982c941e,"Brothers in Arms: Hell's Highway™",2008-10-08,9.99,1433,153
+24817d0e-a5df-4e93-b87f-7885987b5b11,"STARS Simulation",0001-01-01,0.99,5,7
+24d9456d-e54c-41c8-a2dc-f02696418d90,"Grand Theft Auto",2008-01-04,0.00,285,54
+24f93099-3209-49e4-8f37-84a0c2141a21,Flotilla,0001-01-01,9.99,178,35
+2651cea1-1df3-45c3-9baf-d2a9f9acd4a8,"Sam & Max 104: Abe Lincoln Must Die!",2007-06-15,0.00,399,68
+26dba22a-a5fd-403a-a353-38accf7939c5,"The Secret of Monkey Island: Special Edition",2009-07-15,9.99,4127,195
+2701be9d-840e-40db-bd09-b14d329573fc,"AstroPop Deluxe",2006-08-30,4.99,58,17
+270bb26d-6ca3-463d-b1a9-78de01440492,"Deathmatch Classic",2001-06-01,4.99,1929,428
+277fe268-e0f5-4f21-bcf8-d3e3de8d0088,"Grand Ages: Rome - Reign of Augustus",0001-01-01,6.99,0,0
+27ce4cd8-1e0e-476b-baee-dedd3d60b9d6,"Sniper Elite",2009-07-16,7.99,2114,636
+289ce116-f722-447c-bf04-d2d26937b922,"Delta Force — Black Hawk Down: Team Sabre",2009-06-18,9.99,374,36
+28cd0cea-c928-4c22-a028-937dfc640ff7,Machinarium,2009-10-16,14.99,10331,482
+28e27537-5088-4ad2-b4b3-3c6fbddee98a,"Mevo and The Grooveriders",2009-03-19,0.00,24,2
+290c4a99-0b66-4205-bf27-2967c400f7f4,"Grand Ages: Rome",2009-03-20,9.99,488,177
+29225fa5-1170-4197-8a53-712cc85e9bdb,"Jagged Alliance 2 Gold",2006-07-06,19.99,0,0
+292b2b11-a057-4755-9c3c-72e942b7e81e,"Delta Force: Black Hawk Down",2009-06-18,14.99,565,47
+29adacaf-e8b8-4290-8fb8-ac059a5d5a5b,"QUAKE II Mission Pack: Ground Zero",2007-08-03,2.99,125,85
+29bb501f-8d84-4392-a711-10825a45d064,"STAR WARS™ Jedi Knight - Jedi Academy™",2009-09-16,9.99,11119,454
+29e8bd12-72d5-4d3e-8378-a169571b2b7e,"Grand Theft Auto 2",2008-01-04,0.00,312,26
+29f90c69-e39e-4d17-8762-2b5a5468e148,"Nancy Drew®: Ghost Dogs of Moon Lake",2009-10-10,6.99,142,13
+2a009575-fcd7-4d17-9bf2-04fbba51c31a,"Tom Clancy's Splinter Cell Chaos Theory®",2009-08-27,9.99,3359,233
+2a095faa-0f2e-4c45-be18-df03850cafe3,ItzaBitza,0001-01-01,9.99,7,3
+2a35aa47-b40e-461e-87bd-95ee5748efdc,"Tom Clancy's Ghost Recon®",2008-07-15,9.99,992,76
+2a420a9b-5d16-4a9e-9c8e-87204d19650e,Revita,0001-01-01,16.99,1116,235
+2aae9d68-60e6-44c3-9cfb-d69a710f2710,"Cyberless III: Online",0001-01-01,14.99,7,0
+2b494b8e-663a-4e27-b6e6-c322ccd41bc7,"Venice Deluxe",2007-06-25,0.00,18,3
+2bb096a8-c3d4-4552-9d6b-3cf802bbf303,"Elven Legacy: Ranger",2009-10-20,1.99,16,2
+2c020283-a413-4e4a-82f7-0fbe0cdf58ca,"Kingdoms Reborn",0001-01-01,19.99,3937,404
+2c352d53-fe8a-4451-be0d-7910935f9570,"Act of War: High Treason",2008-03-12,2.99,319,75
+2c958e0f-e142-4cd0-9a64-2ca1648198be,Yosumin!™,2009-05-26,5.99,119,78
+2c9e786b-5c58-4528-a85e-5098f0354d17,"Watchmen: The End is Nigh Part 2",2009-07-29,4.99,128,67
+2cb11bf2-e61a-4048-a96b-e5c69338d42c,"Heroes of Time 2 - Aizack's Return",0001-01-01,4.99,0,0
+2d647a06-9dc7-4c6f-96a0-7c871a458a3e,"Shattered Horizon",2009-11-04,0.00,398,72
+2daac9af-e259-4845-a0c3-399cab30c60d,Lucidity™,2009-10-07,5.99,41,18
+2e62fd84-763d-4b0e-becc-8cdddb734088,"Ankh 3: Battle of the Gods",2009-06-16,1.49,23,11
+2e6a1548-7083-442d-a842-73bbeef13945,"Foreign Legion: Buckets of Blood",2009-08-04,3.99,189,118
+2e9b0e14-45b5-4126-9ed1-6f822d83e9e4,"Nancy Drew®: Secret of the Old Clock",2009-10-10,6.99,137,14
+2eb8ec81-4eae-4557-baa5-7f4e8a255024,"For The Glory: A Europa Universalis Game",2009-11-11,9.99,87,37
+2ef150fa-c5da-4d95-bd68-ede8e5910c2e,GwenBlade,0001-01-01,2.39,12,2
+2f1eab7a-c8bd-459b-91dd-d7d8296ab431,"Children of the Nile: Alexandria",2008-09-22,2.49,111,23
+2f6ed504-9061-4731-a941-a1eb3d34b93e,"Armed and Dangerous®",2009-07-08,5.99,217,20
+301a8bb5-65e0-4b3d-a610-c13cb40058ef,"Company of Heroes: Tales of Valor",2009-04-08,19.99,1878,143
+3042931a-fdf1-4c24-9b06-51db3260b3eb,"Red Faction",2009-08-05,9.99,1933,279
+314911c1-74c8-4799-abfe-5c7cf5b1f833,"Crysis Warhead®",2008-09-17,19.99,1783,324
+31b685a0-0244-4256-aead-225cdc0e5d4a,"Sid Meier's Civilization® IV",2006-10-25,19.99,2492,195
+325034b5-913e-4991-9c69-28544e9e712a,"Frontlines™: Fuel of War™",2008-02-29,19.99,537,279
+329884c5-9d4f-4568-85d3-77e5082ce671,"Dark Messiah of Might & Magic",2006-10-25,9.99,7630,685
+32af9867-30f1-4423-b1ae-ff4f7596fdd7,"Vigil: Blood Bitterness™",2007-06-29,0.00,29,115
+32c09124-e02e-4c7f-9de1-89916f38c6b2,"STAR WARS™ Starfighter™",2009-07-08,5.99,294,279
+32f48b21-0928-45f9-8344-fd07327d23de,"Blueberry Garden",0001-01-01,4.99,110,34
+32fc0834-0032-4bc4-8e53-0db825c4ac6d,"Pizza Frenzy Deluxe",2006-08-30,4.99,125,5
+337601bc-0f1b-4e84-91e5-7d4a29724822,"Everyday Genius: SquareLogic",2009-10-21,4.99,370,7
+33766bae-dae3-4ae2-86e8-bb68ff58194a,"XIII Century – Gold Edition",2009-08-28,4.99,79,66
+33d80f31-9eca-43e4-8cc4-902acdd12607,"Fallout 3",2008-10-28,9.99,13806,3644
+33f4d007-78f7-4728-b63b-7a3aa748d9ae,"Prince of Persia®: The Sands of Time",2008-11-21,9.99,2223,349
+3438b1f9-8745-4c78-acee-3b280f92d0e9,"Tom Clancy's Rainbow Six® Vegas",2008-04-09,9.99,744,196
+343a28ca-c564-452d-a733-99324344a4d3,"BloodRayne (Legacy)",2006-09-14,0.00,467,126
+348235c5-09df-4d44-ae61-bff834999897,"Nancy Drew®: The Haunting of Castle Malloy",2009-07-17,6.99,98,23
+34a5bad4-e190-40f4-95bd-54d211a47fad,"Broken Sword 3 - the Sleeping Dragon",2009-12-02,5.99,333,257
+358b1f4f-68c4-4d69-bf2c-b95434ea1a4e,"Silent Hunter®: Wolves of the Pacific U-Boat Missions",2008-06-13,9.99,189,49
+364a9ee9-0304-404a-a160-ee8873bc46c1,"Delta Force Land Warrior",2009-06-18,9.99,240,19
+36536ae2-8198-4402-89f8-feb72e38bdac,Burg,0001-01-01,0.00,0,0
+368d18d2-47d5-4c8f-8a7a-417bc9e19a39,"Feeding Frenzy 2 Deluxe",2006-08-30,4.99,1238,39
+36c4ab28-18b9-495c-a2a4-f51053b34d1e,"Brothers in Arms: Earned in Blood™",2008-10-10,9.99,593,85
+3701aaa8-25ef-4b45-b7f0-6045ab9c1d64,"X-COM: UFO Defense",2008-09-04,4.99,3035,170
+37046ae4-1cda-4b4a-88e2-63d226dc7a06,"Talismania Deluxe",2006-08-30,4.99,48,3
+37122bb7-9afc-42ee-805d-3e6c475a82b3,"Dangerous Waters",2006-02-07,2.99,242,72
+37133ae9-3002-47b8-885c-512f06541469,"RACE On",2009-10-16,7.99,0,0
+37415c23-f0da-4f83-bbe8-27570db6bd22,"Medieval II: Total War™ Kingdoms",2007-08-28,24.99,600,34
+3757a87c-d723-4f95-9c8e-7b44c2bd7bf1,"America's Army: Proving Grounds",0001-01-01,0.00,8224,2213
+37b225e8-f8b3-444d-837a-1aceaa53643c,"Monster Trucks Nitro",2009-01-29,19.99,29,16
+37b3cf59-ee45-4d90-915d-25acdfe888ea,"Rogue Warrior",2009-12-01,4.99,782,388
+37c0734a-9f05-4a4b-b8b9-f570a9435f07,"Supreme Ruler 2020 Gold",2009-07-09,9.99,177,48
+37d62169-aa79-40c5-acd3-be1886d9cb47,"Earthworm Jim",2009-11-04,19.99,53,65
+381b3816-535e-4892-b2d1-8772f0708bda,Zenerchi®,2009-08-12,9.99,11,1
+388fdb5d-1aa8-4668-82d4-8e31b413d807,"Human Or Virus",0001-01-01,6.99,6,12
+3946e898-1762-48c7-a481-2cac776375f0,"Armored Fist 3",2009-06-18,9.99,50,16
+39fbf546-2bdd-4e55-a30c-53e983392263,"Operation Flashpoint: Dragon Rising",2009-10-06,9.99,1448,701
+3a50c1c2-7315-496a-b7fc-26afdcc53e3c,"Hitman 2: Silent Assassin",2007-03-15,8.99,2484,460
+3a7e191b-ab25-4262-960e-bdca45832fff,"Imperium Romanum Gold Edition",2008-11-25,9.99,316,62
+3ab56f78-430b-40dc-82e2-b87be5f18b81,"Anno 1800",0001-01-01,0.00,3638,739
+3ac33833-a695-46a6-bdaf-68049c3b6f0b,"Burnout Paradise: The Ultimate Box",2009-03-12,0.00,11514,1699
+3ad36a5d-161a-4710-acd5-55ceee9efcb1,"7 Wonders: Treasures of Seven",2008-11-14,9.99,89,34
+3b607644-9513-4ae8-a00d-3238ef49fc41,"Big Brain Wolf",2009-11-05,4.99,46,44
+3bd48c18-04af-4731-bf52-df9c1e20b462,"Zombie Bowl-o-Rama",2009-10-15,9.99,324,51
+3c3774ed-c76a-4502-b0e2-e8932ed2db88,"Commandos: Beyond the Call of Duty",2007-03-15,4.99,714,97
+3c390977-4868-48cf-8870-73950adc98fe,"Hunting Unlimited 2010",2009-07-07,9.99,211,46
+3c494041-55b2-49e5-9e05-a210097decda,"Port Royale 2",2009-06-16,4.99,349,144
+3d2bee55-d423-4c3d-b6c7-caae3c516153,"Warhammer® 40,000: Dawn of War® - Soulstorm",2008-03-05,12.99,12358,588
+3da1bb5b-8ce6-4df0-923c-bf374de72def,"Paws and Claws: Pet School",2009-07-17,6.99,9,1
+3dbf077c-b1f8-4dc9-9361-cf93cde38d84,"Jagged Alliance 2 Gold",2006-07-06,19.99,0,0
+3df700cf-4593-4091-a8bf-18bb578645d8,"Delta Force: Xtreme",2009-06-18,19.99,101,24
+3e39222d-aaf2-4418-830f-e9e0bba4724e,"The Last Remnant™",2009-04-09,0.00,3159,729
+3e40aa93-5677-4f67-8dee-5b49d85b971d,"The Front of Greed",0001-01-01,0.00,10,14
+3e6351b6-6585-42f5-b61b-0caaa88fd722,"Trine Enchanted Edition",2009-07-02,3.74,12978,559
+3e943c22-fc8e-4ac1-934b-a9683774bc5d,"SpellForce 2 - Anniversary Edition",2009-10-29,14.99,698,237
+3e96cf0f-1515-4614-9379-193ef04a8164,"Tom Clancy's Splinter Cell Double Agent®",2009-02-13,9.99,510,773
+3f73d006-9ae3-4433-b953-2dd670341ab4,"STAR WARS™ - Dark Forces",2009-09-16,5.99,2209,271
+3fec7b5a-55e3-42e8-9c7b-95650d4501b3,"DOOM II",2007-08-03,4.99,5978,319
+40167d83-bb38-49f8-a81f-12ccf6fdabdc,"Shadowgrounds Survivor",2007-11-14,9.99,416,283
+405780e5-0cf8-44fb-be56-16afd3eec3c9,Osmos,2009-08-18,9.99,1040,150
+405a856d-85d9-416a-aefc-4fcf80dbf357,"Killing Floor",2009-05-14,19.99,60436,3201
+405d36e4-16fd-4530-8ffb-b3ca2ff218fa,"PuzzleQuest: Challenge of the Warlords",2008-01-29,9.99,783,116
+40ce7ab9-6b30-4bd5-badf-c8f0f73caa89,"Devil May Cry® 3 Special Edition",2007-06-12,19.99,2001,1337
+4169cab4-2ee9-493b-9ce4-344e5ba99c8d,"Sid Meier's Civilization® III Complete",2006-10-25,4.99,5061,619
+42792dc1-6136-44a0-8857-2307732eb6ce,"Build-A-Lot 2: Town of the Year",2009-12-17,9.99,10,0
+4301da28-70a6-4d3f-9f4f-cc06bd76f5b4,"Project Temporality",0001-01-01,14.99,84,17
+430367c8-5990-48f4-a348-ade4e9b67baa,DownTheDead,0001-01-01,1.99,7,3
+446d60ab-f92b-4a0c-a086-af6d5972c015,"Jack Keane",2008-06-27,9.99,60,37
+44796d81-2baa-4ebd-82e9-a11ac6fe2b3c,"Everyday Shooter",2008-05-08,9.99,95,7
+44a38ba1-107b-4ed1-b47a-473dc16ccbed,"Beyond Good and Evil™",2008-05-13,9.99,2521,377
+44b47dad-7505-4466-ba01-7fa9a58a637d,Luxor,2008-06-10,9.99,56,27
+44ff365c-752a-417d-b746-3c98c4546122,"The Ship: Single Player",2006-11-20,0.00,634,268
+45432204-e616-4bc5-8ae9-b03a641869d0,"DARK MAZE",0001-01-01,0.99,0,0
+457eb19b-0cf1-4e45-8bbe-47e3ea543f9f,"ARMA: Combat Operations",2008-03-12,7.99,169,76
+45858012-e697-4a45-9c7d-ff15634986b5,"Penumbra: Black Plague Gold Edition",2009-01-23,9.99,2062,130
+45e28254-8b1b-4dce-8e1c-1687493a14a0,"Rome: Total War™ - Collection",2007-08-28,0.00,13620,799
+468229cc-2d31-4472-8d7f-a171e9180c10,"Cricket Revolution",2009-10-28,2.99,69,53
+46f8780c-f9bd-43b9-86a5-9a824b141cf1,"Perimeter 2: New Earth",2009-02-10,14.99,14,53
+47578b6c-cc46-42bd-ae04-842adc00de11,Portal,2007-10-10,9.99,108353,1715
+477c36fe-a7e7-4007-9ae6-72b56b143e6a,"Tropico Reloaded",2009-07-26,6.99,445,61
+47dafcc6-2749-471f-a8e2-c1f21db0c134,"The Ship: Murder Party",2006-07-11,9.99,5052,840
+47fa3946-0263-4598-8e18-307b7f8babfe,"Chronicles of Mystery: The Scorpio Ritual",2009-06-18,4.99,84,42
+48133118-6dc2-4ca6-bc60-31c5f0c93cae,"Culpa Innata",2008-01-18,9.99,69,22
+48564249-a0ef-4d8a-92f2-e6dd76481883,"Big Money! Deluxe",2006-08-30,4.99,80,8
+486e3213-6005-4501-a5ca-dbbdc1db1f7c,"Crazy Machines 1.5",2008-12-12,9.99,1,1
+49bdee83-0336-4d12-8e9b-7a7a760a8a55,"Larva Mortus",2009-03-19,2.99,556,177
+49cce6c6-383d-449c-a81d-c75a059022e3,"Call of Duty®: Modern Warfare® 2 (2009)",2009-11-11,19.99,44225,3285
+4a4ac0fa-5832-4623-8fd3-45db92d42db6,"Lunnye Devitsy",2009-07-01,4.99,106,57
+4a79ebcf-59a1-4146-843a-4497dc9a93d6,Legendary,2008-12-01,4.99,1291,1093
+4a8a7284-67f4-45d9-99a6-9adb19ad7d59,Caster,2009-03-19,1.99,3212,845
+4ad1bc12-f7b0-44a5-aaa5-de08f774ed61,"Three of Cards",0001-01-01,0.00,258,16
+4b0d45bb-dbd0-4302-8939-9350beec3dd4,"Coconut Queen",2009-12-17,9.99,13,1
+4b0f2a13-f510-459c-9c6d-28196410b5e0,"Ankh 2: Heart of Osiris",2009-06-16,0.99,37,19
+4b8ffa1c-eab7-4062-ae0e-2aa71cf39a4b,Damnation,2009-05-22,9.99,187,224
+4b9f0104-19e4-4431-be63-8d03a577cc8c,"Madballs in Babo:Invasion",2009-09-17,4.99,228,44
+4becc38c-ad5e-452e-a75e-0c036c788b24,"Luxor Amun Rising",2008-06-10,9.99,13,7
+4c0fd280-6ad6-491e-9c75-079402c1f2c4,"Pacific Storm",2008-06-24,7.99,27,15
+4c3696e7-3ba9-4312-8cc7-8c8a8ead56a0,"Mata Hari",2009-07-29,9.99,69,49
+4c838f26-70dc-4af9-aa16-a16c691a24b5,"Guild Wars® Trilogy",2009-04-22,29.99,34,2
+4d2b6085-a990-4db7-b546-2244adebc0ee,"Worldwide Sports Fishing",0001-01-01,9.99,40,6
+4d7d1a92-7e8d-493a-aba0-7a0ff6a4d03b,"Brothers in Arms: Road to Hill 30™",2008-05-13,9.99,1153,159
+4dd7493b-b994-4477-8928-3343234b7152,"IL-2 Sturmovik: 1946",2008-06-13,9.99,1355,198
+4e2f6617-0f39-4a1f-ac54-1a9e1c3e274c,"Ghost Master®",2006-12-21,4.99,1429,177
+4e5d5c3c-1db2-446e-9443-e667c94aa51e,"Command & Conquer: Red Alert 3 - Uprising",2009-10-06,19.99,3242,633
+4e91dfa6-89a6-4334-800f-7ca3a02edb03,"Dracula: Origin",2008-08-07,9.99,152,73
+4ec5d1ed-f4f4-44f7-9670-c57104410475,"Insaniquarium Deluxe",2006-08-30,4.99,3590,124
+4f1fe7e5-f420-48ec-9116-fc592e6063be,"Jade Empire™: Special Edition",2007-02-27,14.99,1200,402
+4f34a901-f924-4425-9a5e-d4b8ba181519,"Bullet Candy",2007-02-14,3.99,42,38
+4f5fc03e-a3d2-4301-bced-f59b60ecf311,"Dark Sector",2009-03-24,9.99,500,127
+4f83f8d1-a988-4ef8-a0d4-24684f0c5ad7,"Space Giraffe",2009-03-19,9.99,49,21
+4f8e4a6f-0005-4beb-9374-5388f1a469e0,"X-COM: Interceptor",2008-09-04,4.99,81,76
+4fd02306-e0f5-45ec-bdb9-6a7aac65690e,"Europa Universalis: Rome - Gold Edition",2008-12-18,9.99,147,74
+4fdeeddb-cdf0-4889-bf2f-68571ff08d1d,"Call of Cthulhu®: Dark Corners of the Earth",2009-06-16,4.99,1844,850
+501cf602-56f6-4e01-8b16-e19fc0084f99,"Need for Speed Undercover",2008-12-19,0.00,5757,1934
+507b4e77-22dd-4ff8-87fe-40be08b058cf,"Heroes of Annihilated Empires",2006-11-22,7.99,474,81
+50bc5187-ebe6-4511-aac5-1fa4ac8b364c,"Call of Juarez: Bound in Blood",2009-07-02,9.99,2541,426
+5105d5e7-531f-4ed6-bf39-245702ca4908,"Gravitron 2",2008-09-30,4.99,23,5
+5184b2ce-75b3-44f1-8333-ab91afeebe43,"Half-Life: Source",2004-06-01,9.99,8232,3130
+51b5d5ec-7205-4b99-b4bd-7d1b8c239645,"Twin Sector",2009-09-16,4.99,97,169
+5238ccab-bba1-4822-a6bb-af03eb25c892,"Cake Mania Collection",2009-07-17,0.00,60,20
+524324bd-86e1-430f-89bd-5d0b40944591,"Tribes of Midgard - Open Beta",0001-01-01,0.00,434,58
+52b434e1-105b-4147-a776-7a0ad5084d68,"Sid Meier's Civilization IV: Colonization",2008-09-23,19.99,825,143
+537d5c69-f4b8-4fc2-af00-118e7bf15f46,Hinterland,2008-09-30,9.99,166,48
+53acaa20-9d56-4afb-b1d4-3699f434f3ad,"Saints Row 2",2009-01-07,9.99,13154,3883
+53db5a07-bf61-4568-9ffe-872481dcfa12,Familia,0001-01-01,4.99,34,0
+5416af2f-73eb-42fd-8594-cf92e5552513,Inquisitor,0001-01-01,9.99,415,197
+5429b506-2e29-4d71-b44a-1b1e5b9a92f5,"Tom Clancy's Ghost Recon® Desert Siege™",2008-07-15,4.99,82,5
+547404b2-d841-46a0-a22f-5e18540fe906,"Tom Clancy's Splinter Cell®",2008-04-01,9.99,1929,280
+548191ce-6d23-4ba6-9d37-b15a1981741a,Technobabylon,0001-01-01,14.99,1234,66
+54957f56-23fe-4b7d-83b7-87a461754d60,神启神落,0001-01-01,1.99,0,5
+55f4e338-049e-4fba-9cbc-320810c08479,"Chocolatier®: Decadence by Design™",2009-08-12,9.99,125,59
+5627ad74-267d-4888-b182-cbeabe6a1659,"Sherlock Holmes: The Mystery of the Mummy",2009-08-06,0.00,106,253
+56320e20-11d0-464b-befa-77ae65b7232c,"Peggle™ Nights",2008-10-15,4.99,1187,61
+5633682a-5d56-4c49-8028-661921d9bbfb,"Jewel Quest Pack",2009-08-24,19.99,19,3
+5708e1d2-fc2c-4ddd-9941-4a9cb08d486f,"Spear of Destiny",2007-08-03,2.99,399,69
+57376007-f36e-40bc-b220-74176b3705f2,"Total War: EMPIRE – Definitive Edition",2009-03-04,24.99,25868,2598
+5750ba4a-3980-44f8-8e20-48c916d98ea4,"Age of Wonders Shadow Magic",0001-01-01,9.99,426,53
+58545fcc-1448-4d9b-a75c-14a005938343,"Insecticide Part 1",2008-07-01,2.99,325,115
+594bea12-b2db-40da-a90f-2665ba347a1a,Shadowgrounds,2006-05-08,6.99,1161,282
+59a38054-0a13-4b38-9604-a41a7d3030d7,"Half-Life: Opposing Force",1999-11-01,4.99,14333,718
+59d5143b-ab73-4c3f-a315-45d0c9c8ec2b,"Final DOOM",2007-08-03,4.99,1005,177
+5b245286-42cf-4c1e-8022-624ef959859c,"Watchmen: The End is Nigh",2009-03-04,4.99,318,146
+5b63e72a-3e9b-4d03-ab33-eda24d83019d,"Master Levels for Doom II",2007-08-03,14.99,527,161
+5bb65af1-a6c6-4ed7-b3fd-229107695449,"GRANDIA II HD Remaster",0001-01-01,19.99,1721,231
+5be30e18-2dae-4768-a563-ee3ab5a736b0,"SiN Episodes: Emergence",2006-05-10,9.99,769,93
+5c0a31fc-823a-43fc-8357-9c205bf34f3d,"Thrillville®: Off the Rails™",2009-07-08,9.99,598,49
+5ca88048-cd2a-4ac6-884e-21a55cfc5aed,"Nancy Drew®: Secret of the Scarlet Hand",2009-10-10,6.99,107,13
+5ceea363-ad83-47ce-a7e0-51cf5219508d,"Ducati World Championship",2007-09-21,4.99,85,106
+5d0f5d2a-1939-45c1-ac25-0d452ff5cd6b,"Age of Booty™",2009-03-09,0.00,76,121
+5d1e2ee5-4a67-4939-bd7f-35755c3eee63,"STAR WARS™ Jedi Knight - Mysteries of the Sith™",2009-09-16,2.99,536,277
+5d246729-e16c-42be-bd03-04e3f95b5a08,Portal,2007-10-10,9.99,56620,1154
+5d339455-7fee-4788-a7df-e50fb6ecfdf0,"MDK 2",2009-09-17,9.99,135,33
+5d51fc99-b572-4aa2-ab9a-8caa2564813d,"Chicken Shoot Gold",2003-11-01,6.99,535,262
+5d8da19c-5b1c-4385-b392-bffaadb72a19,"Half-Life 2: Episode Two",2007-10-10,7.99,28981,914
+5db10c49-3874-48c6-9835-8b088fa6d3b7,"CSX SD70MAC Add-on Livery",2009-01-01,4.99,0,0
+5dfdcf55-f4dd-46d0-b998-c4b0dc2aea32,"Emerald City Confidential™",2009-08-12,9.99,72,4
+5e8c6673-1990-4c05-aa44-a02c94ed77aa,"Mass Effect (2007)",2008-12-19,19.99,14834,992
+5f006b07-61f1-4c25-836f-ff452bd7b061,"Kosta Projekt",0001-01-01,3.99,10,0
+5f4a995a-f2f5-4683-b99a-d93fff161a6c,"RIP - Trilogy™",2007-06-01,4.99,204,136
+60142833-7620-48f9-8316-f6f181d4d220,Kuros,2009-09-21,0.00,11,1
+603ead6d-7791-4be7-93c5-d5e3485f08b8,"The Longest Journey",2007-05-01,3.99,1578,159
+607dabb4-e598-421c-8bd3-70bcf7060c1b,"Sam & Max 203: Night of the Raving Dead",2008-05-16,0.00,68,9
+60bc595d-b1e9-4226-b0dc-a3e3e882b83a,"Midnight Mysteries",2009-09-28,9.99,104,47
+61941b7d-79cb-455d-ba09-aa743347c423,"Death Track®: Resurrection",2009-05-06,2.99,74,53
+61e04c68-ccfd-4226-8a1d-d4a7946e400e,"SPORE™ Creepy & Cute Parts Pack",2008-12-19,19.99,1317,169
+628b4bc1-3300-44e7-8cc8-b84ae6b6df52,Quantz,2009-09-03,9.99,29,14
+628b791b-4277-42a2-9f27-c070edb147b4,Obulis,2009-03-19,0.00,635,143
+62c59e2a-66c9-479b-a2db-8f117c097c3a,"Defense Grid: The Awakening",2008-12-08,9.99,4350,157
+62cdb038-9856-4349-9538-159b5cf11ed6,"18 Wheels of Steel: American Long Haul",2008-01-29,9.99,318,125
+6304779b-7458-47fe-a82a-2d66706e13d0,"Zuma's Revenge!",2009-09-15,4.99,1392,78
+63cf1f42-7e6e-4ae5-9541-678bff97b04f,"Earthworm Jim 3D",2009-11-04,19.99,51,52
+6408606b-7685-4391-9bf7-57dd03c87eee,Sacraboar,2009-11-06,2.99,15,48
+644845aa-3698-4f21-83f8-980a9245bfd6,Roogoo,2009-12-17,0.59,268,65
+64c1abb3-603a-4710-9663-fd198fd6f334,"Warhammer® 40,000: Dawn of War® – Winter Assault",2007-08-07,12.99,1401,161
+653e17be-a32c-4343-add8-3e40f3a2501f,"Zen of Sudoku",2006-12-14,0.00,210,28
+65bb7bf1-a205-490c-88ec-45353bdcb5a9,"SpellForce - Platinum Edition",2009-11-03,9.99,1664,261
+66930a56-04d8-432a-a171-918be7b24ce7,"Nancy Drew®: Danger on Deception Island",2009-10-10,6.99,146,9
+67168f6b-6625-4de5-ada5-3d9a1bdcec56,"Nancy Drew®: Danger by Design",2009-10-10,6.99,79,21
+6733eda3-5de9-4642-968d-a0b4c52617e2,OneShot,0001-01-01,9.99,29225,535
+6774f41c-7f7d-4854-86fe-632a7640deed,"Prison Tycoon 3™: Lockdown",2008-01-29,9.99,22,95
+67deb86e-e070-490d-bbf5-10b9614bec7c,LOOM™,2009-07-08,5.99,443,60
+68456641-becb-489e-9138-57c0aaf744a7,"Indiana Jones® and the Last Crusade™",2009-07-08,5.99,198,56
+687fd8d6-1b8a-46b3-bfae-40a70e1d9ddc,"Far Cry®",2008-04-01,9.99,5672,1217
+68afb546-4f32-49e6-a675-bac09b063836,"Metal War Online: Retribution",0001-01-01,0.00,548,420
+6986cd57-5c8d-44d8-b96c-34852d4ee229,Phantasmata,0001-01-01,19.99,13,1
+69f178f3-7328-4729-b50f-83dd0f26347b,"Street Fighter® IV",2009-07-07,0.00,340,150
+6a376391-b9b2-404b-abc2-7a6eabaf3cef,"Depression The Game",0001-01-01,1.99,166,74
+6a477148-25f3-494a-832d-4fa5728152f4,"RACE: Caterham Expansion",2007-06-22,4.99,6,6
+6a6fc334-7f45-40cb-9ac4-e7636d9e74fb,"Elven Legacy",2009-04-07,0.99,110,39
+6ab04440-3182-4bde-aacc-851f0cbc5c60,"Judge Dredd: Dredd vs. Death",2009-03-26,7.99,810,117
+6b10578d-fdeb-452f-a753-36794783ff31,"Hospital Tycoon",2009-02-13,4.99,225,332
+6b243917-b301-4ad1-9bea-d1763b95bbe4,"openCanvas 6",0001-01-01,49.99,503,73
+6b7ce5b7-0af8-4020-be93-c19f2cfcc3fd,"Railroad Tycoon II Platinum",2007-05-04,4.99,899,120
+6bb56857-6126-46dc-a669-e24ef4e5ce20,"World of Zoo",2009-10-30,14.99,165,36
+6bed6e5b-5c61-4106-bbd4-3675fee44fdb,Dystopia,2009-02-06,0.00,841,155
+6c48a14a-4589-410a-9a64-14a56f0c206b,"Vampire: The Masquerade - Bloodlines",2007-03-22,19.99,10590,568
+6c59f195-41e7-4b2c-aab0-dd46a927e15f,Braid,2009-04-10,14.99,8106,520
+6c692091-cf7d-4077-b9df-18c6e0a8217c,"Europa Universalis III Complete",2009-02-04,14.99,1525,296
+6cfb5368-c310-4112-b8b3-9601d300f65a,"Total War: MEDIEVAL II – Definitive Edition",2006-11-15,24.99,24395,1057
+6dad3563-a576-4034-ba8b-d4ffc2964bd4,Spectraball,2008-10-20,4.99,358,113
+6e32e2a7-dc54-4f6c-b0c9-fc2b0c8aa1be,"Deus Ex: Invisible War",2007-03-29,6.99,1046,782
+6e799bde-f5eb-4629-9585-28de6f11edb9,"Sherlock Holmes versus Jack the Ripper",2009-12-23,9.99,677,179
+6eba53b3-6393-4b70-97aa-b9cdbd2d4042,"Freedom Force",2009-05-29,4.99,256,210
+6f5a45c9-4cd5-4724-92d2-a25d8e90e0f9,Spectromancer,2009-02-11,6.99,207,35
+704cf9b3-1caf-4bf5-9d85-0bac90518651,"DOOM 3",2007-08-03,4.99,5555,683
+70753f90-8bb0-488c-8e15-f9476dc1df6b,"Dungeon Siege II",2005-08-16,6.99,1505,555
+709088a9-b941-4d69-aa9b-06658904aa2a,"Poker Superstars II",2006-10-05,9.99,6,7
+70e2f90e-3d4f-4e68-ba0d-b8344e684865,"Aura Kingdom",0001-01-01,0.00,6814,1861
+70fc43a0-722b-4f98-953f-e71b2840c9cb,"Plant Tycoon",2008-05-12,9.99,118,8
+71013dc7-13b3-41c9-9fa0-9b9be75e947f,"The Elder Scrolls III: Morrowind® Game of the Year Edition",2009-06-16,14.99,19141,936
+71358c16-b1ed-40da-b0bf-ba69df76fa14,"Strong Bad's Cool Game for Attractive People: Season 1",2008-12-18,14.99,336,31
+714d5790-1213-4956-9924-1c42ad963761,"X3: Reunion",2006-07-21,9.99,406,161
+71551ed3-02a0-4a3c-a426-cad641444423,"Huawei VR 2",0001-01-01,0.00,0,0
+721e9913-f1a9-4604-8f03-378ff813244d,"Dark Messiah of Might & Magic",2006-10-25,9.99,4769,355
+723cc5ac-d66f-4b19-96fe-a7e75a29f256,"Gumboy - Crazy Adventures™",2006-12-19,4.99,61,58
+72d23416-2d12-4361-aca1-c6d56bd4b813,"Darkstar One",2008-02-13,9.99,405,87
+736b8249-60b2-4261-af7c-9a18758255a0,POSTAL,1997-11-14,0.00,4806,724
+7381a66b-498d-456a-9505-40ef11b8aeb2,"Crash Time 2",2009-08-27,1.24,0,0
+73e0c885-3c86-4892-a7d4-896a44d84c3a,"Bejeweled Twist",2008-11-18,4.99,292,62
+74327eb7-e471-4100-adb9-66283d70787a,"Company of Heroes: Opposing Fronts",2007-09-24,19.99,856,77
+74c8acfe-3ff9-43d0-80c1-9b51ae648a7b,"ШХД: ЛЕТО / IT'S SUMMER",0001-01-01,9.99,17,9
+752b993d-b1f7-4be5-942f-2551585092d7,"Project Aftermath",2008-10-03,0.00,11,9
+756419da-03e7-497b-9960-559b0f577db4,"The Dig®",2009-07-08,5.99,867,79
+75684dac-8373-4e2a-acd6-d913585d59ba,"Tachyon: The Fringe",2009-06-18,9.99,164,19
+7588df2f-5459-4561-9fee-019cc6498bbd,"Counter-Strike: Condition Zero",2004-03-01,9.99,19314,1871
+75ffe273-113e-41b8-9dcb-c91d991e6e80,"Advent Rising",2006-09-14,9.99,357,98
+76519f02-e065-4eea-bd38-e988fc451501,"Empires Mod",2008-07-28,0.00,820,138
+76628747-3b21-4b39-91bb-c3087246ee8d,"Secret Files: Tunguska",2009-10-29,9.99,292,50
+777c3526-1d89-411f-a401-d0931d3a7f2d,"Arx Fatalis",2007-04-03,4.99,1315,190
+777e3365-9a64-49c6-93cd-777e0d99d41d,"East India Company",2009-07-31,9.99,80,68
+77bfc346-d1e9-4fa1-96e4-baf46a912387,"Fire With Fire Tower Attack and Defense",0001-01-01,0.00,106,123
+77cdfbbd-3823-403e-83e3-03f52fb0a3cf,"Project Océara",0001-01-01,0.00,4,1
+781c6a6e-9ce4-44aa-ac49-6d33c79ad65e,"Safecracker: The Ultimate Puzzle Adventure",2007-08-29,4.99,315,224
+7860493c-c921-4e06-b5e4-514a2e56a4a4,"Jewel Quest Pack",2009-08-24,19.99,19,3
+78762e17-9297-489b-b29a-3455568005e7,"Alpha Prime",2007-11-07,4.99,732,615
+78e202b4-2c03-41f9-a127-45686e34f4a9,"Mýrdalssandur, Iceland",0001-01-01,0.00,1361,128
+79e1f426-8c40-4b33-8eb6-4d8f7c04c8b7,"Grand Theft Auto: San Andreas",2008-01-04,0.00,73138,6484
+7a39cecf-3409-4b99-b2bd-b7e47ff9b39c,"Cold Fear™",2008-05-13,9.99,648,126
+7a9764fb-ceb4-4593-b78c-dc6b8c14cc15,"The Path",2009-03-18,9.99,606,193
+7acc26f2-9a27-46c4-a27a-b054bbd42c20,"Sakura TTS",0001-01-01,4.99,10,3
+7b3318dc-b536-4e16-8b7a-7b6bcb34ef11,"Crazy Machines 1.5",2008-12-12,9.99,1,1
+7b4b3bad-daf4-4ff8-9897-8f328332bc84,"Miss Popularity",2009-07-17,6.99,5,1
+7b4ecb6d-ea72-4761-bf46-542ef17c2f04,Magnetis,2009-11-05,1.99,33,8
+7b8710d1-cf00-49b6-8869-33e416348991,"CSX ES44AC Add-on Livery",2009-01-01,4.99,0,0
+7bbfd402-7d76-4017-af1c-db1194b33398,"Fish Tycoon",2008-05-12,9.99,58,12
+7be5eb6b-3f4e-4da7-a3f7-3a2a5b670252,"Tales of Monkey Island Complete Pack: Chapter 4 - The Trial and Execution of Guybrush Threepwood",2009-10-30,14.99,79,18
+7cae2eed-9eb7-48f9-b66e-6917412d96d5,"Guild Wars Factions®",2009-04-22,19.99,0,0
+7cd044b9-a45e-4559-aa00-26d602a0333f,"Muffin Knight",0001-01-01,4.99,322,94
+7ce513e0-1267-48e2-8fc8-78d97ef9dfce,Turba,0001-01-01,4.99,48,90
+7d12b2f3-24ea-492a-acfc-88c776586d04,"Heretic: Shadow of the Serpent Riders",2007-08-03,4.99,766,45
+7d537acc-0793-41f0-9396-4ff54baca14b,"Warhammer® 40,000: Dawn of War® - Dark Crusade",2007-08-07,12.99,6402,227
+7d58acb9-c900-42f1-802d-6711edecfaf2,"Crysis Warhead®",2008-09-17,19.99,2750,492
+7dc084db-802b-4ed8-bccd-6c27939fb522,"不惑英雄传(puzzled heroes)",0001-01-01,16.99,55,23
+7e011798-9d88-4a93-8f7a-d8b3273f9add,Counter-Strike,2000-11-01,9.99,198387,5135
+7e440c47-5851-4e9c-ac91-0552d89fcec0,"King's Bounty: The Legend",2009-05-01,6.99,2380,257
+7eb2f1b2-a970-4b1c-aa10-af4815b510eb,"7 Wonders II",2008-06-10,9.99,131,38
+7ebbc7a6-0cab-4251-bdcc-a7315dcca811,"Far Cry® 2",2008-10-22,9.99,9730,2807
+7ed20698-9624-4122-90e4-10c137c2b535,FlatOut,2007-02-02,7.49,3552,290
+7f0e08f1-bc38-43eb-8afa-be95aaf04115,"9th Company: Roots Of Terror",2009-12-03,0.99,111,82
+7f2a8e39-8c2a-4690-b724-b131f13b7610,"Majesty 2",2009-09-17,9.99,611,270
+7f2d8b73-5d3a-4888-b53c-6ef71d1aa8ce,"Invisible Apartment Zero",0001-01-01,2.99,10,8
+7fc73674-6fd1-4808-8876-623eb1392394,"CivCity: Rome",2007-04-06,9.99,430,160
+7fdf9f9c-c014-4772-8b72-92b17fd974d1,"Wallpaper Engine",0001-01-01,3.99,522889,10368
+802597a3-5f38-4327-abd0-5e7f61c1946c,"Realms of Regalia: Royal Rumble",0001-01-01,0.00,0,1
+80c7ac0e-1fc7-48f0-81d8-ebfea725871f,"Bejeweled Deluxe",2006-08-30,4.99,131,18
+80c9d980-3c3f-4ff2-a705-bd4777250850,"Idle Racing GO: Clicker Tycoon",0001-01-01,0.00,277,248
+80cdf499-b63a-4ffa-8efa-7d1552ed814c,AudioSurf,2008-02-15,9.99,10056,441
+81127934-3899-4136-a3e3-06b651345f0b,"Full Spectrum Warrior: Ten Hammers",2007-07-17,9.99,124,50
+8114c7cb-5abb-4945-9683-fad698c9a602,"Diaper Dash®",2009-08-12,9.99,15,5
+81bd05f0-4f29-47a0-9a50-f1323804ef4d,Sacrifice,2009-08-19,9.99,478,43
+81e27332-9871-4d50-9243-8618b70df8a4,"Sprint Cars Road to Knoxville",2008-07-29,9.99,31,28
+82cba8dc-fcfd-4e34-9b7c-413cf94788b1,"Genesis Rising",2007-08-06,4.99,40,104
+82e466bb-5f5a-43d3-aeed-85b7733cbd0a,"STAR WARS™ Republic Commando™",2009-07-08,9.99,12401,569
+8316bb84-e427-4543-99ae-199046431f75,"Conflict: Denied Ops",2008-02-08,5.99,177,162
+83624d9c-4543-46f2-bce1-d6622fb418bc,"Ultimate Doom",2007-08-03,4.99,11912,437
+836c7003-fe90-4fba-b6aa-5ed87869e67a,"Far Cry® 4",0001-01-01,29.99,35175,7255
+839fae65-c2a2-4369-8bc3-5a91bf108024,"Puzzle Agent",0001-01-01,4.99,2081,277
+8477424b-3cb6-4ac5-b40f-a9c4fc3a5bbd,"Max Payne 2: The Fall of Max Payne",2008-01-04,4.49,6398,375
+849b928c-7cd4-4553-9852-77e8b29d07fe,"MiG-29 Fulcrum",0001-01-01,9.99,62,10
+84abe28d-9a49-4f37-a137-90ba09b1c2f1,"Overlord™: Raising Hell",2008-02-28,9.99,1624,113
+854145f4-d6fa-4881-b8a9-f33407381280,"Sub Command",2006-10-26,5.99,71,24
+8548ab44-773c-4c4d-b76a-ed7af1640a82,"Codename: Panzers - Cold War",2009-05-06,14.99,142,76
+8568da01-21cd-45b6-a04b-6427db6dc5f8,"The Void",2009-12-15,9.99,773,171
+8593c77b-fbd0-49ea-b9f0-72428c319efd,"Red Faction II",2009-08-06,9.99,510,452
+85daae17-c1ff-492c-b154-b86a6c1ea10f,"Half-Life Deathmatch: Source",2006-05-01,9.99,2444,815
+85ff9491-34d2-42b6-b85f-921ff16adbc2,"Ride! Carnival Tycoon",2008-07-29,9.99,18,27
+861788d0-6779-4b83-8294-b0eb8c07ac1e,"Beijing 2008™ - The Official Video Game of the Olympic Games",2008-08-14,0.00,0,0
+862aaf00-9461-4a25-b5ce-57773608dbe9,CyberDrifter,0001-01-01,11.99,12,2
+864b1980-195c-4b1e-a901-44fb5ad800a1,"Command & Conquer 3: Tiberium Wars",2009-11-13,14.99,5252,559
+869eeea9-6ed4-47a8-95ea-a814359d5dec,"RACE 07",2007-10-15,3.99,2078,373
+86a7c500-5b66-41c5-a92f-6d86f7b0c74a,"The Stronghold Collection",2009-10-27,24.99,3839,507
+86bbe9c5-9376-43b3-bfba-9d308c0b51fe,"Command & Conquer 3: Kane's Wrath",2009-11-13,14.99,2975,135
+86df2a89-dd82-4f3d-9db9-4110f8dc14cb,Starscape,2008-11-03,7.99,66,17
+86e12dfc-0256-4b2d-8ac1-27aa85df0091,"Zombie Shooter 2",2009-11-18,9.99,488,134
+86e3de2f-75b3-4db4-a383-9100949c9b0f,"Crazy Machines 2",2008-06-20,9.99,107,126
+872dfa42-785e-4ae3-9ae2-b52248fa104f,ItzaZoo,2009-12-09,9.99,12,1
+87893467-2017-4a46-8240-3ca655be5603,"Lumote: The Mastermote Chronicles",0001-01-01,19.99,67,1
+87e68898-e75d-451c-8b60-36b83a8ec8ec,"Conflict in Vietnam",0001-01-01,6.99,2,1
+87e6cd20-7130-4b88-8101-5b4fb816d97a,"Zuma Deluxe",2006-08-30,4.99,2330,129
+87ec7bf8-4b3a-42b4-89d5-d8b6603cda00,"Ostrich Runner",0001-01-01,6.99,24,4
+883773d9-7117-4f68-a936-a5ca2c526a48,"RIP - Trilogy™",2007-06-01,4.99,204,136
+8870a3c1-adbb-41a1-9f60-c9f2d01827d1,"Food Dream Factory 梦想的美食世界：研发美食开心制作糖果模拟经营养成",0001-01-01,3.99,2,4
+887cfe4c-ad86-417e-b684-3f8f54289077,"Resident Evil 5",2009-09-15,19.99,25603,3771
+887e7a89-1af0-4211-8611-76bb059ed589,Mafia,2002-08-28,14.99,6124,701
+8896eb28-586b-4c37-8655-43bd5114fd50,"Silent Hunter®: Wolves of the Pacific",2008-06-13,9.99,537,249
+88ba6904-6113-471f-98ae-cd7645d433f6,"Counter-Strike: Condition Zero",2004-03-01,9.99,13442,1535
+89718b00-be8c-4a82-8840-0ce8a2468e40,"Mystery P.I. - Lost in Los Angeles",2009-07-27,4.99,25,7
+89c3f527-0562-49b1-bb9f-55077b36aa58,"Sam & Max 201: Ice Station Santa",2008-05-16,0.00,160,20
+8a180e59-ee96-4d4b-9343-99a85e254d6b,"The Wonderful End of the World",2008-07-17,4.99,465,143
+8a1aea6b-5665-4768-ae1a-2f7a2d1396f1,"BRAINPIPE: A Plunge to Unhumanity",2009-07-06,0.00,146,26
+8acfcdd4-0265-4b60-b6a2-bab624e74676,"Space Empires IV Deluxe",2006-02-07,9.99,183,35
+8b0e784f-a2d0-4080-b201-f14a91a4702b,"Sherlock Holmes: The Awakened - Remastered Edition",2009-08-06,9.99,388,147
+8b845272-31b8-41ff-bc5a-df732c1758cd,"Light of Altair",2009-06-04,14.99,36,9
+8c2a5af9-8d61-4aff-ad3e-86b4bd7fbe3c,Loki,2007-11-05,9.99,114,73
+8c60da62-918e-4a28-bd1c-5086f6616a81,"SAO Utils 2: Progressive",0001-01-01,0.00,0,0
+8c7cad43-cef5-41df-b0a2-62e2d6a42c9f,"Angle of Attack",2009-08-17,9.99,0,3
+8cc14d39-f0ec-4260-88d6-1c27ebdb4e7e,"The Universim",0001-01-01,29.99,5677,1210
+8ccd8705-f1e7-4493-a83e-1345b1c4434e,"Fallout 2: A Post Nuclear Role Playing Game",2009-08-19,9.99,10013,616
+8cfec6c0-3af8-441b-a920-6c5f7ca2fd96,"RIP - Trilogy™",2007-06-01,4.99,215,149
+8da581f9-90b6-4035-baf6-7b48c93e2b76,"Nancy Drew® Dossier: Resorting to Danger!",2009-11-19,6.99,64,13
+8dce93a5-ca64-4b8d-b8f4-2aa6debf87aa,"Bone: The Great Cow Race",2008-06-17,0.00,61,39
+8dd01b25-0db7-4863-bb90-1e2c2101b7f4,"Left 4 Dead",2008-11-17,9.99,40244,1610
+8e0ec04a-9163-44b5-9fcd-65b407248fe9,"F-22 Lightning 3",2009-06-18,9.99,93,51
+8e17bdf8-c968-41e9-b44f-2e4995c70cae,"Dreamfall: The Longest Journey",2007-01-12,7.99,818,152
+8e306c96-3b80-41c7-be6a-7712573c028e,"My name is You and it's the only unusual thing in my life",0001-01-01,2.99,587,103
+8e70f732-1af7-4787-ab97-72fcd40340ae,NOeSIS02_羽化,0001-01-01,0.00,306,2
+8f0bf666-1dc0-4c79-b395-4d9543b1af64,"Massive Assault",2009-11-04,9.99,22,2
+8f66ff2d-e336-41f2-b7aa-9e350a469aa2,"688(I) Hunter/Killer",2006-10-26,1.99,116,37
+8ff72a7c-5207-4561-8df0-525ee689e690,WaywaY,0001-01-01,0.00,3,1
+901d10e1-d043-40a3-af44-dcafcd77c41a,"Tales of Monkey Island Complete Pack: Chapter 3 - Lair of the Leviathan",2009-09-29,14.99,77,7
+915a4f80-7fb3-421f-a9c7-84cc5d7fb144,"Driver® Parallel Lines",2009-02-13,9.99,742,80
+9189ce58-2da1-4de2-8b94-18dff873af2e,Fatale,2009-11-04,6.99,66,52
+922aeb87-55d8-4d7c-a2db-5ad2ba4609bc,"Prince of Persia: The Two Thrones™",2008-11-21,9.99,1047,282
+923b3c85-d3d0-46fe-9340-b67cddd79733,"The Sum of All Fears",2008-10-10,9.99,24,6
+92a421bc-bac1-4d5c-a1f3-4e0720d2276f,"X-COM: Apocalypse",2008-09-04,4.99,644,81
+92e73f67-f5a7-4a53-ac94-9993cc9a5bac,忍者村大战2,0001-01-01,0.00,139,146
+92f9b8d8-13f3-4766-8f6c-72008fa5a967,"Velvet Assassin",2009-05-01,4.99,1435,908
+9353660e-722a-4bf4-a627-fdbf5286e0fe,"The Pirate King Ultimate",0001-01-01,6.99,4,3
+9389e0b1-5d85-4d9f-88a4-b7d46b5c1a30,"Call of Duty®",2006-10-13,19.99,3842,216
+93c03e1d-776a-4278-abf3-6b1ec6b5cfc9,"Little Triangle",0001-01-01,9.99,474,40
+93fda787-f7ef-4251-aded-df7e44fba585,SPORE™,2008-12-19,19.99,41718,3650
+94584545-d0fc-40a7-b998-b8abf4343011,"Brain Spa",2008-10-10,9.99,4,5
+949c0b25-1e16-442e-8048-8e4fa8eaf37a,"Call of Duty® 4: Modern Warfare®",2007-11-12,9.99,16788,1211
+94cc4653-35b5-4044-bd02-63ede7edc0a0,"Virtual Race Car Engineer 2016",0001-01-01,9.99,2,1
+953ae7eb-8858-48b6-97e1-140fe4fee9f2,"Wolfenstein 3D",2007-08-03,4.99,2740,170
+95975dc2-8383-4abb-8c65-ff84d3c53650,"Rush for Berlin Gold",2009-10-29,4.99,132,19
+95d72db3-0186-4abc-af05-813f46c0d498,Altitude,2009-12-04,0.00,1689,143
+95eb5c15-7f75-4bb1-9a4b-eb5e06252525,Silverfall,2007-03-20,4.99,74,50
+96325063-4af9-43c2-bc99-8d727b942723,"Disciples II: Gallean's Return",2006-07-06,1.39,926,217
+973bb322-0a54-4754-aa38-0a8a145b54c6,"Silverfall: Earth Awakening",2008-07-18,3.39,50,22
+97bc2d62-5dff-4a8b-a927-76831419c1ec,Sneiroball,0001-01-01,24.99,0,0
+97fed9bf-a765-4ec3-b5c2-06a2e3f66e38,"Wallace & Gromit’s Grand Adventures",2009-03-23,14.99,0,0
+98b835c2-13bf-4b53-a377-1107f8fdd4da,Prototype™,2009-06-10,19.99,6973,1701
+992f784b-bf59-4405-830c-7ec4c1d79330,"Galactic Bowling",2008-10-21,19.99,6,11
+99946838-d214-4581-bcb8-9785ba627b3f,Neisis,0001-01-01,0.00,0,0
+99a58f0e-e0b8-47ba-8d39-8109f1cc029b,"Heroes of Might & Magic V",2008-05-13,9.99,2582,355
+99fd6d29-e635-4f71-b8e7-b055635030b4,"STAR WARS™ Jedi Knight II - Jedi Outcast™",2009-09-16,9.99,3583,349
+9af0f5b8-28bd-4c6f-8520-294f4cd24292,"Mayhem Intergalactic",2009-01-22,9.99,13,12
+9b07b7d7-c964-48a4-8bae-40194cff9267,"Half-Life 2: Lost Coast",2005-10-27,0.00,9306,1261
+9b60c90e-9e44-4330-8e8d-80fe83a745a9,"The Elder Scrolls IV: Oblivion® Game of the Year Edition",2009-06-16,14.99,35336,1642
+9b7a47c7-5340-464e-9593-550b3905b4d0,Cursed,0001-01-01,0.00,0,0
+9b9804f0-458c-4276-bee2-da046a66ab28,"Children of the Nile: Enhanced Edition",2008-07-08,7.99,305,61
+9c36b760-d50c-42b4-aa33-54f5365a7ce9,"Jagged Alliance 2 Gold",2006-07-06,19.99,0,0
+9c37c8f4-b189-494c-8182-0ff6f801cf29,"Civilization IV: Beyond the Sword",2007-07-24,9.99,3245,124
+9c5183fc-c261-4c02-a95c-9175d57718f4,Manhunt,2008-01-04,3.49,2052,928
+9d50ed27-46ae-4e91-a65b-e039c2572834,"Gothic II: Gold Edition",2005-11-29,9.99,9334,753
+9ded1014-f5c8-40be-9621-498a5755cb55,X-Blades,2009-04-30,9.99,1860,1149
+9ed56591-017a-4e06-926d-c6b9480294c3,"Wandering Willows™",2009-08-12,0.00,25,1
+9f0674c9-71f9-4d82-8434-58237e65b43e,"Rome: Total War™ - Alexander",2007-08-28,0.00,550,187
+9f223856-0025-445f-9f59-5a2495bcef43,"Disciples II: Rise of the Elves",2006-07-06,6.99,884,149
+9f6f5272-3f6a-4109-b848-93607d367326,"Petz® Horsez® 2",2008-06-13,9.99,110,44
+9fbf4e67-3c24-4a30-8150-1fdeac091979,"Puzzle Quest: Galactrix",2009-02-24,9.99,139,162
+9fecf3ef-1dc1-4f2e-849b-c2570058b13f,"Age of Wonders II: The Wizard's Throne",0001-01-01,9.99,211,47
+9ff4fa6b-93e7-4e87-bca7-c452cc7e93eb,"Civilization IV®: Warlords",2007-04-06,4.99,316,31
+a0270e10-3332-4f14-a232-f36584f6db63,"Tomb Raider: Underworld",2008-11-21,8.99,3702,1162
+a06b05fd-1f9e-4348-ac54-d8cc6e8b5421,"3D Ultra™ Minigolf Adventures",2009-07-23,9.99,68,38
+a08fdfc2-3307-4ff6-80f8-305075cfc037,"Trials 2: Second Edition",2008-05-28,9.99,200,37
+a0ff94de-f09f-4ac9-92f4-f2a0df0e9b53,"Bone: Out From Boneville",2008-06-17,0.00,93,84
+a19ee7a1-364b-4adf-be32-0626757974e9,"Bully: Scholarship Edition",2008-10-21,5.24,19274,3597
+a1afaeb2-cd1f-438e-952b-2b0279046bf9,"Assassin's Creed™: Director's Cut Edition",2008-04-09,19.99,11496,2260
+a1bcb4fb-b4ed-4785-bf75-7884d01f1dfb,"Knights of Honor",2009-02-04,9.99,1876,149
+a1eb46f1-ee48-41bc-bc99-1179aadb8cb5,"Indiana Jones® and the Fate of Atlantis™",2009-07-08,5.99,1017,60
+a25872b6-1f19-438f-abbf-4ef43a3a338c,"Mission Runway",2009-07-17,9.99,13,8
+a2794d09-cc90-4afd-987d-ffa782a31621,"HeXen: Deathkings of the Dark Citadel",2007-08-03,4.99,110,31
+a2d081cc-5b0a-4c10-9f20-6db474a2dcdc,"Escaping Hell",0001-01-01,7.99,2,0
+a2d56adf-87be-43f6-bce1-6176a835c342,"Kooring VR Coding Adventure",0001-01-01,8.49,8,0
+a3703db7-20b7-4328-a320-3b18016760b4,"NECROPOLIS: BRUTAL EDITION",0001-01-01,29.99,2947,1577
+a4014b45-5536-454d-943b-b09d1276aa5c,"Company of Heroes",2006-09-11,19.99,11836,714
+a450c9a7-8661-4d64-9cec-59a13255d993,"Dr. Daisy Pet Vet",2008-07-29,9.99,12,13
+a47c8e19-61e4-4a7c-86ae-177b8ab5cae9,"Nation Red",2009-09-03,2.99,2320,311
+a485035c-5ae0-4f90-8b6f-e4d3ebac6c38,"Elven Legacy: Magic",2009-12-03,0.51,13,5
+a49130ed-6f3b-4399-bd87-3d2cabdac1aa,"Nancy Drew®: Last Train to Blue Moon Canyon",2009-10-10,6.99,218,9
+a4c79a8f-69aa-41ba-8423-5e68f182fbca,"Tom Clancy's EndWar™",2009-02-25,9.99,539,143
+a4db927e-95bb-442c-90d3-ea90054cf89f,"Medal of Honor: Airborne",2009-10-06,0.00,3822,903
+a51becc4-321b-4de6-bbc4-8dcdf9aa88bb,"OLD SKOOL RACER",0001-01-01,19.99,1,4
+a5acba4c-b61a-47a4-99bf-17ee923766b4,"Day of Defeat",2003-05-01,4.99,5179,566
+a5d24679-4c5d-4e19-bdf7-6dc3ea591105,"LEGO® Indiana Jones™: The Original Adventures",2009-07-08,19.99,1914,276
+a634e24d-7dca-4fc5-aacf-b0cfb835b647,"Unreal Tournament 3 Black",2009-03-05,19.99,3166,354
+a66015d9-0f93-48d6-bfe2-18866d6379ac,Major\Minor,0001-01-01,0.00,340,83
+a6a4ace3-d9b3-46d0-a732-ea7a94449e33,"Geneforge 4: Rebellion",2006-11-01,19.99,35,3
+a6a820ae-c843-4896-a732-c443df291555,"Comanche 4",2009-06-18,9.99,201,22
+a6c43be6-2767-43ad-9bc4-17e55e5d685d,"Sea Dogs: To Each His Own - Pirate Open World RPG",0001-01-01,14.99,1495,491
+a753a6c4-2616-4c06-8d07-156907c8cab0,DEFCON,2006-09-29,9.99,3032,461
+a760231e-43ae-4cda-88c0-d904092056b8,"MineDrill Redux",0001-01-01,2.99,0,2
+a78acc8f-5b6e-4fb7-b135-84a3d1731c45,"QUAKE Mission Pack 2: Dissolution of Eternity",2007-08-03,0.00,304,27
+a7d6ca30-eff3-4b1b-b46c-4e4ab94066c9,"Because its hot! Prologue",0001-01-01,0.00,3,0
+a7f950ee-ac7b-40f8-a535-572fb6b74364,"Decision in the Desert",0001-01-01,6.99,1,2
+a81473ab-d27c-463e-b61a-3f8055dbead5,Windosill,2009-09-25,2.99,968,91
+a82baead-ddbe-401b-9624-9a784f037ccf,"Paws and Claws: Pet Vet",2009-07-17,6.99,15,1
+a83d23ff-e5b0-4b31-ab13-3d494bff9bec,"Yumsters 2: Around the World",2009-11-12,4.99,53,29
+a864405f-8095-4302-88ed-51fb54f6f627,"Mirror's Edge™",2009-01-14,19.99,28497,4053
+a88062f2-3960-4a6d-a2f3-4e6148e450e9,Overlord™,2007-10-26,4.99,5087,364
+a8dab25c-dda0-41f0-bac1-50041cf3418d,"Midnight Outlaw: 6 Hours to SunUp",2008-07-29,9.99,15,32
+a914c7db-eb64-4910-872b-3e7e00e9c784,"Island Explorer VR",0001-01-01,0.00,28,13
+a96f0f1f-3a29-406d-9cc4-c43a1e206652,"Crazy Machines",2008-12-12,9.99,130,31
+a9ad2d27-9ddf-4fcd-8a3a-540b6213c148,"Warhammer® 40,000: Dawn of War® - Game of the Year Edition",2007-08-07,12.99,7417,385
+aa0318f3-30e5-427a-82a9-581e99186f07,Drakensang,2009-03-09,9.99,440,112
+aab1b0b0-40df-4a91-afc8-93ade61681f7,"Discovery! A Seek and Find Adventure",2008-07-29,9.99,26,35
+aaff1183-335d-4492-a397-850f3c81a500,"Shining City",0001-01-01,0.00,16,8
+ab149354-92cd-4cbc-928f-dfd82968e77a,"Peggle Deluxe",2007-03-06,4.99,4381,143
+ab4dc512-2fa1-4794-ae4f-f200af55cfcc,Torchlight,2009-10-27,14.99,5424,495
+aba7fe49-4be8-462c-a52e-d1d4b1d0ef6c,"Rogue Trooper",2007-03-29,9.99,355,24
+abead33d-f9bd-48d2-808f-360dc13d45a4,Zombrio,0001-01-01,0.00,1,6
+ac4b70db-89fa-429a-b391-7f27af0c0ebd,"Broken Betrayal",0001-01-01,10.99,5,5
+ac4c0093-7945-4355-9bbe-6389857359ef,"Call of Juarez",2007-11-08,9.99,1914,445
+ac5869b6-417f-4bba-afa6-cc47024409ca,"Precipice of Darkness, Episode Two",2008-11-07,7.99,143,29
+ac8f6b65-d927-4fd1-9a57-71cb1922d16e,"Nancy Drew®: The Creature of Kapu Cave",2009-07-17,6.99,66,29
+acc78552-b70e-4b41-a83a-ea6301094c8c,"Counter-Strike: Source",2004-11-01,9.99,135151,5348
+ad2d68d1-a34e-45d6-86a1-8065cce773f5,"Red Faction Guerrilla Steam Edition",2009-09-15,0.00,6700,715
+ad3da524-0adb-4a8f-83ef-22bc8c35d473,"Kane and Lynch: Dead Men™",2007-12-13,0.00,1954,1122
+ad443f00-f48a-4b77-af12-0ea6e0570fb1,"Half-Life 2",2004-11-16,9.99,142368,3687
+ad4cfc75-000e-40ad-945c-fbc479f6e7c9,Aquaria,2008-12-15,9.99,1203,158
+adbba636-d75c-43e9-9ea8-301df57a3952,"Call of Duty® 2",2006-10-13,19.99,6350,449
+adc4313a-a947-4849-bfc6-31c936ca6f88,"Sherlock Holmes - Nemesis",2008-08-07,1.99,314,116
+ae23e521-5e58-47f5-bb0c-cbcc2f9b96aa,"Sid Meier's Civilization® IV",2006-10-25,19.99,1473,145
+aea5ce54-62e6-443c-833c-5c0380e1f293,"Try To Fall Asleep",0001-01-01,14.99,128,12
+af419ff2-6114-4173-9e2b-92d43e7d0295,"Wallace & Gromit’s Grand Adventures",2009-03-23,14.99,0,0
+afa09b2d-6270-4b4f-8959-1488f25d0b47,"City Life 2008",2008-09-29,2.49,130,44
+b18dcd70-c359-4214-badb-4780c28a33ae,"S.T.A.L.K.E.R.: Shadow of Chernobyl",2007-03-20,19.99,29072,1691
+b2781ee4-bd04-4657-92fc-b599d7229cb5,"Ninja Blade",2009-11-19,0.00,192,129
+b2fe39b9-2770-453a-8624-0ac40a4e2166,"Tank Universal",2008-08-21,4.99,247,185
+b3487244-8b7a-4311-ac28-de6e8c68a51f,Aztaka,2009-05-07,0.00,105,47
+b3f12be6-c0c1-4c6f-836f-5e9e4d96db1b,"SlamIt Pinball Big Score",2009-02-23,4.99,39,80
+b45ea2c4-2e11-42f1-976d-c3360d94d1c4,"Silent Hunter® III",2008-06-13,2.49,1607,229
+b45fbeb8-dc3f-44b6-9484-b0cebc5376f8,"Team Fortress Classic",1999-04-01,4.99,5677,923
+b466dc4c-c913-4689-9a72-b8b6f32ba03f,"Battlestations: Midway",2007-03-15,6.99,598,178
+b4b32a27-f188-437b-9381-3be9f8c99846,"Crystal Vibes feat. Ott.",0001-01-01,0.49,7,2
+b4fd1e26-704b-47d6-bca0-ac115aaf4131,"Aces of the Galaxy™",2009-07-23,9.99,18,21
+b5248c3c-b139-443d-bfd2-979cdd70385d,Chains,2009-07-01,2.99,447,151
+b53b41fe-298f-4af5-9a36-933b6d0838d0,GlitchPets,0001-01-01,4.99,46,3
+b558676a-b9bb-41f8-85c5-9d495ce61cd7,"Play With Me: Escape Room",0001-01-01,2.99,206,103
+b5b8bbe5-90f0-4345-bc1d-6b1ca9c94328,RuneTech,0001-01-01,4.99,4,3
+b5cc3a8d-5558-4a85-a4ec-18206639a928,"Runaway, The Dream of The Turtle",2007-03-14,4.99,145,125
+b5ffcf67-e396-4d22-8831-0491f4330700,"Nancy Drew®: Ransom of the Seven Ships",2009-07-21,0.00,41,19
+b650fb55-8af8-49cd-b7f7-de581b11d107,"Rag Doll Kung Fu",2005-10-12,0.99,55,23
+b6b42030-e6a7-469d-9e8d-3c0c7ca85dc5,"Zombie Panic! Source",2008-10-03,0.00,6149,1102
+b74aa5dd-9a42-4405-9ba2-55ebee6f3df2,"AaAaAA!!! - A Reckless Disregard for Gravity",2009-09-03,4.99,593,115
+b77b3cf9-aca9-4ab1-8b96-3d76cf838c43,"Sam & Max 105: Reality 2.0",2007-06-15,0.00,84,7
+b7f4dfd7-7008-4cd0-b26c-895fe26c3578,"And Yet It Moves",2009-04-02,9.99,812,367
+b834f8f6-1cf8-4485-adc1-bc6e365580c5,Clutch,2009-07-20,9.99,135,60
+b8f86b0a-5e50-4e91-8a7f-d9143beb537f,"DinerTown Tycoon",2009-09-30,9.99,9,9
+b93faf24-af91-42af-a64e-9b8b68ca1170,"Freeze Tag Fun Pack #1",2009-09-23,19.99,0,0
+b97daa01-c6bc-4ef4-b2da-de1a28ae292d,"Typer Shark! Deluxe",2006-08-30,4.99,213,44
+b98f673a-d6f9-460b-a4d4-0de3868cd59f,"Earthworm Jim 2",2009-11-04,19.99,64,29
+b9fd9ac4-707d-4e70-a38b-efa4a58fa9ba,"占星VR / Horoscope",0001-01-01,6.99,5,0
+ba249e18-9827-4ec3-8fb1-b4b0cef2921a,Ceville,2009-02-27,0.51,127,28
+ba2c5b67-95d1-475c-942b-ff9cb941d75e,"Darkest of Days",0001-01-01,0.00,235,74
+ba2ca980-f69b-44b9-9801-5e062384314d,"Virtual Villagers - The Secret City",2008-05-28,9.99,86,8
+ba2f0605-6af9-4630-b515-faf9a03444e7,"LEGO® Batman™: The Videogame",2008-09-29,19.99,5826,770
+ba352d29-52a1-468a-a60a-f209fa408222,"Oddworld: Abe's Exoddus®",2008-08-28,2.99,1267,69
+bb110a7d-6e0d-476d-a874-e36ef15b85ca,"LEGO® Star Wars™ - The Complete Saga",2009-11-12,19.99,18253,628
+bb3208b9-c312-4586-934d-1832bc097da1,"Dragon Age: Origins",2009-11-06,0.00,9579,860
+bbe28776-d8f3-4a1c-a505-75cee6b158e2,"Ninja Reflex: Steamworks Edition",2008-03-21,4.99,52,6
+bbeed7d8-095f-4212-90f9-9893295f7fe3,"Half-Life 2: Episode One",2006-06-01,7.99,20536,926
+bc349b0a-7e6b-4195-8fd1-9f9b49ef9fe2,"Telltale Texas Hold ‘Em",2008-06-17,0.99,113,99
+bc593761-5cdf-4c69-ab4e-cdbfb64454b1,"Sid Meier's Railroads!",2007-05-04,9.99,1825,781
+bc7eebb6-25ea-4e8f-b766-508c99d5475f,"Nikopol: Secrets of the Immortals",2009-07-30,4.99,190,156
+bca854fd-32d7-4eba-9dba-32c5690f3a43,"Mystery P.I.™ - The New York Fortune",2009-01-28,4.99,23,5
+bcf68b38-d36b-4f9c-ba15-89cd1cffe6dc,"STAR WARS™ - The Force Unleashed™ Ultimate Sith Edition",2009-12-15,19.99,5845,2207
+bdb0b07a-2079-498e-8105-f7b28ac8349f,GUN™,2006-10-13,19.99,1265,129
+bdca1e53-693c-401e-96ce-b9b0526b851c,"Carmageddon Max Pack",1997-06-30,9.99,606,80
+be492aa6-e8e6-45e3-be46-aef7515cceec,"Tales of Monkey Island Complete Pack: Chapter 2 - The Siege of Spinner Cay",2009-08-20,14.99,88,9
+be7a8c73-a2c3-4c1f-b64c-0826cbdb66f0,"Alien Shooter 2: Reloaded",2009-05-27,4.99,2007,168
+bec5ea30-7e20-491a-9d73-a58cee10f6fa,"Diner Dash:® Hometown Hero™",2009-08-12,9.99,59,131
+bed7d2ea-309a-4e0b-a692-b0c1928e5db6,"The Witcher: Enhanced Edition Director's Cut",2008-09-19,9.99,60877,7951
+bf0cb359-b32b-4d3d-bd58-47f583ea86a7,"World of Goo",2008-10-13,14.99,4755,278
+c00144a7-8c54-4a2e-9e1e-2d3abc9b8ca4,"King's Quest™ Collection",2009-07-23,19.99,236,44
+c07b7f87-f267-4dcd-96a1-609b5ad7b680,"Trackmania United Forever",2008-04-16,29.99,1871,107
+c11935ce-ec80-43f0-9592-97564220f500,"X-COM: Terror From the Deep",2007-05-04,4.99,626,59
+c16b65cd-0255-43a6-9ac6-636306ef2696,"Amazing Adventures The Lost Tomb™",2007-12-13,4.99,46,12
+c16b8cfc-2912-4162-9f5f-524b2de22397,"Runaway, A Road Adventure",2007-03-14,4.99,411,134
+c1945e77-bb5b-4c03-8901-50ffef61ffa6,"Virtual Families",2009-05-06,9.99,41,9
+c1b0d60e-d4ea-439e-8b12-16580e7d344e,"RollerCoaster Tycoon® 3: Platinum",2008-03-12,0.00,4463,431
+c1ccc36f-5277-4774-bd53-2a0fc6bc6e4e,"Bejeweled 2 Deluxe",2006-08-30,4.99,385,20
+c2230a0e-4183-4883-b73b-fa8bc8eb4136,"Xpand Rally Xtreme",2008-10-08,4.99,195,66
+c2849273-fd99-47e8-b693-e2de60f57282,"The Medium",0001-01-01,49.99,5732,736
+c2accf02-3fa1-4d6d-a259-55acdd226b72,"Mahjong Quest Collection",2009-08-24,9.99,34,3
+c2c35991-3d7e-4f29-9a75-eedb9d8a8486,"Nancy Drew®: Legend of the Crystal Skull",2009-07-17,6.99,120,12
+c2e78a8d-8e86-490a-b201-d5e761ff947f,"Nancy Drew®: The Haunted Carousel",2009-10-10,6.99,122,9
+c335b39d-7baa-420d-8c29-89d9118c609a,"Joint Operations: Combined Arms Gold",2009-09-29,19.99,202,26
+c3c4f903-bd15-4017-99e0-e167a476e271,Ricochet,2000-11-01,4.99,3804,848
+c45b3972-27e2-45e6-80b2-c26cdf32a3fa,"Secret Files 2: Puritas Cordis",2009-10-29,9.99,119,23
+c4cfecc3-fdd8-4aa5-8b47-bf268d432b19,"VideoPad Video Editor",0001-01-01,99.99,38,8
+c53d7601-2c64-4345-abee-1d0ee5f995ef,"Maelstrom: The Battle for Earth Begins",2009-02-13,4.99,90,56
+c57a1943-a14d-43e0-a11d-7bcd7b1ccc65,Explottens,0001-01-01,4.99,14,1
+c5d44d05-a36a-45c6-b760-9229fa5096d0,"Command & Conquer: Red Alert 3",2009-01-08,19.99,9390,1635
+c5d6e0d9-94c5-4b75-bbb3-9720255a0429,"King Arthur - The Role-playing Wargame",2009-11-24,2.49,373,160
+c743fe67-a6bb-4d2a-8a28-ea783330346c,"Three Kingdoms The Last Warlord",0001-01-01,3.99,2332,902
+c7e2dc5c-f66e-4bfe-919c-a6f5ba1b1fe4,"Tales of Monkey Island: Complete Season",2009-07-07,14.99,520,65
+c872e1c0-1048-452b-8c00-d3b5e00fe2c3,"Precipice of Darkness, Episode One",2008-05-21,7.99,427,54
+c8803510-975d-4752-ba08-7184f327105d,"Death to Spies: Moment of Truth",2009-08-07,6.99,358,63
+c89fff95-a205-4bc1-8abc-8f3fb443be69,"Commandos 3: Destination Berlin",2007-03-15,4.99,605,351
+c8cd208f-0d09-40dc-a7ba-84d2c7802775,"Mystery P.I.™ - The Vegas Heist",2008-06-05,4.99,26,8
+c94abc51-c227-49d2-b7ba-6d09998368c2,"X-COM: Enforcer",2008-09-04,4.99,191,164
+c9cbd2f1-8309-4385-98ea-00b7688b1362,"Deus Ex: Game of the Year Edition",2007-03-29,6.99,11145,601
+ca12a9d8-33d2-4eaf-ba81-db8a471195d6,"Drug Wars",2009-03-17,4.99,14,30
+ca2db3be-2ce2-40f6-84bd-30f3d3688c4a,"QUAKE III: Team Arena",2007-08-03,14.99,207,50
+cb5effc3-a54b-4f03-ae7b-5f8dcc123770,Pacer,0001-01-01,39.99,534,198
+cba4ca1b-9721-4e4c-a833-2cd3e76a58f8,"The Graveyard",2009-03-09,4.99,350,230
+cbd01110-c42a-480c-9854-e65419c71260,"Dead Space",2009-01-09,19.99,20216,1946
+cbe8b898-9dd7-4ea6-b617-b5e5cdadc709,"Heavy Weapon Deluxe",2006-08-30,4.99,189,45
+cc98a8c4-edf5-49d6-a2a1-b282a99cb2e2,"Sam & Max 101: Culture Shock",2007-06-15,0.00,440,51
+ccf40a1b-e8b3-44d6-9968-e8b02216cfa0,"The Haunting of Billy",0001-01-01,7.99,20,23
+cd306f79-e165-4aa4-bb5f-09167a8c689d,"F.E.A.R. 2: Project Origin",2009-02-12,14.99,5318,844
+cd3430dd-60a1-4b32-9849-8b0e5af75dc4,"Tropico 3",2009-10-20,9.99,1517,198
+ce0d39b5-205a-4624-b6a7-7f439115a7bc,"Time of Shadows",2009-09-11,9.99,7,11
+ce364aa9-c9d5-470c-b2f3-667bc383c574,"TrackMania Nations Forever",2008-04-16,0.00,17250,2117
+cebc67f7-3c1a-45b9-80d8-5816de1990ab,"Tropico Reloaded",2009-07-26,6.99,632,82
+cfab6aa0-ad9e-4718-aa12-f4d574c2bb43,"Björk Vulnicura Virtual Reality Album",0001-01-01,19.99,14,4
+cfe50d17-8f9f-469b-a490-4aae9c0a6a42,"Quake III Arena",2007-08-03,14.99,2736,127
+d0185346-cc1e-4611-b67e-9cf068a72829,"Act of War: Direct Action",2008-03-12,2.99,395,50
+d04cd572-437b-4a0f-bd77-b62cee49b543,"Need for Speed: Shift",2009-10-06,0.00,2037,615
+d07a24dc-be93-4fb6-91ab-eff7717c44bf,"Mosby's Confederacy",2008-11-19,9.99,24,12
+d0a3a60c-79fa-4b4a-abf1-833c6db80beb,"Tunnel Rats",2009-05-15,19.99,12,24
+d0b5cfbd-7cca-4cff-a064-81a8f504b013,"Gratuitous Space Battles",2009-11-16,14.99,585,198
+d0c0bfe1-129f-474e-ad72-3ee72bcfd071,"Jewel Quest Pack",2009-08-24,19.99,19,3
+d0d0bfdb-f7b2-435e-a8a4-ceae6c229fea,"Commandos 2: Men of Courage",2007-03-15,4.99,1979,340
+d0fd9029-408b-4268-98b5-5dded6f12c06,"Tomb Raider: Legend",2007-03-29,6.99,3526,470
+d198714e-ad84-4a54-a2ab-eeef1fd83306,"X3: Terran Conflict",2008-10-16,15.99,2154,374
+d21d6a75-755e-46d9-a6b5-be58c11966d7,"Men of War™",2009-05-06,4.99,2555,309
+d2ed66a6-35e5-4e2f-aa0d-365c62556555,"Xpand Rally",2006-08-24,4.99,293,73
+d30654a0-a02e-4344-b851-8a30c4369621,中国象棋-残局大师,0001-01-01,5.99,15,8
+d325f99f-cfe4-462e-a300-c4024685d78e,Uplink,2006-08-23,9.99,1956,188
+d3c7ef66-4df4-430b-94a0-40bcf6be7b91,Risen,2009-10-02,9.99,6495,828
+d3dd2109-0b8d-4889-88e5-fe2d5e047bf8,"Crusaders: Thy Kingdom Come",2009-10-08,9.99,22,14
+d4869fcd-47bc-47e9-bb38-01d47a399397,"NOBUNAGA'S AMBITION: Souzou",0001-01-01,24.99,835,132
+d4fd0821-09bf-4a0f-abeb-1f32e3b44eb6,"Harrier Jump Jet",0001-01-01,6.99,1,0
+d51286e9-b18d-4f98-b877-10e8cfca3f7f,"All Aspect Warfare",2009-08-17,9.99,3,10
+d51ae6c9-9424-43ad-a0be-039f203ec7cd,"Super Chain Crusher Horizon",0001-01-01,14.99,18,14
+d55409e7-de83-4ea3-8a31-0eaaeb101d27,"Last Day of June",0001-01-01,19.99,3177,477
+d5ee4163-9535-4aec-a83d-00f5c8b35325,"Silent Hill Homecoming",2008-11-06,39.99,953,996
+d714ea83-7773-4ba9-8a28-8a8af3fa27ff,"Zombie Trigger",0001-01-01,2.99,3,5
+d77ca44c-482c-421d-baeb-26f28e819978,"Dirty Bomb®",0001-01-01,0.00,47153,10891
+d7cf3fc7-1d6c-4808-af97-3fe4477dbad9,"HeXen II",2007-08-03,4.99,321,66
+d7f83871-e9a3-423f-8045-e5d41c8e9835,"Geneforge 1",2001-12-01,19.99,335,25
+d819ba29-d8ea-43f9-b2a0-182141e19ad4,"Freeze Tag Fun Pack #2",2009-09-23,19.99,0,0
+d8523ae5-f5b8-4ec1-ab38-22e6bd432a17,Malkyrs,0001-01-01,0.00,4,4
+d88415cc-e5f1-48d1-a5fe-2d5ee1fe135c,"Death to Spies",2008-03-12,4.99,587,199
+d8c1196a-55b6-4d94-bfac-c007d1c1e3b6,"Prince of Persia®",2008-12-10,9.99,1849,486
+d8d2732b-b9de-4882-815f-2a49b5c569f0,"Nancy Drew®: Curse of Blackmoor Manor",2009-10-10,6.99,224,29
+d9fd3680-18ca-4ffe-b10e-919512717748,"Devil May Cry 4",2009-12-22,19.99,1831,174
+da088d02-60ed-44c4-875d-1809644dba63,"Delta Force Xtreme 2",2009-06-18,19.99,101,61
+da35adb7-d3f5-4ae5-adef-a62c3bfbaf93,"Exatron Quest L'Epée de Sang",0001-01-01,5.99,9,0
+da4f06ed-5735-42f5-8f8a-3d5ba8f8b24a,"Pixel Noir",0001-01-01,9.99,13,2
+da8e2d13-91bd-46f1-bb85-a749d4259253,"Nexus - The Jupiter Incident",2007-07-03,9.99,712,126
+dadcfd79-3cab-4e9b-914e-0a4a543c349e,"Legacy of Kain: Soul Reaver",1999-09-08,0.00,1252,452
+daebb85e-5295-4ae6-9ac7-3791ce444f97,"Making History: The Calm & the Storm",2007-03-13,4.99,477,119
+db680960-1e23-4309-a128-17c7fdebba81,Imaginator,0001-01-01,0.00,5,4
+dc0f870f-c4a6-4d9f-95eb-4db032efe22c,"Civilization IV: Beyond the Sword",2007-07-24,9.99,1516,75
+dc22a6de-b493-43bd-9022-04829274dc7c,"Teleporter: World of Gamers (Alpha)",0001-01-01,0.00,44,9
+dc6fb895-70cb-46ab-816f-e247593e25f7,"Fetch It Again",2009-07-17,6.99,2,2
+dc7abb3c-4cdf-405c-a533-c3dd9a64180b,"Lost Planet™: Extreme Condition",2007-06-26,14.99,1120,270
+dd0824a6-a519-45bc-b852-933b90d6762b,"Musaic Box",2009-03-19,4.99,220,17
+dd2ad8dd-be02-4c2f-a574-42ffec84b2e9,"Echo of Ayllu",0001-01-01,0.00,0,0
+dd2f6434-7486-4728-951d-dc38b0ed8e72,"Crash Time 3",2009-11-25,5.99,421,90
+dd33487d-98d8-40d0-9664-c5ef9a33a782,"Zombie Shooter",2009-05-27,4.99,727,146
+dd6723e2-bdf5-479e-9f62-023985fdb9f0,"LUXOR: Mah Jong",2009-07-13,9.99,70,29
+ddbb7da9-380c-4647-be9e-2778f2269cb4,"Cirque du Soleil",0001-01-01,0.00,24,23
+ddcbeed3-b7f2-4c50-8230-a640fc6ca344,"Cursed 2",0001-01-01,0.00,0,0
+de336b44-41c4-4958-8c13-2b92dc22fb5b,"Painkiller: Resurrection",2009-10-27,9.99,127,321
+de67b72a-52d3-4adf-830b-d4002c373ded,"Penguins Arena: Sedna's World",2008-12-18,5.99,1116,132
+df41be0f-065d-4775-9199-13828668062b,"Tom Clancy's Ghost Recon® Island Thunder™",2008-07-15,4.99,81,12
+df5648da-ed70-4940-aea3-eb3cdbf42b36,"Serious Sam HD: The First Encounter",2009-11-24,14.99,6208,417
+dfa7de72-36af-4c12-b64b-930732b2b37f,"FlatOut: Ultimate Carnage",2008-08-26,7.99,3430,547
+e0003402-148a-48d3-aba7-84d49b0ed4cf,"Grand Theft Auto III",2008-01-04,0.00,11878,1856
+e05c2e09-537f-4b38-a7f9-2ad2b95f6e50,"Wallace & Gromit’s Grand Adventures",2009-03-23,14.99,127,20
+e1738eab-3239-4ef6-8f62-d233aa7cde91,Psychonauts,2006-10-11,9.99,13923,701
+e27b4d6d-23fe-4f02-85cd-3ad4ed7656a8,"Tales of Monkey Island Complete Pack: Chapter 5 - Rise of the Pirate God",0001-01-01,14.99,91,11
+e2c39692-3fa2-40dd-8589-7e9e65c48bd8,"Summer Funland",0001-01-01,19.99,255,39
+e2d4c8f7-484e-4064-8f3c-03c9eb3c2ed9,"Hunting Unlimited™ 2008",2008-01-29,9.99,44,10
+e30afc29-4ce1-4ced-bec9-588d066fa412,"RACE On",2009-10-16,7.99,0,0
+e33e68f0-f461-4e9d-9c7f-55d9fd0d89f8,"The Maw",2009-03-09,9.99,212,41
+e3bda454-5df3-4812-83c8-f06d0cdf5d22,"RACE - The WTCC Game",2006-11-24,39.99,136,51
+e3ec778b-f357-48e2-b7a6-69194a86d4f1,"Harvest: Massive Encounter",2009-01-23,7.99,109,30
+e4003681-3562-4591-9fa1-dedf7ffb7fb1,"Go Home - Rage incoming",0001-01-01,1.99,18,20
+e466df16-f260-4384-99d5-f30e6cbfe649,"Paws and Claws: Pampered Pets",2009-07-17,6.99,2,2
+e4981bc3-83b3-48f3-8a73-e42208392746,"STAR WARS™: The Clone Wars - Republic Heroes™",2009-10-06,19.99,325,374
+e4ce076f-82ee-45c6-9816-a9f7eea1eb0d,"Luxor 3",2008-06-10,9.99,127,16
+e4df3ed5-d486-49a7-a051-06b5f775c4c4,"Company of Heroes - Legacy Edition",2007-07-17,19.99,5857,401
+e4e0eabb-475f-4061-99a6-5eef130a6621,"STAR WARS™ - Knights of the Old Republic™",2009-09-05,9.99,24139,2339
+e4e88fad-25b2-488b-af35-7a31db406c20,"Broken Sword 2 - the Smoking Mirror: Remastered",2009-12-02,5.99,812,97
+e4fc0bbe-457b-45b0-a9da-987ef634c059,"FlatOut 2™",2006-12-21,7.99,11989,522
+e4ffc598-cc77-4475-abe4-dae117473ef4,"Hearts of Iron 2 Complete",2009-01-23,14.99,420,73
+e51848dc-20a1-48e7-9d64-0383e904eae6,"Wedding Dash® 2: Rings Around the World",2009-08-12,9.99,29,7
+e52eda4c-0906-4dc8-ba12-db563af160ce,"Sam & Max 106: Bright Side of the Moon",2007-06-15,0.00,79,8
+e62b30a0-4432-47df-80a6-e08d22e42245,Build-A-Lot,2009-12-17,9.99,36,2
+e6444203-7735-4065-9d5e-d70b35884b4c,Crysis,2008-09-17,29.99,10238,2623
+e6de891f-f768-49d0-8640-a419ea366b1d,"Two Worlds Epic Edition",2009-04-30,2.49,3777,1236
+e6e3fb58-4ee6-481d-9d5c-6c2487af865d,"Half-Life 2: Deathmatch",2004-11-01,4.99,9737,1051
+e6ef50af-9ce3-4155-a654-f8776c48c774,"SPORE™ Galactic Adventures",2009-06-23,19.99,4802,669
+e74e5f43-c6cb-4ece-b6b3-6709776c68bb,"Chuzzle Deluxe",2006-08-30,4.99,644,46
+e75f7515-78cb-4dee-aff7-f4e5fe9c5922,"Earth 2160",2006-04-01,1.49,851,361
+e764c53e-ee5d-49ce-9811-b876dac8ba7b,Cogs,2009-04-14,5.99,755,96
+e7721628-99bf-4387-adeb-b59341f83a52,"Just Cause",2007-03-15,6.99,2789,1391
+e7891ddd-7e18-4131-b209-903545a9cd48,"Pacific Storm Allies",2008-08-18,7.99,113,78
+e7a6b93a-59b9-43ab-ba5f-34dbce4bbae2,"Red Stone Online",0001-01-01,0.00,175,112
+e7cc840a-bd67-4f81-add2-7b3c07de0f43,"Call of Duty: United Offensive",2006-10-13,19.99,1142,170
+e81e24e0-5d09-412a-89d9-f60400e7f9ae,"Summer Athletics",2009-04-02,19.99,22,17
+e84b13d2-609a-40b1-82db-12b27f7d282c,"Esenthel Engine",0001-01-01,0.00,24,18
+e84ea328-a84a-4c1b-befc-28670003b578,"Heroes of Might & Magic V: Tribes of the East",2008-10-10,9.99,2021,151
+e91eaa6c-2256-4229-a164-bf11764f7471,"BloodRayne 2 (Legacy)",2006-09-14,0.00,316,122
+e9c5dadd-7efe-46c6-ae62-423978a70b2e,"Planet Busters",2008-06-30,9.99,1,2
+ea0d42a1-5439-4a34-bd37-3ae81e9e36b3,"Hearts of Iron III",2009-08-07,9.99,4160,1233
+eaa39b39-98a4-4758-a80e-a45afc8aa61e,"Gumboy - Crazy Adventures™",2006-12-19,4.99,54,49
+eae742eb-d2e0-43cf-9762-c7b6eae3fd2b,"Polygon Hero",0001-01-01,0.00,34,10
+ec64e550-f5ec-4cda-a3bb-9551b3f73b8b,"QUAKE Mission Pack 1: Scourge of Armagon",2007-08-03,0.00,406,24
+ecb912df-ee73-4234-be61-7474c7c11b2a,"Dangerous High School Girls in Trouble!™",2009-02-23,19.99,121,76
+ed04a046-a23a-47ca-a8b0-bb5c22548559,"Freeze Tag Fun Pack #1",2009-09-23,19.99,0,0
+edbc6f51-ce49-4929-ab14-6ff513d13049,"Elven Legacy: Siege",2009-11-17,1.99,13,4
+edcf828c-5d59-4c43-bc1f-6bee10689abc,Apparition,0001-01-01,9.99,63,14
+ee009bca-95f2-4c42-968c-993f750b1cf0,"Samantha Swift and the Hidden Roses of Athena",2008-10-31,9.99,43,32
+ee03e0cd-1df4-4004-a6ba-7078c6bdd95b,"Build-A-Lot 3: Passport to Europe",2009-12-17,9.99,11,1
+ee04a076-cd76-4ea2-b27a-67481babc141,"The Bard's Tale",2009-12-11,19.99,862,272
+ee141b54-2585-422d-9394-a68626762893,"Fallout 3: Game of the Year Edition",2009-12-17,19.99,29320,7771
+ee2d45f7-3bb1-4b64-83b7-c29c26ba5791,"Luxor 2",2008-06-10,9.99,11,21
+eed08160-7b80-4b06-962a-984fe1df840e,"Guild Wars Nightfall®",2009-04-22,19.99,0,0
+ef53948d-dbd2-44a5-8c12-1518b7595ca9,"Eternity's Child",2008-07-31,4.99,16,57
+efa0de52-944b-42b6-aa29-2cb5a730dd51,"Eschalon: Book I",2009-02-10,0.00,257,41
+efcffdbd-a653-4773-a7ee-dcc0bdc2d575,"Escape Rosecliff Island",2009-04-15,4.99,148,73
+efd473c9-bf13-4638-9f65-732f41f3f405,"Combat Wings: Battle of Britain",2009-10-14,4.99,505,137
+f01823f0-f629-4769-9a45-2b5381613192,"Space Quest™ Collection",2009-07-23,19.99,256,51
+f06a1096-8f94-40da-aca4-4b686359f78e,"Iron Warriors: T - 72 Tank Command",2006-07-26,0.99,168,105
+f0a30a2b-9557-4a90-aa1a-49c14265ac6c,"America's Army 3",2009-06-17,0.00,1655,723
+f0d9fab2-801d-40dd-bace-070b4055cf07,"Team Fortress 2",2007-10-10,0.00,823693,56683
+f134da90-faa6-44c7-b10b-322b6cff6fcd,"Return to Castle Wolfenstein",2007-08-03,4.99,6043,452
+f13f1629-189d-4696-a3c4-117bfe5229fa,"The Elder Scrolls IV: Oblivion® Game of the Year Edition Deluxe",2009-06-16,19.99,35307,1639
+f145a0e3-9922-4a07-b14d-d5277b22d6f7,"Vegas: Make It Big™",2006-12-21,4.99,107,37
+f1f06a3f-3c2f-4801-a4a9-74f423bd66e8,"Mystery of Unicorn Castle: The Beastmaster",0001-01-01,6.99,63,12
+f25206fd-1232-4aef-9929-ec69dbfed29e,"Evil Genius",2009-06-22,9.99,3105,194
+f33d7534-ef30-49f6-aad9-6bc2d5d25851,"Guild Wars® Game of the Year Edition",2009-04-22,19.99,8,1
+f3b0e084-8886-49bf-b811-4e171663ee88,"Dynomite Deluxe",2006-08-30,4.99,174,10
+f3c536a8-9250-46eb-bd6e-3d522faa12b0,"Chaos Theory",2008-05-22,2.99,10,2
+f3f38313-b07c-4fd8-8c51-e5f2ff5c7f4e,"Zeno Clash",2009-04-21,9.99,2350,400
+f4855e8f-923f-4257-b7bf-12d04f49a2a5,"Sacred Gold",2008-07-09,9.99,2777,515
+f4d3112e-3138-443c-91e9-2e3af1f7c143,"Prince of Persia: Warrior Within™",2008-11-21,9.99,1807,307
+f4ddc295-420f-402d-bcf8-6ac32035eeff,"Project: Snowblind",2007-03-29,5.99,385,127
+f5ab928f-a507-4ff5-93fb-a2d3c84ffa33,Helldorado,2009-04-30,9.99,93,37
+f5ba7c3d-1103-4b6d-9508-dc31cc6b3d76,"Painkiller Overdose",2007-10-30,4.99,664,226
+f632965c-f173-4a5a-85c5-b9087d746b25,NecroVision,2009-05-20,4.99,865,406
+f64069f9-097c-4000-bcb4-b05bfd243875,"Avalon Lords: Dawn Rises",0001-01-01,0.00,75,68
+f73777f7-8aae-4004-bfce-135b19074add,RoboBlitz,2006-11-07,9.99,55,19
+f751a664-dec4-4efb-a27b-34b6e5656df7,"Tom Clancy's Rainbow Six Lockdown™",2008-05-13,9.99,185,134
+f7728ffc-f79e-41fc-a03a-ec9fe99e25c5,"Mini Ninjas",2009-09-08,9.99,3322,418
+f8085caf-ea15-4371-bbee-1d754b5ccd9c,"Exodus from the Earth",2008-10-24,14.99,72,67
+f850c415-35ea-44ef-9599-0d05b0ccf2d0,"Mount & Blade",2008-11-03,9.99,5117,411
+f880fe26-9e7b-48bd-86fa-a2a16f4f7a24,"Plants vs. Zombies GOTY Edition",2009-05-05,4.99,81362,2372
+f97bfa5f-6c0c-44d3-93ef-bd01facc846f,"Restaurant Empire II",2009-05-27,19.99,229,77
+f99c8f53-036e-4eb8-8d3f-fff160d722d0,Half-Life,1998-11-08,9.99,73346,2619
+f9f7b512-1dff-489c-84dc-e27c3103c21c,PEPPERED,0001-01-01,0.00,0,0
+fae02418-c17c-4564-b567-c91577ca4682,"Railroad Tycoon 3",2007-05-04,9.99,699,217
+fb46689f-97ba-47bd-865c-e3c251b70116,"Left 4 Dead 2",2009-11-16,9.99,619457,16204
+fc3da7ef-16fd-4e4d-8455-c9097dbd8335,"Call of Duty®: Modern Warfare® 2 (2009)",2009-11-11,19.99,31945,2927
+fddb2959-75cf-40da-99a3-0257b5d44d4d,"Mahjong Quest Collection",2009-08-24,9.99,20,2
+fe4eebee-fd32-4742-bc67-927466a18ab4,"Heroes of Might & Magic V: Hammers of Fate",2008-10-10,9.99,204,34
+fefe4617-a249-498f-857c-8b206597597d,"Sid Meier's Civilization IV: Colonization",2008-09-23,19.99,358,104
+ff1750ef-30e0-4e1b-ab8f-9a9aeb78f710,"IL-2 Sturmovik: 1946",2008-06-13,9.99,2148,274
+ffbf7634-bf2e-4aba-b5b6-2cbebd69b230,"Star Wars: Battlefront 2 (Classic, 2005)",2009-07-08,9.99,45065,2771
+ffe32063-fbe6-4715-b571-77ead7382272,"Full Spectrum Warrior",2007-07-17,9.99,161,77
+fff71b42-6235-45f0-a3ed-3682552bd27f,"Flora's Fruit Farm",2009-10-01,3.99,83,63

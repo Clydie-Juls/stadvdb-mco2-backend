@@ -1,6 +1,8 @@
+import { getEnv } from '../util.js';
+import { deleteEntry } from './db_connection.js';
 import { log, writeToLog } from './log.js';
 import { resolveOtherLog } from './log_resolver.js';
-import { sendLogToOthers } from './log_sender.js';
+import { sendLogToNode, sendLogToOthers } from './log_sender.js';
 
 const MESSAGE_MAP = {
   // Database Trigger Commands
@@ -9,6 +11,7 @@ const MESSAGE_MAP = {
   notify_update,
 
   // Log commands
+  fetch_log,
   receive_log,
 
   // Simulation Commands
@@ -18,6 +21,12 @@ const MESSAGE_MAP = {
 
 export function handleMessage(name, args) {
   const callback = MESSAGE_MAP[name];
+
+  if (!callback) {
+    console.warn('Received unknown message: %s', name);
+    return;
+  }
+
   callback(args);
 }
 
@@ -39,13 +48,29 @@ function notify_insert({ values }) {
   console.log('Received table insert notification: %s %s', time, values.id);
 }
 
-function notify_update({ values }) {
+async function notify_update({ values }) {
   const time = Date.now();
 
   writeToLog('update', time, values);
   sendLogToOthers(log);
 
   console.log('Received table update notification: %s %s', time, values.id);
+
+  const nextYear = Number(values.release_date.split('-')[0]);
+
+  if (
+    (getEnv('NAME') === 'new' && nextYear < 2010) ||
+    (getEnv('NAME') === 'old' && nextYear >= 2010)
+  ) {
+    deleteEntry(values.id);
+    console.log('Partition change for entry with id %s', values.id);
+  }
+}
+
+function fetch_log({ sender, senderUrl }) {
+  sendLogToNode(senderUrl, log);
+
+  console.log('Received log fetch request from %s', sender);
 }
 
 function receive_log({ sender, log }) {

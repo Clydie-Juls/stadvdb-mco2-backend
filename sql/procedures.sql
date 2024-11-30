@@ -45,6 +45,7 @@ BEGIN
 END //
 
 CREATE PROCEDURE insert_game(
+  IN id VARCHAR(64),
   IN name VARCHAR(255), 
   IN release_date DATE, 
   IN price DECIMAL(10, 2),
@@ -52,12 +53,16 @@ CREATE PROCEDURE insert_game(
   IN negative_reviews int 
 )
 BEGIN
+  IF id IS NULL THEN
+    SET id = UUID();
+  END IF;
+
   INSERT INTO games (id, name, release_date, price, positive_reviews, negative_reviews)
-  VALUES (0, name, release_date, price, positive_reviews, negative_reviews);
+  VALUES (id, name, release_date, price, positive_reviews, negative_reviews);
 END //
 
 CREATE PROCEDURE edit_game(
-  IN id INT, 
+  IN id VARCHAR(64), 
   IN name VARCHAR(255), 
   IN release_date DATE, 
   IN price DECIMAL(10, 2),
@@ -70,7 +75,7 @@ BEGIN
   WHERE games.id = id;
 END //
 
-CREATE PROCEDURE delete_game(IN id INT)
+CREATE PROCEDURE delete_game(IN id VARCHAR(64))
 BEGIN
   DELETE FROM games WHERE games.id = id;
 END //

@@ -5,7 +5,7 @@ USE `gamesdb`;
 
 DROP TABLE IF EXISTS games;
 CREATE TABLE games (
-  id int AUTO_INCREMENT PRIMARY KEY,
+  id varchar(64) PRIMARY KEY,
   name varchar(255),
   release_date date,
   price decimal(10, 2),

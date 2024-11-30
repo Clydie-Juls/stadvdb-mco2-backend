@@ -1,5 +1,10 @@
 import { getEnv } from '../util.js';
-import { deleteEntry, insertEntry, updateEntry } from './db_connection.js';
+import {
+  getGameYear,
+  deleteEntry,
+  insertEntry,
+  updateEntry,
+} from './db_connection.js';
 import { log, writeLog as writeWholeLog } from './log.js';
 
 export function resolveOtherLog(otherLog) {
@@ -89,11 +94,18 @@ function resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry) {
   writeWholeLog();
 }
 
-function resolveNewEntries(newEntries) {
+async function resolveNewEntries(newEntries) {
   for (const entry of newEntries) {
     if (!isEntryRelevant(entry)) {
       log.push(entry);
       log.sort((a, b) => a.time - b.time);
+
+      //
+      if (entry.type === 'update' && (await getGameYear(entry.gameId))) {
+        deleteEntry(entry.gameId);
+      }
+
+      writeWholeLog();
       continue;
     }
 
@@ -109,8 +121,22 @@ function resolveNewEntries(newEntries) {
         break;
 
       case 'update':
-        log.push(entry);
-        updateEntry(entry.gameId, entry.values);
+        {
+          log.push(entry);
+
+          if (getEnv('NAME') === 'central') {
+            updateEntry(entry.gameId, entry.values);
+            break;
+          }
+
+          //
+          if (!(await getGameYear(entry.gameId))) {
+            insertEntry(entry.values);
+          } else {
+            updateEntry(entry.gameId, entry.values);
+          }
+        }
+
         break;
     }
   }

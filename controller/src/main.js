@@ -1,5 +1,6 @@
 import { initDBConnection } from './lib/db_connection.js';
 import { initLog } from './lib/log.js';
+import { pullLogFromPeer } from './lib/log_puller.js';
 import { initWSServer } from './lib/ws_server.js';
 import { getEnv } from './util.js';
 
@@ -14,8 +15,6 @@ if (!NAME || !MYSQL_HOST || !MYSQL_PORT || !WS_PORT) {
 
 console.log(`Hello! I am ${NAME}!`);
 
-initLog();
-
 initDBConnection(
   getEnv('MY_SQL_HOST'),
   getEnv('MY_SQL_PORT'),
@@ -24,3 +23,6 @@ initDBConnection(
   'gamesdb',
 );
 initWSServer(WS_PORT);
+
+initLog();
+pullLogFromPeer();
