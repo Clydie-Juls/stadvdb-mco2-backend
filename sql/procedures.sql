@@ -45,6 +45,7 @@ BEGIN
 END //
 
 CREATE PROCEDURE insert_game(
+  IN id int,
   IN name VARCHAR(255), 
   IN release_date DATE, 
   IN price DECIMAL(10, 2),
@@ -53,7 +54,7 @@ CREATE PROCEDURE insert_game(
 )
 BEGIN
   INSERT INTO games (id, name, release_date, price, positive_reviews, negative_reviews)
-  VALUES (0, name, release_date, price, positive_reviews, negative_reviews);
+  VALUES (id, name, release_date, price, positive_reviews, negative_reviews);
 END //
 
 CREATE PROCEDURE edit_game(
