@@ -3,13 +3,15 @@ import { deleteEntry, insertEntry, updateEntry } from './db_connection.js';
 import { log, writeLog as writeWholeLog } from './log.js';
 
 export function resolveOtherLog(otherLog) {
-  const lastEntry = log[log.length - 1];
-  const otherLastCommonEntry = otherLog[log.length - 1];
+  if (log.length > 0) {
+    const lastEntry = log[log.length - 1];
+    const otherLastCommonEntry = otherLog[log.length - 1];
 
-  if (lastEntry.gameId === otherLastCommonEntry.gameId) {
-    resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry);
-  } else if (isEntryRelevant(otherLastCommonEntry)) {
-    resolveNewEntries([otherLastCommonEntry]);
+    if (lastEntry.gameId === otherLastCommonEntry.gameId) {
+      resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry);
+    } else if (isEntryRelevant(otherLastCommonEntry)) {
+      resolveNewEntries([otherLastCommonEntry]);
+    }
   }
 
   const newEntries = otherLog.slice(log.length);
