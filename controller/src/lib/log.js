@@ -1,3 +1,4 @@
+import { randomUUID } from 'crypto';
 import fs from 'fs';
 
 const LOG_FILE_PATH = './log.json';
@@ -20,6 +21,6 @@ export function writeLog() {
 }
 
 export function writeToLog(type, time, values) {
-  log.push({ type, time, gameId: values.id, values });
+  log.push({ uuid: randomUUID(), type, time, gameId: values.id, values });
   writeLog();
 }

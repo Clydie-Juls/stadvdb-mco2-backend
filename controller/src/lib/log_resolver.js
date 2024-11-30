@@ -7,10 +7,12 @@ export function resolveOtherLog(otherLog) {
     const lastEntry = log[log.length - 1];
     const otherLastCommonEntry = otherLog[log.length - 1];
 
-    if (lastEntry.gameId === otherLastCommonEntry.gameId) {
-      resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry);
-    } else if (isEntryRelevant(otherLastCommonEntry)) {
-      resolveNewEntries([otherLastCommonEntry]);
+    if (lastEntry.uuid !== otherLastCommonEntry.uuid) {
+      if (lastEntry.gameId === otherLastCommonEntry.gameId) {
+        resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry);
+      } else if (isEntryRelevant(otherLastCommonEntry)) {
+        resolveNewEntries([otherLastCommonEntry]);
+      }
     }
   }
 
@@ -19,7 +21,7 @@ export function resolveOtherLog(otherLog) {
 }
 
 function isEntryRelevant(entry) {
-  const year = entry.values.release_date.split('-')[0];
+  const year = Number(entry.values.release_date.split('-')[0]);
 
   return (
     getEnv('NAME') === 'central' ||
