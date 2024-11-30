@@ -1,7 +1,6 @@
-import { writeToLog } from './log.js';
+import { log, writeToLog } from './log.js';
 import { resolveOtherLog } from './log_resolver.js';
 import { sendLogToOthers } from './log_sender.js';
-import { sendWSMessage } from './ws_server.js';
 
 const MESSAGE_MAP = {
   // Database Trigger Commands
@@ -35,7 +34,7 @@ function notify_insert({ values }) {
   const time = Date.now();
 
   writeToLog('insert', time, values);
-  sendLogToOthers();
+  sendLogToOthers(log);
 
   console.log('Received table insert notification: %s %s', time, values.id);
 }
@@ -51,7 +50,6 @@ function notify_update({ values }) {
 
 function receive_log({ sender, log }) {
   resolveOtherLog(log);
-  sendWSMessage(sender, 'acknowledge_log');
 
   console.log('Received and resolved log from %s', sender);
 }
