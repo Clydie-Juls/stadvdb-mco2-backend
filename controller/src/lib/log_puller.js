@@ -7,10 +7,14 @@ export async function pullLogFromPeer() {
   const peerURLs = getEnv('PEER_CONTROLLER_HOSTS').split(',');
 
   for (const url of peerURLs) {
-    await attemptSend(url, {
+    const success = await attemptSend(url, {
       name: 'fetch_log',
       sender: selfName,
       senderUrl: selfURL,
     });
+
+    if (success) {
+      break;
+    }
   }
 }
