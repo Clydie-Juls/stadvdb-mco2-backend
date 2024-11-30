@@ -71,7 +71,7 @@ function notify_update({ values }) {
   }
 }
 
-function fetch_log({ sender, senderUrl, log }) {
+function fetch_log({ sender, senderUrl }) {
   sendLogToNode(senderUrl, log);
 
   console.log('Received log fetch request from %s', sender);
