@@ -45,7 +45,7 @@ BEGIN
 END //
 
 CREATE PROCEDURE insert_game(
-  IN id int,
+  IN id VARCHAR(36),
   IN name VARCHAR(255), 
   IN release_date DATE, 
   IN price DECIMAL(10, 2),
@@ -53,6 +53,10 @@ CREATE PROCEDURE insert_game(
   IN negative_reviews int 
 )
 BEGIN
+  IF id IS NULL THEN
+    SET id = UUID();
+  END IF;
+
   INSERT INTO games (id, name, release_date, price, positive_reviews, negative_reviews)
   VALUES (id, name, release_date, price, positive_reviews, negative_reviews);
 END //
