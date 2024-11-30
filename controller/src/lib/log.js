@@ -19,7 +19,7 @@ export function writeLog() {
   fs.writeFileSync('./log.json', JSON.stringify(log));
 }
 
-export function writeToLog(type, time, gameId, values = {}) {
-  log.push({ type, time, gameId, values });
+export function writeToLog(type, time, values) {
+  log.push({ type, time, gameId: values.id, values });
   writeLog();
 }
