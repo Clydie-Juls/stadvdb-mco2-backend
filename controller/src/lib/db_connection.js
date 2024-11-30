@@ -30,6 +30,7 @@ export function insertEntry(values) {
   db.query(
     query,
     [
+      values?.id,
       values.name,
       values.release_date,
       values.price,
