@@ -90,6 +90,8 @@ function resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry) {
 function resolveNewEntries(newEntries) {
   for (const entry of newEntries) {
     if (!isEntryRelevant(entry)) {
+      log.push(entry);
+      log.sort((a, b) => a.time - b.time);
       continue;
     }
 
