@@ -122,10 +122,6 @@ async function resolveNewEntries(newEntries) {
             break;
           }
 
-          if (!entry.needsPartitionChange) {
-            break;
-          }
-
           const prevYear = await getGameYear(entry.gameId);
 
           if (prevYear) {
