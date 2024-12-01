@@ -1,6 +1,9 @@
 services:
   sql-server:
-    image: mysql:latest
+    build: 
+      context: ./
+      dockerfile: Dockerfile-sql
+    # image: mysql:latest
     environment:
       - MYSQL_ROOT_PASSWORD=12345678
       - MYSQL_USER=user
@@ -33,6 +36,7 @@ services:
       - app-network
       - shared-network
     restart: unless-stopped
+
 networks:
   app-network:
     driver: bridge

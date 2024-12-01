@@ -1,11 +1,14 @@
 services:
   sql-server:
-    image: mysql:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile-sql
+    image: ${ACR_NAME}.azurecr.io/sql-server:latest
     environment:
       - NODE_ENV=production
       - MYSQL_ROOT_PASSWORD=12345678
       - MYSQL_USER=user
-      - MYSQL_PASSWORD=password
+      - MYSQL_PASSWORD=12345678
     ports:
       - "${MY_SQL_PORT}:3306"
     networks:

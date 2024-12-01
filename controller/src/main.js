@@ -19,8 +19,8 @@ initLog();
 initDBConnection(
   getEnv('MY_SQL_HOST'),
   getEnv('MY_SQL_PORT'),
-  'root',
-  '12345678', // https://www.youtube.com/watch?v=KLVzYtTeNS8
+  'user',
+  'Ninja12345678', // https://www.youtube.com/watch?v=KLVzYtTeNS8
   'gamesdb',
 );
 initWSServer(WS_PORT);
