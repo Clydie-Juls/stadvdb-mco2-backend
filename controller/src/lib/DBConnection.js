@@ -45,7 +45,7 @@ export class DBConnection {
     const query = 'CALL average_positive_reviews(?)';
     const results = await this.connection.query(query, [nameFilter]);
 
-    return results[0][0][0].positive_reviews;
+    return results[0][0][0];
   }
 
   async fetchAvgNegReviews(nameFilter) {
@@ -56,7 +56,7 @@ export class DBConnection {
     const query = 'CALL average_negative_reviews(?)';
     const results = await this.connection.query(query, [nameFilter]);
 
-    return results[0][0][0].negative_reviews;
+    return results[0][0][0];
   }
 
   async deleteGame(gameId) {

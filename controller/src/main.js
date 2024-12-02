@@ -22,8 +22,8 @@ app.use(express.json());
 
 // Fetch games
 app.get('/games', async (req, res) => {
-  const startRow = req.query.start_row ?? 0;
-  const rowCount = req.query.row_count ?? 100;
+  const startRow = req.query.start_row ? Number(req.query.start_row) : 0;
+  const rowCount = req.query.row_count ? Number(req.query.row_count) : 10;
   const nameFilter = req.query.name_filter ?? '';
 
   const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
@@ -53,10 +53,10 @@ app.get('/games/avg-pos-reviews', async (req, res) => {
   const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
   await db.connect();
 
-  const avgPosReviews = await db.fetchAvgPosReviews(nameFilter);
+  const result = await db.fetchAvgPosReviews(nameFilter);
   db.close();
 
-  res.send({ avgPosReviews });
+  res.send(result);
 });
 
 app.get('/games/avg-neg-reviews', async (req, res) => {
@@ -65,10 +65,10 @@ app.get('/games/avg-neg-reviews', async (req, res) => {
   const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
   await db.connect();
 
-  const avgNegReviews = await db.fetchAvgNegReviews(nameFilter);
+  const result = await db.fetchAvgNegReviews(nameFilter);
   db.close();
 
-  res.send({ avgNegReviews });
+  res.send(result);
 });
 
 // Fetch a single game

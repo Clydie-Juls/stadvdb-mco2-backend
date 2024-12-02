@@ -21,6 +21,7 @@ CREATE PROCEDURE fetch_games(
 BEGIN
   SELECT * FROM games
   WHERE games.name LIKE CONCAT("%", name_filter, "%")
+  ORDER BY games.name
   LIMIT start_row, row_count;
 END //
 
@@ -93,14 +94,20 @@ END //
 
 CREATE PROCEDURE average_positive_reviews(IN name_filter VARCHAR(255))
 BEGIN
-  SELECT AVG(positive_reviews) AS positive_reviews
+  SELECT 
+    AVG(positive_reviews) AS average,
+    SUM(positive_reviews) AS sum,
+    COUNT(positive_reviews) AS count
   FROM games
   WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
 
 CREATE PROCEDURE average_negative_reviews(IN name_filter VARCHAR(255))
 BEGIN
-  SELECT AVG(negative_reviews) AS negative_reviews  
+  SELECT 
+    AVG(negative_reviews) AS average,
+    SUM(negative_reviews) AS sum,
+    COUNT(negative_reviews) AS count  
   FROM games
   WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
