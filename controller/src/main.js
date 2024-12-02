@@ -8,6 +8,7 @@ import {
 } from './lib/write_handlers.js';
 import { initWSServer } from './lib/ws_server.js';
 import { getEnv } from './util.js';
+import cors from 'cors';
 import express from 'express';
 
 const MYSQL_HOST = getEnv('MY_SQL_HOST');
@@ -16,6 +17,7 @@ const CONTROLLER_PORT = getEnv('CONTROLLER_PORT');
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 // Fetch games
