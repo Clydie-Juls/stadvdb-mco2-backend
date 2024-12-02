@@ -8,6 +8,7 @@
     "run_build": "node dist/main.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.1",
     "mysql2": "^3.11.5",
     "ws": "^8.18.0"
