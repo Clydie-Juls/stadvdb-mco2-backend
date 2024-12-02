@@ -26,6 +26,17 @@ export class DBConnection {
     });
   }
 
+  async countGames() {
+    if (!this.connection) {
+      throw new Error('Cannot operate on uninitialized database connection!');
+    }
+
+    const query = 'CALL count_games()';
+    const results = await this.connection.query(query, []);
+
+    return results[0][0][0].total_games;
+  }
+
   async deleteGame(gameId) {
     if (!this.connection) {
       throw new Error('Cannot operate on uninitialized database connection!');
