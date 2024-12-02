@@ -33,6 +33,17 @@ app.get('/games', async (req, res) => {
   res.send(results);
 });
 
+// Count all games
+app.get('/games/count', async (req, res) => {
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  await db.connect();
+
+  const count = await db.countGames();
+  db.close();
+
+  res.send({ count });
+});
+
 // Fetch a single game
 app.get('/games/:id', async (req, res) => {
   const gameId = req.params.id;
@@ -40,10 +51,10 @@ app.get('/games/:id', async (req, res) => {
   const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
   await db.connect();
 
-  const results = await db.fetchGame(gameId);
+  const game = await db.fetchGame(gameId);
   db.close();
 
-  res.send(results);
+  res.send({ game });
 });
 
 // Insert a game
