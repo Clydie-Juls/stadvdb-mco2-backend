@@ -84,19 +84,25 @@ BEGIN
   DELETE FROM games WHERE games.id = id;
 END //
 
-CREATE PROCEDURE count_games()
+CREATE PROCEDURE count_games(IN name_filter VARCHAR(255))
 BEGIN
-  SELECT COUNT(*) AS total_games FROM games;
+  SELECT COUNT(*) AS total_games 
+  FROM games
+  WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
 
-CREATE PROCEDURE average_positive_reviews()
+CREATE PROCEDURE average_positive_reviews(IN name_filter VARCHAR(255))
 BEGIN
-  SELECT AVG(positive_reviews) AS positive_reviews FROM games;
+  SELECT AVG(positive_reviews) AS positive_reviews
+  FROM games
+  WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
 
-CREATE PROCEDURE average_negative_reviews()
+CREATE PROCEDURE average_negative_reviews(IN name_filter VARCHAR(255))
 BEGIN
-  SELECT AVG(negative_reviews) AS negative_reviews FROM games;
+  SELECT AVG(negative_reviews) AS negative_reviews  
+  FROM games
+  WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
 
 CREATE PROCEDURE average_price()

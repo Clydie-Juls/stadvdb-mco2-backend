@@ -12,7 +12,7 @@ export function handleDelete({ id, release_date }) {
   writeToLog('delete', time, { id, release_date });
   sendLogToOthers(log);
 
-  console.log('Received table delete notification: %s %s', time, id);
+  console.log(`Received table delete notification: ${time} ${id}`);
 }
 
 export function handleInsert(values) {
@@ -21,7 +21,7 @@ export function handleInsert(values) {
   writeToLog('insert', time, values);
   sendLogToOthers(log);
 
-  console.log('Received table insert notification: %s %s', time, values.id);
+  console.log(`Received table insert notification: ${time} ${values.name}`);
 }
 
 export async function handleUpdate(values) {
@@ -30,7 +30,7 @@ export async function handleUpdate(values) {
   writeToLog('update', time, values);
   sendLogToOthers(log);
 
-  console.log('Received table update notification: %s %s', time, values.id);
+  console.log(`Received table update notification: ${time} ${values.id}`);
 
   const nextYear = Number(values.release_date.split('-')[0]);
 

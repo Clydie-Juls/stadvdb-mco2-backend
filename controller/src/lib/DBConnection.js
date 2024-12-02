@@ -26,15 +26,37 @@ export class DBConnection {
     });
   }
 
-  async countGames() {
+  async countGames(nameFilter) {
     if (!this.connection) {
       throw new Error('Cannot operate on uninitialized database connection!');
     }
 
-    const query = 'CALL count_games()';
-    const results = await this.connection.query(query, []);
+    const query = 'CALL count_games(?)';
+    const results = await this.connection.query(query, [nameFilter]);
 
     return results[0][0][0].total_games;
+  }
+
+  async fetchAvgPosReviews(nameFilter) {
+    if (!this.connection) {
+      throw new Error('Cannot operate on uninitialized database connection!');
+    }
+
+    const query = 'CALL average_positive_reviews(?)';
+    const results = await this.connection.query(query, [nameFilter]);
+
+    return results[0][0][0].positive_reviews;
+  }
+
+  async fetchAvgNegReviews(nameFilter) {
+    if (!this.connection) {
+      throw new Error('Cannot operate on uninitialized database connection!');
+    }
+
+    const query = 'CALL average_negative_reviews(?)';
+    const results = await this.connection.query(query, [nameFilter]);
+
+    return results[0][0][0].negative_reviews;
   }
 
   async deleteGame(gameId) {

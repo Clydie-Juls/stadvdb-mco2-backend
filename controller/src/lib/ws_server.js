@@ -69,6 +69,7 @@ export function polledSend(
       if (retryCount >= maxRetries) {
         console.error(`Max retries reached for ${wsUrl}. Giving up.`);
         resolve(false);
+        return;
       }
 
       console.warn(
