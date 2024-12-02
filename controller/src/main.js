@@ -23,7 +23,7 @@ app.use(express.json());
 // Fetch games
 app.get('/games', async (req, res) => {
   const startRow = req.query.start_row ?? 0;
-  const rowCount = req.query.row_count ?? 10;
+  const rowCount = req.query.row_count ?? 100;
   const nameFilter = req.query.name_filter ?? '';
 
   const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
@@ -35,15 +35,40 @@ app.get('/games', async (req, res) => {
   res.send(results);
 });
 
-// Count all games
 app.get('/games/count', async (req, res) => {
+  const nameFilter = req.query.name_filter ?? '';
+
   const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
   await db.connect();
 
-  const count = await db.countGames();
+  const count = await db.countGames(nameFilter);
   db.close();
 
   res.send({ count });
+});
+
+app.get('/games/avg-pos-reviews', async (req, res) => {
+  const nameFilter = req.query.name_filter ?? '';
+
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  await db.connect();
+
+  const avgPosReviews = await db.fetchAvgPosReviews(nameFilter);
+  db.close();
+
+  res.send({ avgPosReviews });
+});
+
+app.get('/games/avg-neg-reviews', async (req, res) => {
+  const nameFilter = req.query.name_filter ?? '';
+
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  await db.connect();
+
+  const avgNegReviews = await db.fetchAvgNegReviews(nameFilter);
+  db.close();
+
+  res.send({ avgNegReviews });
 });
 
 // Fetch a single game
@@ -99,7 +124,7 @@ app.delete('/games', async (req, res) => {
   const success = await db.deleteGame(gameData.id);
   db.close();
 
-  handleDelete(gameData.id);
+  handleDelete(gameData);
 
   res.send(success);
 });
