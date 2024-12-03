@@ -77,3 +77,4 @@ export function updateEntry(gameId, values) {
     },
   );
 }
+

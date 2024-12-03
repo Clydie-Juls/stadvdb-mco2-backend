@@ -15,32 +15,37 @@ DELIMITER //
 
 CREATE PROCEDURE fetch_games(
   IN start_row INT, 
-  IN row_count INT 
+  IN row_count INT,
+  IN name_filter VARCHAR(255) 
 )
 BEGIN
   SELECT * FROM games
+  WHERE games.name LIKE CONCAT("%", name_filter, "%")
+  ORDER BY games.name
   LIMIT start_row, row_count;
 END //
 
 CREATE PROCEDURE fetch_games_lt_year(
   IN start_row INT, 
   IN row_count INT,
-  IN year_partition INT
+  IN year_partition INT,
+  IN name_filter VARCHAR(255) 
 )
 BEGIN
   SELECT * FROM games
-  WHERE YEAR(release_date) < year_partition
+  WHERE YEAR(release_date) < year_partition AND games.name LIKE CONCAT("%", name_filter, "%")
   LIMIT start_row, row_count;
 END //
 
 CREATE PROCEDURE fetch_games_gte_year(
   IN start_row INT, 
   IN row_count INT,
-  IN year_partition INT
+  IN year_partition INT,
+  IN name_filter VARCHAR(255) 
 )
 BEGIN
   SELECT * FROM games
-  WHERE YEAR(release_date) >= year_partition
+  WHERE YEAR(release_date) >= year_partition AND games.name LIKE CONCAT("%", name_filter, "%")
   LIMIT start_row, row_count;
 END //
 
@@ -80,19 +85,31 @@ BEGIN
   DELETE FROM games WHERE games.id = id;
 END //
 
-CREATE PROCEDURE count_games()
+CREATE PROCEDURE count_games(IN name_filter VARCHAR(255))
 BEGIN
-  SELECT COUNT(*) AS total_games FROM games;
+  SELECT COUNT(*) AS total_games 
+  FROM games
+  WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
 
-CREATE PROCEDURE average_positive_reviews()
+CREATE PROCEDURE average_positive_reviews(IN name_filter VARCHAR(255))
 BEGIN
-  SELECT AVG(positive_reviews) AS positive_reviews FROM games;
+  SELECT 
+    AVG(positive_reviews) AS average,
+    SUM(positive_reviews) AS sum,
+    COUNT(positive_reviews) AS count
+  FROM games
+  WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
 
-CREATE PROCEDURE average_negative_reviews()
+CREATE PROCEDURE average_negative_reviews(IN name_filter VARCHAR(255))
 BEGIN
-  SELECT AVG(negative_reviews) AS negative_reviews FROM games;
+  SELECT 
+    AVG(negative_reviews) AS average,
+    SUM(negative_reviews) AS sum,
+    COUNT(negative_reviews) AS count  
+  FROM games
+  WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
 
 CREATE PROCEDURE average_price()

@@ -1,11 +1,9 @@
 import { getEnv } from '../util.js';
-import {
-  getGameYear,
-  deleteEntry,
-  insertEntry,
-  updateEntry,
-} from './db_connection.js';
+import { DBConnection } from './DBConnection.js';
 import { log, writeLog as writeWholeLog } from './log.js';
+
+const MYSQL_HOST = getEnv('MY_SQL_HOST');
+const MYSQL_PORT = getEnv('MY_SQL_PORT');
 
 export function resolveOtherLog(otherLog) {
   if (log.length > 0) {
@@ -35,7 +33,10 @@ function isEntryRelevant(entry) {
   );
 }
 
-function resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry) {
+async function resolveLastCommonEntryForSameRow(
+  lastEntry,
+  otherLastCommonEntry,
+) {
   if (lastEntry.type === 'update' && otherLastCommonEntry.type === 'update') {
     log.push(otherLastCommonEntry);
 
@@ -48,7 +49,10 @@ function resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry) {
     }
 
     // Else, update the entry in the database should the received entry be newer.
-    updateEntry(otherLastCommonEntry.gameId, otherLastCommonEntry.values);
+    const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+    await db.connect();
+    await db.updateGame(otherLastCommonEntry.values);
+    db.close();
   } else if (
     lastEntry.type === 'delete' &&
     otherLastCommonEntry.type === 'delete'
@@ -66,7 +70,10 @@ function resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry) {
     lastEntry.type === 'update' &&
     otherLastCommonEntry.type === 'delete'
   ) {
-    deleteEntry(otherLastCommonEntry.gameId);
+    const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+    await db.connect();
+    await db.deleteGame(otherLastCommonEntry.gameId);
+    db.close();
 
     // If the deletion occurred before the update from the other node, invalidate
     // the update entry.
@@ -95,14 +102,17 @@ function resolveLastCommonEntryForSameRow(lastEntry, otherLastCommonEntry) {
 }
 
 async function resolveNewEntries(newEntries) {
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  await db.connect();
+
   for (const entry of newEntries) {
     if (!isEntryRelevant(entry)) {
       log.push(entry);
       log.sort((a, b) => a.time - b.time);
 
       //
-      if (entry.type === 'update' && (await getGameYear(entry.gameId))) {
-        deleteEntry(entry.gameId);
+      if (entry.type === 'update' && (await db.fetchGame(entry.gameId))) {
+        await db.deleteGame(entry.gameId);
       }
 
       writeWholeLog();
@@ -112,12 +122,12 @@ async function resolveNewEntries(newEntries) {
     switch (entry.type) {
       case 'delete':
         log.push(entry);
-        deleteEntry(entry.gameId);
+        await db.deleteGame(entry.gameId);
         break;
 
       case 'insert':
         log.push(entry);
-        insertEntry(entry.values);
+        await db.insertGame(entry.values);
         break;
 
       case 'update':
@@ -125,15 +135,15 @@ async function resolveNewEntries(newEntries) {
           log.push(entry);
 
           if (getEnv('NAME') === 'central') {
-            updateEntry(entry.gameId, entry.values);
+            await db.updateGame(entry.values);
             break;
           }
 
           //
-          if (!(await getGameYear(entry.gameId))) {
-            insertEntry(entry.values);
+          if (!(await db.fetchGame(entry.gameId))) {
+            await db.insertGame(entry.values);
           } else {
-            updateEntry(entry.gameId, entry.values);
+            await db.updateGame(entry.values);
           }
         }
 
@@ -141,5 +151,6 @@ async function resolveNewEntries(newEntries) {
     }
   }
 
+  db.close();
   writeWholeLog();
 }

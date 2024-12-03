@@ -1,14 +1,10 @@
-import { handleMessage } from './message_handler.js';
+import { handleMessage } from './ws_handler.js';
 import { WebSocketServer, WebSocket } from 'ws';
 
 let wss;
 
-export function initWSServer(port) {
-  wss = new WebSocketServer({ port });
-
-  wss.once('listening', () => {
-    console.log('Listening on port %d', port);
-  });
+export function initWSServer(httpServer) {
+  wss = new WebSocketServer({ server: httpServer });
 
   wss.on('connection', function connection(ws) {
     console.log('New ws connection from %s', ws._socket.remoteAddress);
@@ -73,6 +69,7 @@ export function polledSend(
       if (retryCount >= maxRetries) {
         console.error(`Max retries reached for ${wsUrl}. Giving up.`);
         resolve(false);
+        return;
       }
 
       console.warn(
