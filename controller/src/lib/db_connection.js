@@ -9,6 +9,9 @@ export function initDBConnection(host, port, user, password, database) {
     user,
     password,
     database,
+        ssl: {
+    rejectUnauthorized: true // Ensures the server's certificate is validated
+  }
   });
 
   // TODO: Finalize connection
