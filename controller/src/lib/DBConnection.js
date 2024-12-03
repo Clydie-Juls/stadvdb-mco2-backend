@@ -1,9 +1,11 @@
+import { getEnv } from '../util.js';
 import mysql from 'mysql2/promise';
 
 export class DBConnection {
-  constructor(host, port) {
+  constructor(host, port, password) {
     this._host = host;
     this._port = port;
+    this._password = getEnv('MY_SQL_PASSWORD');
 
     this.connection = null;
   }
@@ -21,7 +23,7 @@ export class DBConnection {
       host: this._host,
       port: this._port,
       user: 'root',
-      password: '12345678', // https://www.youtube.com/watch?v=KLVzYtTeNS8
+      password: this._password,
       database: 'gamesdb',
     });
   }

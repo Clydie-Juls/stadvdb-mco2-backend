@@ -26,6 +26,7 @@ export function initWSServer(httpServer) {
 }
 
 export function attemptSend(wsUrl, message) {
+  console.log(`ws URL: ${wsUrl}`);
   return new Promise(resolve => {
     const ws = new WebSocket(wsUrl);
 
@@ -40,7 +41,7 @@ export function attemptSend(wsUrl, message) {
     });
 
     ws.on('error', e => {
-      if (e.code !== 'ECONNREFUSED') {
+      if (e.code !== 'ECONNREFUSED' && e.code !== 'ENOTFOUND') {
         throw e;
       }
 
