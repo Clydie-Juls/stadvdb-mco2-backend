@@ -27,7 +27,7 @@ app.get('/games', async (req, res) => {
   const rowCount = req.query.row_count ? Number(req.query.row_count) : 10;
   const nameFilter = req.query.name_filter ?? '';
 
-  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT, MYSQL_PASSWORD);
   await db.connect();
 
   const results = await db.fetchGames(startRow, rowCount, nameFilter);
@@ -39,7 +39,7 @@ app.get('/games', async (req, res) => {
 app.get('/games/count', async (req, res) => {
   const nameFilter = req.query.name_filter ?? '';
 
-  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT, MYSQL_PASSWORD);
   await db.connect();
 
   const count = await db.countGames(nameFilter);
@@ -51,7 +51,7 @@ app.get('/games/count', async (req, res) => {
 app.get('/games/avg-pos-reviews', async (req, res) => {
   const nameFilter = req.query.name_filter ?? '';
 
-  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT, MYSQL_PASSWORD);
   await db.connect();
 
   const result = await db.fetchAvgPosReviews(nameFilter);
@@ -63,7 +63,7 @@ app.get('/games/avg-pos-reviews', async (req, res) => {
 app.get('/games/avg-neg-reviews', async (req, res) => {
   const nameFilter = req.query.name_filter ?? '';
 
-  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT, MYSQL_PASSWORD);
   await db.connect();
 
   const result = await db.fetchAvgNegReviews(nameFilter);
@@ -76,7 +76,7 @@ app.get('/games/avg-neg-reviews', async (req, res) => {
 app.get('/games/:id', async (req, res) => {
   const gameId = req.params.id;
 
-  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT, MYSQL_PASSWORD);
   await db.connect();
 
   const game = await db.fetchGame(gameId);
@@ -89,7 +89,7 @@ app.get('/games/:id', async (req, res) => {
 app.post('/games', async (req, res) => {
   const gameData = req.body;
 
-  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT, MYSQL_PASSWORD);
   await db.connect();
 
   const success = await db.insertGame(gameData);
@@ -104,7 +104,7 @@ app.post('/games', async (req, res) => {
 app.put('/games', async (req, res) => {
   const gameData = req.body;
 
-  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT, MYSQL_PASSWORD);
   await db.connect();
 
   const success = await db.updateGame(gameData);
@@ -119,7 +119,7 @@ app.put('/games', async (req, res) => {
 app.delete('/games', async (req, res) => {
   const gameData = req.body;
 
-  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT);
+  const db = new DBConnection(MYSQL_HOST, MYSQL_PORT, MYSQL_PASSWORD);
   await db.connect();
 
   const success = await db.deleteGame(gameData.id);
