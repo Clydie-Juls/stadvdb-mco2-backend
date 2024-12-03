@@ -1,5 +1,5 @@
+import { getEnv } from '../util.js';
 import mysql from 'mysql2/promise';
-import { getEnv } from '../util';
 
 export class DBConnection {
   constructor(host, port, password) {
