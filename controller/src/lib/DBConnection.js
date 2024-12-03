@@ -22,12 +22,9 @@ export class DBConnection {
     this.connection = await mysql.createConnection({
       host: this._host,
       port: this._port,
-      user: 'user',
+      user: 'root',
       password: this._password,
       database: 'gamesdb',
-      ssl: {
-        rejectUnauthorized: false
-      }
     });
   }
 

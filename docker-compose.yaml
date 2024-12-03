@@ -3,14 +3,12 @@ services:
     image: mysql:latest
     environment:
       - MYSQL_ROOT_PASSWORD=${MY_SQL_PASSWORD}
-      - MYSQL_USER=user
     ports:
       - "${MY_SQL_PORT}:3306"
     networks:
       - app-network
     volumes:
-      - ./sql/privelege.sql:/docker-entrypoint-initdb.d/000_privelege.sql
-      # - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
+      - ./sql/00_create.sql:/docker-entrypoint-initdb.d/00_create.sql
       # - ./sql/procedures.sql:/docker-entrypoint-initdb.d/procedures.sql
       # - ./sql/${NAME}.sql:/docker-entrypoint-initdb.d/${NAME}.sql
       - ./sql-data/${NAME}:/var/lib/mysql
@@ -28,6 +26,7 @@ services:
       - MY_SQL_HOST=${MY_SQL_HOST}
       - MY_SQL_PORT=3306
       - PEER_CONTROLLER_HOSTS=${PEER_CONTROLLER_HOSTS}
+      - MY_SQL_PASSWORD=${MY_SQL_PASSWORD}
     depends_on:
       - sql-server
     networks:
