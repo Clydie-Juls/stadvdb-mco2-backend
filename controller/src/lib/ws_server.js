@@ -41,10 +41,6 @@ export function attemptSend(wsUrl, message) {
     });
 
     ws.on('error', e => {
-      if (e.code !== 'ECONNREFUSED' && e.code !== 'ENOTFOUND') {
-        throw e;
-      }
-
       resolve(false);
     });
   });
