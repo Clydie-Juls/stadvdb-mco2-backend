@@ -92,12 +92,12 @@ app.post('/games', async (req, res) => {
   const db = new DBConnection(MYSQL_HOST, MYSQL_PORT, MYSQL_PASSWORD);
   await db.connect();
 
-  const success = await db.insertGame(gameData);
+  const id = await db.insertGame(gameData);
   db.close();
 
-  handleInsert(gameData);
+  handleInsert({ id, ...gameData });
 
-  res.send(success);
+  res.send(id);
 });
 
 // Update a game

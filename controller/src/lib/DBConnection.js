@@ -1,4 +1,5 @@
 import { getEnv } from '../util.js';
+import { randomUUID } from 'crypto';
 import mysql from 'mysql2/promise';
 
 export class DBConnection {
@@ -103,9 +104,11 @@ export class DBConnection {
       throw new Error('Cannot operate on uninitialized database connection!');
     }
 
+    const id = values.id ? values.id : randomUUID();
+
     const query = 'CALL insert_game(?, ?, ?, ?, ?, ?);';
     const results = await this.connection.query(query, [
-      values?.id,
+      id,
       values.name,
       values.release_date,
       values.price,
@@ -113,7 +116,7 @@ export class DBConnection {
       values.negative_reviews,
     ]);
 
-    return results[0].affectedRows > 0;
+    return id;
   }
 
   async updateGame(values) {
