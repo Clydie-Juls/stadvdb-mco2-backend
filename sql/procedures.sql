@@ -87,7 +87,10 @@ END //
 
 CREATE PROCEDURE count_games(IN name_filter VARCHAR(255))
 BEGIN
-  SELECT COUNT(*) AS total_games 
+  SELECT 
+    COUNT(*) AS total_games,
+    SUM(CASE WHEN YEAR(release_date) < 2010 THEN 1 ELSE 0 END) AS old_count,
+    SUM(CASE WHEN YEAR(release_date) >= 2010 THEN 1 ELSE 0 END) AS new_count
   FROM games
   WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
@@ -97,7 +100,13 @@ BEGIN
   SELECT 
     AVG(positive_reviews) AS average,
     SUM(positive_reviews) AS sum,
-    COUNT(positive_reviews) AS count
+    COUNT(positive_reviews) AS count,
+    AVG(CASE WHEN YEAR(release_date) < 2010 THEN positive_reviews ELSE NULL END) AS average_old,
+    AVG(CASE WHEN YEAR(release_date) >= 2010 THEN positive_reviews ELSE NULL END) AS average_new,
+    SUM(CASE WHEN YEAR(release_date) < 2010 THEN positive_reviews ELSE 0 END) AS sum_old,
+    SUM(CASE WHEN YEAR(release_date) >= 2010 THEN positive_reviews ELSE 0 END) AS sum_new,
+    COUNT(CASE WHEN YEAR(release_date) < 2010 THEN positive_reviews ELSE NULL END) AS count_old,
+    COUNT(CASE WHEN YEAR(release_date) >= 2010 THEN positive_reviews ELSE NULL END) AS count_new
   FROM games
   WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
@@ -107,7 +116,13 @@ BEGIN
   SELECT 
     AVG(negative_reviews) AS average,
     SUM(negative_reviews) AS sum,
-    COUNT(negative_reviews) AS count  
+    COUNT(negative_reviews) AS count,
+    AVG(CASE WHEN YEAR(release_date) < 2010 THEN negative_reviews ELSE NULL END) AS average_old,
+    AVG(CASE WHEN YEAR(release_date) >= 2010 THEN negative_reviews ELSE NULL END) AS average_new,
+    SUM(CASE WHEN YEAR(release_date) < 2010 THEN negative_reviews ELSE 0 END) AS sum_old,
+    SUM(CASE WHEN YEAR(release_date) >= 2010 THEN negative_reviews ELSE 0 END) AS sum_new,
+    COUNT(CASE WHEN YEAR(release_date) < 2010 THEN negative_reviews ELSE NULL END) AS count_old,
+    COUNT(CASE WHEN YEAR(release_date) >= 2010 THEN negative_reviews ELSE NULL END) AS count_new
   FROM games
   WHERE games.name LIKE CONCAT("%", name_filter, "%");
 END //
