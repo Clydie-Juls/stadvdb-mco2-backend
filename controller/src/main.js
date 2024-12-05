@@ -14,7 +14,7 @@ import express from 'express';
 const MYSQL_HOST = getEnv('MY_SQL_HOST');
 const MYSQL_PASSWORD = getEnv('MY_SQL_PASSWORD');
 const MYSQL_PORT = getEnv('MY_SQL_PORT');
-const CONTROLLER_PORT = getEnv('CONTROLLER_PORT');
+const CONTROLLER_PORT = getEnv('DEPLOY_PORT');
 
 const app = express();
 
