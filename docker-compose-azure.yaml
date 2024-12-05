@@ -3,7 +3,6 @@ services:
     image: mysql:latest
     environment:
       - MYSQL_ROOT_PASSWORD=12345678
-      - MYSQL_USER=user
     ports:
       - "${MY_SQL_PORT}:3306"
     networks:
@@ -26,9 +25,11 @@ services:
     environment:
       - NAME=${NAME}
       - CONTROLLER_PORT=${CONTROLLER_PORT}
+      - CONTROLLER_URL=${CONTROLLER_URL}
       - MY_SQL_HOST=${MY_SQL_HOST}
       - MY_SQL_PORT=3306
       - PEER_CONTROLLER_HOSTS=${PEER_CONTROLLER_HOSTS}
+      - MY_SQL_PASSWORD=${MY_SQL_PASSWORD}
     depends_on:
       - sql-server
     networks:

@@ -1,5 +1,5 @@
-import { getEnv } from '../util.js';
 import mysql from 'mysql2/promise';
+import { getEnv } from '../util';
 
 export class DBConnection {
   constructor(host, port, password) {
@@ -22,9 +22,12 @@ export class DBConnection {
     this.connection = await mysql.createConnection({
       host: this._host,
       port: this._port,
-      user: 'root',
+      user: 'user',
       password: this._password,
       database: 'gamesdb',
+      ssl: {
+        rejectUnauthorized: false
+      }
     });
   }
 
