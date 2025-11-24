@@ -13,8 +13,7 @@ All components are deployed using Docker for reproducible execution on any machi
 ### Prerequisites
 - Docker and Docker Compose
 - Git
-- (Optional) Node.js and Python 3.x  
-  Only needed if running controller or ETL scripts outside Docker
+- Node.js and Python 3.x
 
 ### 1. Clone the Repository
 ```bash
